@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/pool/clion-2018.3.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /root/Desktop/clion-2018.3.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/pool/clion-2018.3.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /root/Desktop/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum
+CMAKE_SOURCE_DIR = /home/pool/stratum
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug
+CMAKE_BINARY_DIR = /home/pool/stratum/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/stratum.dir/depend.make
@@ -59,1914 +59,1927 @@ include CMakeFiles/stratum.dir/flags.make
 
 CMakeFiles/stratum.dir/algos/ar2/ar2-scrypt-jane.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/ar2/ar2-scrypt-jane.c.o: ../algos/ar2/ar2-scrypt-jane.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/stratum.dir/algos/ar2/ar2-scrypt-jane.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/ar2/ar2-scrypt-jane.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/ar2-scrypt-jane.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/stratum.dir/algos/ar2/ar2-scrypt-jane.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/ar2/ar2-scrypt-jane.c.o   -c /home/pool/stratum/algos/ar2/ar2-scrypt-jane.c
 
 CMakeFiles/stratum.dir/algos/ar2/ar2-scrypt-jane.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/ar2/ar2-scrypt-jane.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/ar2-scrypt-jane.c > CMakeFiles/stratum.dir/algos/ar2/ar2-scrypt-jane.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/ar2/ar2-scrypt-jane.c > CMakeFiles/stratum.dir/algos/ar2/ar2-scrypt-jane.c.i
 
 CMakeFiles/stratum.dir/algos/ar2/ar2-scrypt-jane.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/ar2/ar2-scrypt-jane.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/ar2-scrypt-jane.c -o CMakeFiles/stratum.dir/algos/ar2/ar2-scrypt-jane.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/ar2/ar2-scrypt-jane.c -o CMakeFiles/stratum.dir/algos/ar2/ar2-scrypt-jane.c.s
 
 CMakeFiles/stratum.dir/algos/ar2/argon2.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/ar2/argon2.c.o: ../algos/ar2/argon2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/stratum.dir/algos/ar2/argon2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/ar2/argon2.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/argon2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/stratum.dir/algos/ar2/argon2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/ar2/argon2.c.o   -c /home/pool/stratum/algos/ar2/argon2.c
 
 CMakeFiles/stratum.dir/algos/ar2/argon2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/ar2/argon2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/argon2.c > CMakeFiles/stratum.dir/algos/ar2/argon2.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/ar2/argon2.c > CMakeFiles/stratum.dir/algos/ar2/argon2.c.i
 
 CMakeFiles/stratum.dir/algos/ar2/argon2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/ar2/argon2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/argon2.c -o CMakeFiles/stratum.dir/algos/ar2/argon2.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/ar2/argon2.c -o CMakeFiles/stratum.dir/algos/ar2/argon2.c.s
 
 CMakeFiles/stratum.dir/algos/ar2/core.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/ar2/core.c.o: ../algos/ar2/core.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/stratum.dir/algos/ar2/core.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/ar2/core.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/stratum.dir/algos/ar2/core.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/ar2/core.c.o   -c /home/pool/stratum/algos/ar2/core.c
 
 CMakeFiles/stratum.dir/algos/ar2/core.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/ar2/core.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/core.c > CMakeFiles/stratum.dir/algos/ar2/core.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/ar2/core.c > CMakeFiles/stratum.dir/algos/ar2/core.c.i
 
 CMakeFiles/stratum.dir/algos/ar2/core.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/ar2/core.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/core.c -o CMakeFiles/stratum.dir/algos/ar2/core.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/ar2/core.c -o CMakeFiles/stratum.dir/algos/ar2/core.c.s
 
 CMakeFiles/stratum.dir/algos/ar2/encoding.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/ar2/encoding.c.o: ../algos/ar2/encoding.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/stratum.dir/algos/ar2/encoding.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/ar2/encoding.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/encoding.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/stratum.dir/algos/ar2/encoding.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/ar2/encoding.c.o   -c /home/pool/stratum/algos/ar2/encoding.c
 
 CMakeFiles/stratum.dir/algos/ar2/encoding.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/ar2/encoding.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/encoding.c > CMakeFiles/stratum.dir/algos/ar2/encoding.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/ar2/encoding.c > CMakeFiles/stratum.dir/algos/ar2/encoding.c.i
 
 CMakeFiles/stratum.dir/algos/ar2/encoding.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/ar2/encoding.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/encoding.c -o CMakeFiles/stratum.dir/algos/ar2/encoding.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/ar2/encoding.c -o CMakeFiles/stratum.dir/algos/ar2/encoding.c.s
 
 CMakeFiles/stratum.dir/algos/ar2/opt.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/ar2/opt.c.o: ../algos/ar2/opt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/stratum.dir/algos/ar2/opt.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/ar2/opt.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/opt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/stratum.dir/algos/ar2/opt.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/ar2/opt.c.o   -c /home/pool/stratum/algos/ar2/opt.c
 
 CMakeFiles/stratum.dir/algos/ar2/opt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/ar2/opt.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/opt.c > CMakeFiles/stratum.dir/algos/ar2/opt.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/ar2/opt.c > CMakeFiles/stratum.dir/algos/ar2/opt.c.i
 
 CMakeFiles/stratum.dir/algos/ar2/opt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/ar2/opt.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/opt.c -o CMakeFiles/stratum.dir/algos/ar2/opt.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/ar2/opt.c -o CMakeFiles/stratum.dir/algos/ar2/opt.c.s
 
 CMakeFiles/stratum.dir/algos/ar2/thread.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/ar2/thread.c.o: ../algos/ar2/thread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/stratum.dir/algos/ar2/thread.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/ar2/thread.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/thread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/stratum.dir/algos/ar2/thread.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/ar2/thread.c.o   -c /home/pool/stratum/algos/ar2/thread.c
 
 CMakeFiles/stratum.dir/algos/ar2/thread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/ar2/thread.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/thread.c > CMakeFiles/stratum.dir/algos/ar2/thread.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/ar2/thread.c > CMakeFiles/stratum.dir/algos/ar2/thread.c.i
 
 CMakeFiles/stratum.dir/algos/ar2/thread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/ar2/thread.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/thread.c -o CMakeFiles/stratum.dir/algos/ar2/thread.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/ar2/thread.c -o CMakeFiles/stratum.dir/algos/ar2/thread.c.s
 
 CMakeFiles/stratum.dir/algos/blake2/blake2b.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/blake2/blake2b.c.o: ../algos/blake2/blake2b.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/stratum.dir/algos/blake2/blake2b.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/blake2/blake2b.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2/blake2b.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/stratum.dir/algos/blake2/blake2b.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/blake2/blake2b.c.o   -c /home/pool/stratum/algos/blake2/blake2b.c
 
 CMakeFiles/stratum.dir/algos/blake2/blake2b.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/blake2/blake2b.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2/blake2b.c > CMakeFiles/stratum.dir/algos/blake2/blake2b.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/blake2/blake2b.c > CMakeFiles/stratum.dir/algos/blake2/blake2b.c.i
 
 CMakeFiles/stratum.dir/algos/blake2/blake2b.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/blake2/blake2b.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2/blake2b.c -o CMakeFiles/stratum.dir/algos/blake2/blake2b.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/blake2/blake2b.c -o CMakeFiles/stratum.dir/algos/blake2/blake2b.c.s
 
 CMakeFiles/stratum.dir/algos/SWIFFTX/SWIFFTX.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/SWIFFTX/SWIFFTX.c.o: ../algos/SWIFFTX/SWIFFTX.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/stratum.dir/algos/SWIFFTX/SWIFFTX.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/SWIFFTX/SWIFFTX.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/SWIFFTX/SWIFFTX.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/stratum.dir/algos/SWIFFTX/SWIFFTX.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/SWIFFTX/SWIFFTX.c.o   -c /home/pool/stratum/algos/SWIFFTX/SWIFFTX.c
 
 CMakeFiles/stratum.dir/algos/SWIFFTX/SWIFFTX.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/SWIFFTX/SWIFFTX.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/SWIFFTX/SWIFFTX.c > CMakeFiles/stratum.dir/algos/SWIFFTX/SWIFFTX.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/SWIFFTX/SWIFFTX.c > CMakeFiles/stratum.dir/algos/SWIFFTX/SWIFFTX.c.i
 
 CMakeFiles/stratum.dir/algos/SWIFFTX/SWIFFTX.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/SWIFFTX/SWIFFTX.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/SWIFFTX/SWIFFTX.c -o CMakeFiles/stratum.dir/algos/SWIFFTX/SWIFFTX.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/SWIFFTX/SWIFFTX.c -o CMakeFiles/stratum.dir/algos/SWIFFTX/SWIFFTX.c.s
 
 CMakeFiles/stratum.dir/algos/a5a.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/a5a.c.o: ../algos/a5a.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/stratum.dir/algos/a5a.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/a5a.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/a5a.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/stratum.dir/algos/a5a.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/a5a.c.o   -c /home/pool/stratum/algos/a5a.c
 
 CMakeFiles/stratum.dir/algos/a5a.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/a5a.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/a5a.c > CMakeFiles/stratum.dir/algos/a5a.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/a5a.c > CMakeFiles/stratum.dir/algos/a5a.c.i
 
 CMakeFiles/stratum.dir/algos/a5a.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/a5a.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/a5a.c -o CMakeFiles/stratum.dir/algos/a5a.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/a5a.c -o CMakeFiles/stratum.dir/algos/a5a.c.s
 
 CMakeFiles/stratum.dir/algos/a5amath.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/a5amath.c.o: ../algos/a5amath.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/stratum.dir/algos/a5amath.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/a5amath.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/a5amath.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/stratum.dir/algos/a5amath.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/a5amath.c.o   -c /home/pool/stratum/algos/a5amath.c
 
 CMakeFiles/stratum.dir/algos/a5amath.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/a5amath.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/a5amath.c > CMakeFiles/stratum.dir/algos/a5amath.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/a5amath.c > CMakeFiles/stratum.dir/algos/a5amath.c.i
 
 CMakeFiles/stratum.dir/algos/a5amath.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/a5amath.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/a5amath.c -o CMakeFiles/stratum.dir/algos/a5amath.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/a5amath.c -o CMakeFiles/stratum.dir/algos/a5amath.c.s
 
 CMakeFiles/stratum.dir/algos/aergo.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/aergo.c.o: ../algos/aergo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/stratum.dir/algos/aergo.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/aergo.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/aergo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/stratum.dir/algos/aergo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/aergo.c.o   -c /home/pool/stratum/algos/aergo.c
 
 CMakeFiles/stratum.dir/algos/aergo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/aergo.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/aergo.c > CMakeFiles/stratum.dir/algos/aergo.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/aergo.c > CMakeFiles/stratum.dir/algos/aergo.c.i
 
 CMakeFiles/stratum.dir/algos/aergo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/aergo.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/aergo.c -o CMakeFiles/stratum.dir/algos/aergo.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/aergo.c -o CMakeFiles/stratum.dir/algos/aergo.c.s
 
 CMakeFiles/stratum.dir/algos/allium.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/allium.c.o: ../algos/allium.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/stratum.dir/algos/allium.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/allium.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/allium.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/stratum.dir/algos/allium.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/allium.c.o   -c /home/pool/stratum/algos/allium.c
 
 CMakeFiles/stratum.dir/algos/allium.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/allium.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/allium.c > CMakeFiles/stratum.dir/algos/allium.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/allium.c > CMakeFiles/stratum.dir/algos/allium.c.i
 
 CMakeFiles/stratum.dir/algos/allium.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/allium.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/allium.c -o CMakeFiles/stratum.dir/algos/allium.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/allium.c -o CMakeFiles/stratum.dir/algos/allium.c.s
 
 CMakeFiles/stratum.dir/algos/argon2a.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/argon2a.c.o: ../algos/argon2a.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/stratum.dir/algos/argon2a.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/argon2a.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/argon2a.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/stratum.dir/algos/argon2a.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/argon2a.c.o   -c /home/pool/stratum/algos/argon2a.c
 
 CMakeFiles/stratum.dir/algos/argon2a.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/argon2a.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/argon2a.c > CMakeFiles/stratum.dir/algos/argon2a.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/argon2a.c > CMakeFiles/stratum.dir/algos/argon2a.c.i
 
 CMakeFiles/stratum.dir/algos/argon2a.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/argon2a.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/argon2a.c -o CMakeFiles/stratum.dir/algos/argon2a.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/argon2a.c -o CMakeFiles/stratum.dir/algos/argon2a.c.s
 
 CMakeFiles/stratum.dir/algos/argon2d-dyn.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/argon2d-dyn.c.o: ../algos/argon2d-dyn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/stratum.dir/algos/argon2d-dyn.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/argon2d-dyn.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/argon2d-dyn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/stratum.dir/algos/argon2d-dyn.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/argon2d-dyn.c.o   -c /home/pool/stratum/algos/argon2d-dyn.c
 
 CMakeFiles/stratum.dir/algos/argon2d-dyn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/argon2d-dyn.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/argon2d-dyn.c > CMakeFiles/stratum.dir/algos/argon2d-dyn.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/argon2d-dyn.c > CMakeFiles/stratum.dir/algos/argon2d-dyn.c.i
 
 CMakeFiles/stratum.dir/algos/argon2d-dyn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/argon2d-dyn.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/argon2d-dyn.c -o CMakeFiles/stratum.dir/algos/argon2d-dyn.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/argon2d-dyn.c -o CMakeFiles/stratum.dir/algos/argon2d-dyn.c.s
 
 CMakeFiles/stratum.dir/algos/bastion.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/bastion.c.o: ../algos/bastion.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/stratum.dir/algos/bastion.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/bastion.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/bastion.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/stratum.dir/algos/bastion.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/bastion.c.o   -c /home/pool/stratum/algos/bastion.c
 
 CMakeFiles/stratum.dir/algos/bastion.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/bastion.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/bastion.c > CMakeFiles/stratum.dir/algos/bastion.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/bastion.c > CMakeFiles/stratum.dir/algos/bastion.c.i
 
 CMakeFiles/stratum.dir/algos/bastion.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/bastion.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/bastion.c -o CMakeFiles/stratum.dir/algos/bastion.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/bastion.c -o CMakeFiles/stratum.dir/algos/bastion.c.s
 
 CMakeFiles/stratum.dir/algos/bitcore.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/bitcore.c.o: ../algos/bitcore.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/stratum.dir/algos/bitcore.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/bitcore.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/bitcore.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/stratum.dir/algos/bitcore.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/bitcore.c.o   -c /home/pool/stratum/algos/bitcore.c
 
 CMakeFiles/stratum.dir/algos/bitcore.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/bitcore.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/bitcore.c > CMakeFiles/stratum.dir/algos/bitcore.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/bitcore.c > CMakeFiles/stratum.dir/algos/bitcore.c.i
 
 CMakeFiles/stratum.dir/algos/bitcore.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/bitcore.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/bitcore.c -o CMakeFiles/stratum.dir/algos/bitcore.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/bitcore.c -o CMakeFiles/stratum.dir/algos/bitcore.c.s
 
 CMakeFiles/stratum.dir/algos/blake.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/blake.c.o: ../algos/blake.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/stratum.dir/algos/blake.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/blake.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/stratum.dir/algos/blake.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/blake.c.o   -c /home/pool/stratum/algos/blake.c
 
 CMakeFiles/stratum.dir/algos/blake.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/blake.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake.c > CMakeFiles/stratum.dir/algos/blake.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/blake.c > CMakeFiles/stratum.dir/algos/blake.c.i
 
 CMakeFiles/stratum.dir/algos/blake.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/blake.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake.c -o CMakeFiles/stratum.dir/algos/blake.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/blake.c -o CMakeFiles/stratum.dir/algos/blake.c.s
 
 CMakeFiles/stratum.dir/algos/blake2b.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/blake2b.c.o: ../algos/blake2b.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/stratum.dir/algos/blake2b.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/blake2b.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2b.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/stratum.dir/algos/blake2b.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/blake2b.c.o   -c /home/pool/stratum/algos/blake2b.c
 
 CMakeFiles/stratum.dir/algos/blake2b.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/blake2b.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2b.c > CMakeFiles/stratum.dir/algos/blake2b.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/blake2b.c > CMakeFiles/stratum.dir/algos/blake2b.c.i
 
 CMakeFiles/stratum.dir/algos/blake2b.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/blake2b.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2b.c -o CMakeFiles/stratum.dir/algos/blake2b.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/blake2b.c -o CMakeFiles/stratum.dir/algos/blake2b.c.s
 
 CMakeFiles/stratum.dir/algos/blake2s.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/blake2s.c.o: ../algos/blake2s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/stratum.dir/algos/blake2s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/blake2s.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/stratum.dir/algos/blake2s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/blake2s.c.o   -c /home/pool/stratum/algos/blake2s.c
 
 CMakeFiles/stratum.dir/algos/blake2s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/blake2s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2s.c > CMakeFiles/stratum.dir/algos/blake2s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/blake2s.c > CMakeFiles/stratum.dir/algos/blake2s.c.i
 
 CMakeFiles/stratum.dir/algos/blake2s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/blake2s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2s.c -o CMakeFiles/stratum.dir/algos/blake2s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/blake2s.c -o CMakeFiles/stratum.dir/algos/blake2s.c.s
 
 CMakeFiles/stratum.dir/algos/blakecoin.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/blakecoin.c.o: ../algos/blakecoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/stratum.dir/algos/blakecoin.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/blakecoin.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blakecoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/stratum.dir/algos/blakecoin.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/blakecoin.c.o   -c /home/pool/stratum/algos/blakecoin.c
 
 CMakeFiles/stratum.dir/algos/blakecoin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/blakecoin.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blakecoin.c > CMakeFiles/stratum.dir/algos/blakecoin.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/blakecoin.c > CMakeFiles/stratum.dir/algos/blakecoin.c.i
 
 CMakeFiles/stratum.dir/algos/blakecoin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/blakecoin.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blakecoin.c -o CMakeFiles/stratum.dir/algos/blakecoin.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/blakecoin.c -o CMakeFiles/stratum.dir/algos/blakecoin.c.s
 
 CMakeFiles/stratum.dir/algos/bmw.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/bmw.c.o: ../algos/bmw.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/stratum.dir/algos/bmw.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/bmw.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/bmw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/stratum.dir/algos/bmw.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/bmw.c.o   -c /home/pool/stratum/algos/bmw.c
 
 CMakeFiles/stratum.dir/algos/bmw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/bmw.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/bmw.c > CMakeFiles/stratum.dir/algos/bmw.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/bmw.c > CMakeFiles/stratum.dir/algos/bmw.c.i
 
 CMakeFiles/stratum.dir/algos/bmw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/bmw.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/bmw.c -o CMakeFiles/stratum.dir/algos/bmw.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/bmw.c -o CMakeFiles/stratum.dir/algos/bmw.c.s
 
 CMakeFiles/stratum.dir/algos/c11.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/c11.c.o: ../algos/c11.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/stratum.dir/algos/c11.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/c11.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/c11.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/stratum.dir/algos/c11.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/c11.c.o   -c /home/pool/stratum/algos/c11.c
 
 CMakeFiles/stratum.dir/algos/c11.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/c11.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/c11.c > CMakeFiles/stratum.dir/algos/c11.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/c11.c > CMakeFiles/stratum.dir/algos/c11.c.i
 
 CMakeFiles/stratum.dir/algos/c11.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/c11.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/c11.c -o CMakeFiles/stratum.dir/algos/c11.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/c11.c -o CMakeFiles/stratum.dir/algos/c11.c.s
 
 CMakeFiles/stratum.dir/algos/deep.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/deep.c.o: ../algos/deep.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/stratum.dir/algos/deep.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/deep.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/deep.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/stratum.dir/algos/deep.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/deep.c.o   -c /home/pool/stratum/algos/deep.c
 
 CMakeFiles/stratum.dir/algos/deep.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/deep.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/deep.c > CMakeFiles/stratum.dir/algos/deep.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/deep.c > CMakeFiles/stratum.dir/algos/deep.c.i
 
 CMakeFiles/stratum.dir/algos/deep.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/deep.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/deep.c -o CMakeFiles/stratum.dir/algos/deep.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/deep.c -o CMakeFiles/stratum.dir/algos/deep.c.s
 
 CMakeFiles/stratum.dir/algos/drop.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/drop.c.o: ../algos/drop.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/stratum.dir/algos/drop.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/drop.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/drop.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/stratum.dir/algos/drop.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/drop.c.o   -c /home/pool/stratum/algos/drop.c
 
 CMakeFiles/stratum.dir/algos/drop.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/drop.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/drop.c > CMakeFiles/stratum.dir/algos/drop.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/drop.c > CMakeFiles/stratum.dir/algos/drop.c.i
 
 CMakeFiles/stratum.dir/algos/drop.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/drop.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/drop.c -o CMakeFiles/stratum.dir/algos/drop.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/drop.c -o CMakeFiles/stratum.dir/algos/drop.c.s
 
 CMakeFiles/stratum.dir/algos/exosis.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/exosis.c.o: ../algos/exosis.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/stratum.dir/algos/exosis.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/exosis.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/exosis.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/stratum.dir/algos/exosis.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/exosis.c.o   -c /home/pool/stratum/algos/exosis.c
 
 CMakeFiles/stratum.dir/algos/exosis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/exosis.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/exosis.c > CMakeFiles/stratum.dir/algos/exosis.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/exosis.c > CMakeFiles/stratum.dir/algos/exosis.c.i
 
 CMakeFiles/stratum.dir/algos/exosis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/exosis.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/exosis.c -o CMakeFiles/stratum.dir/algos/exosis.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/exosis.c -o CMakeFiles/stratum.dir/algos/exosis.c.s
 
 CMakeFiles/stratum.dir/algos/fresh.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/fresh.c.o: ../algos/fresh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/stratum.dir/algos/fresh.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/fresh.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/fresh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/stratum.dir/algos/fresh.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/fresh.c.o   -c /home/pool/stratum/algos/fresh.c
 
 CMakeFiles/stratum.dir/algos/fresh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/fresh.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/fresh.c > CMakeFiles/stratum.dir/algos/fresh.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/fresh.c > CMakeFiles/stratum.dir/algos/fresh.c.i
 
 CMakeFiles/stratum.dir/algos/fresh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/fresh.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/fresh.c -o CMakeFiles/stratum.dir/algos/fresh.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/fresh.c -o CMakeFiles/stratum.dir/algos/fresh.c.s
 
 CMakeFiles/stratum.dir/algos/gost.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/gost.c.o: ../algos/gost.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/stratum.dir/algos/gost.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/gost.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/gost.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/stratum.dir/algos/gost.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/gost.c.o   -c /home/pool/stratum/algos/gost.c
 
 CMakeFiles/stratum.dir/algos/gost.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/gost.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/gost.c > CMakeFiles/stratum.dir/algos/gost.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/gost.c > CMakeFiles/stratum.dir/algos/gost.c.i
 
 CMakeFiles/stratum.dir/algos/gost.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/gost.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/gost.c -o CMakeFiles/stratum.dir/algos/gost.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/gost.c -o CMakeFiles/stratum.dir/algos/gost.c.s
 
 CMakeFiles/stratum.dir/algos/groestl.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/groestl.c.o: ../algos/groestl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/stratum.dir/algos/groestl.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/groestl.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/groestl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/stratum.dir/algos/groestl.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/groestl.c.o   -c /home/pool/stratum/algos/groestl.c
 
 CMakeFiles/stratum.dir/algos/groestl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/groestl.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/groestl.c > CMakeFiles/stratum.dir/algos/groestl.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/groestl.c > CMakeFiles/stratum.dir/algos/groestl.c.i
 
 CMakeFiles/stratum.dir/algos/groestl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/groestl.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/groestl.c -o CMakeFiles/stratum.dir/algos/groestl.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/groestl.c -o CMakeFiles/stratum.dir/algos/groestl.c.s
 
 CMakeFiles/stratum.dir/algos/hex.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/hex.c.o: ../algos/hex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/stratum.dir/algos/hex.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/hex.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/hex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/stratum.dir/algos/hex.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/hex.c.o   -c /home/pool/stratum/algos/hex.c
 
 CMakeFiles/stratum.dir/algos/hex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/hex.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/hex.c > CMakeFiles/stratum.dir/algos/hex.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/hex.c > CMakeFiles/stratum.dir/algos/hex.c.i
 
 CMakeFiles/stratum.dir/algos/hex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/hex.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/hex.c -o CMakeFiles/stratum.dir/algos/hex.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/hex.c -o CMakeFiles/stratum.dir/algos/hex.c.s
 
 CMakeFiles/stratum.dir/algos/hive.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/hive.c.o: ../algos/hive.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/stratum.dir/algos/hive.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/hive.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/hive.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/stratum.dir/algos/hive.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/hive.c.o   -c /home/pool/stratum/algos/hive.c
 
 CMakeFiles/stratum.dir/algos/hive.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/hive.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/hive.c > CMakeFiles/stratum.dir/algos/hive.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/hive.c > CMakeFiles/stratum.dir/algos/hive.c.i
 
 CMakeFiles/stratum.dir/algos/hive.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/hive.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/hive.c -o CMakeFiles/stratum.dir/algos/hive.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/hive.c -o CMakeFiles/stratum.dir/algos/hive.c.s
 
 CMakeFiles/stratum.dir/algos/hmq17.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/hmq17.c.o: ../algos/hmq17.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/stratum.dir/algos/hmq17.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/hmq17.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/hmq17.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/stratum.dir/algos/hmq17.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/hmq17.c.o   -c /home/pool/stratum/algos/hmq17.c
 
 CMakeFiles/stratum.dir/algos/hmq17.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/hmq17.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/hmq17.c > CMakeFiles/stratum.dir/algos/hmq17.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/hmq17.c > CMakeFiles/stratum.dir/algos/hmq17.c.i
 
 CMakeFiles/stratum.dir/algos/hmq17.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/hmq17.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/hmq17.c -o CMakeFiles/stratum.dir/algos/hmq17.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/hmq17.c -o CMakeFiles/stratum.dir/algos/hmq17.c.s
 
 CMakeFiles/stratum.dir/algos/hsr14.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/hsr14.c.o: ../algos/hsr14.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/stratum.dir/algos/hsr14.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/hsr14.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/hsr14.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/stratum.dir/algos/hsr14.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/hsr14.c.o   -c /home/pool/stratum/algos/hsr14.c
 
 CMakeFiles/stratum.dir/algos/hsr14.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/hsr14.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/hsr14.c > CMakeFiles/stratum.dir/algos/hsr14.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/hsr14.c > CMakeFiles/stratum.dir/algos/hsr14.c.i
 
 CMakeFiles/stratum.dir/algos/hsr14.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/hsr14.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/hsr14.c -o CMakeFiles/stratum.dir/algos/hsr14.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/hsr14.c -o CMakeFiles/stratum.dir/algos/hsr14.c.s
 
 CMakeFiles/stratum.dir/algos/jha.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/jha.c.o: ../algos/jha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/stratum.dir/algos/jha.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/jha.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/jha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/stratum.dir/algos/jha.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/jha.c.o   -c /home/pool/stratum/algos/jha.c
 
 CMakeFiles/stratum.dir/algos/jha.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/jha.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/jha.c > CMakeFiles/stratum.dir/algos/jha.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/jha.c > CMakeFiles/stratum.dir/algos/jha.c.i
 
 CMakeFiles/stratum.dir/algos/jha.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/jha.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/jha.c -o CMakeFiles/stratum.dir/algos/jha.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/jha.c -o CMakeFiles/stratum.dir/algos/jha.c.s
 
 CMakeFiles/stratum.dir/algos/keccak.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/keccak.c.o: ../algos/keccak.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/stratum.dir/algos/keccak.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/keccak.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/keccak.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/stratum.dir/algos/keccak.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/keccak.c.o   -c /home/pool/stratum/algos/keccak.c
 
 CMakeFiles/stratum.dir/algos/keccak.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/keccak.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/keccak.c > CMakeFiles/stratum.dir/algos/keccak.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/keccak.c > CMakeFiles/stratum.dir/algos/keccak.c.i
 
 CMakeFiles/stratum.dir/algos/keccak.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/keccak.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/keccak.c -o CMakeFiles/stratum.dir/algos/keccak.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/keccak.c -o CMakeFiles/stratum.dir/algos/keccak.c.s
 
 CMakeFiles/stratum.dir/algos/lbk3.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/lbk3.c.o: ../algos/lbk3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/stratum.dir/algos/lbk3.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/lbk3.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lbk3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/stratum.dir/algos/lbk3.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/lbk3.c.o   -c /home/pool/stratum/algos/lbk3.c
 
 CMakeFiles/stratum.dir/algos/lbk3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/lbk3.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lbk3.c > CMakeFiles/stratum.dir/algos/lbk3.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/lbk3.c > CMakeFiles/stratum.dir/algos/lbk3.c.i
 
 CMakeFiles/stratum.dir/algos/lbk3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/lbk3.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lbk3.c -o CMakeFiles/stratum.dir/algos/lbk3.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/lbk3.c -o CMakeFiles/stratum.dir/algos/lbk3.c.s
 
 CMakeFiles/stratum.dir/algos/lbry.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/lbry.c.o: ../algos/lbry.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/stratum.dir/algos/lbry.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/lbry.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lbry.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/stratum.dir/algos/lbry.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/lbry.c.o   -c /home/pool/stratum/algos/lbry.c
 
 CMakeFiles/stratum.dir/algos/lbry.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/lbry.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lbry.c > CMakeFiles/stratum.dir/algos/lbry.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/lbry.c > CMakeFiles/stratum.dir/algos/lbry.c.i
 
 CMakeFiles/stratum.dir/algos/lbry.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/lbry.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lbry.c -o CMakeFiles/stratum.dir/algos/lbry.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/lbry.c -o CMakeFiles/stratum.dir/algos/lbry.c.s
 
 CMakeFiles/stratum.dir/algos/luffa.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/luffa.c.o: ../algos/luffa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/stratum.dir/algos/luffa.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/luffa.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/luffa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/stratum.dir/algos/luffa.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/luffa.c.o   -c /home/pool/stratum/algos/luffa.c
 
 CMakeFiles/stratum.dir/algos/luffa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/luffa.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/luffa.c > CMakeFiles/stratum.dir/algos/luffa.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/luffa.c > CMakeFiles/stratum.dir/algos/luffa.c.i
 
 CMakeFiles/stratum.dir/algos/luffa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/luffa.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/luffa.c -o CMakeFiles/stratum.dir/algos/luffa.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/luffa.c -o CMakeFiles/stratum.dir/algos/luffa.c.s
 
 CMakeFiles/stratum.dir/algos/Lyra2-z.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/Lyra2-z.c.o: ../algos/Lyra2-z.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/stratum.dir/algos/Lyra2-z.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/Lyra2-z.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/Lyra2-z.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/stratum.dir/algos/Lyra2-z.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/Lyra2-z.c.o   -c /home/pool/stratum/algos/Lyra2-z.c
 
 CMakeFiles/stratum.dir/algos/Lyra2-z.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/Lyra2-z.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/Lyra2-z.c > CMakeFiles/stratum.dir/algos/Lyra2-z.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/Lyra2-z.c > CMakeFiles/stratum.dir/algos/Lyra2-z.c.i
 
 CMakeFiles/stratum.dir/algos/Lyra2-z.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/Lyra2-z.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/Lyra2-z.c -o CMakeFiles/stratum.dir/algos/Lyra2-z.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/Lyra2-z.c -o CMakeFiles/stratum.dir/algos/Lyra2-z.c.s
 
 CMakeFiles/stratum.dir/algos/Lyra2.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/Lyra2.c.o: ../algos/Lyra2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/stratum.dir/algos/Lyra2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/Lyra2.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/Lyra2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/stratum.dir/algos/Lyra2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/Lyra2.c.o   -c /home/pool/stratum/algos/Lyra2.c
 
 CMakeFiles/stratum.dir/algos/Lyra2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/Lyra2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/Lyra2.c > CMakeFiles/stratum.dir/algos/Lyra2.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/Lyra2.c > CMakeFiles/stratum.dir/algos/Lyra2.c.i
 
 CMakeFiles/stratum.dir/algos/Lyra2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/Lyra2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/Lyra2.c -o CMakeFiles/stratum.dir/algos/Lyra2.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/Lyra2.c -o CMakeFiles/stratum.dir/algos/Lyra2.c.s
 
 CMakeFiles/stratum.dir/algos/lyra2re.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/lyra2re.c.o: ../algos/lyra2re.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/stratum.dir/algos/lyra2re.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/lyra2re.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lyra2re.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/stratum.dir/algos/lyra2re.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/lyra2re.c.o   -c /home/pool/stratum/algos/lyra2re.c
 
 CMakeFiles/stratum.dir/algos/lyra2re.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/lyra2re.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lyra2re.c > CMakeFiles/stratum.dir/algos/lyra2re.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/lyra2re.c > CMakeFiles/stratum.dir/algos/lyra2re.c.i
 
 CMakeFiles/stratum.dir/algos/lyra2re.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/lyra2re.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lyra2re.c -o CMakeFiles/stratum.dir/algos/lyra2re.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/lyra2re.c -o CMakeFiles/stratum.dir/algos/lyra2re.c.s
 
 CMakeFiles/stratum.dir/algos/lyra2v2.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/lyra2v2.c.o: ../algos/lyra2v2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/stratum.dir/algos/lyra2v2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/lyra2v2.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lyra2v2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/stratum.dir/algos/lyra2v2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/lyra2v2.c.o   -c /home/pool/stratum/algos/lyra2v2.c
 
 CMakeFiles/stratum.dir/algos/lyra2v2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/lyra2v2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lyra2v2.c > CMakeFiles/stratum.dir/algos/lyra2v2.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/lyra2v2.c > CMakeFiles/stratum.dir/algos/lyra2v2.c.i
 
 CMakeFiles/stratum.dir/algos/lyra2v2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/lyra2v2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lyra2v2.c -o CMakeFiles/stratum.dir/algos/lyra2v2.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/lyra2v2.c -o CMakeFiles/stratum.dir/algos/lyra2v2.c.s
+
+CMakeFiles/stratum.dir/algos/lyra2v3.c.o: CMakeFiles/stratum.dir/flags.make
+CMakeFiles/stratum.dir/algos/lyra2v3.c.o: ../algos/lyra2v3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/stratum.dir/algos/lyra2v3.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/lyra2v3.c.o   -c /home/pool/stratum/algos/lyra2v3.c
+
+CMakeFiles/stratum.dir/algos/lyra2v3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/lyra2v3.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/lyra2v3.c > CMakeFiles/stratum.dir/algos/lyra2v3.c.i
+
+CMakeFiles/stratum.dir/algos/lyra2v3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/lyra2v3.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/lyra2v3.c -o CMakeFiles/stratum.dir/algos/lyra2v3.c.s
 
 CMakeFiles/stratum.dir/algos/lyra2z.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/lyra2z.c.o: ../algos/lyra2z.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/stratum.dir/algos/lyra2z.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/lyra2z.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lyra2z.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/stratum.dir/algos/lyra2z.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/lyra2z.c.o   -c /home/pool/stratum/algos/lyra2z.c
 
 CMakeFiles/stratum.dir/algos/lyra2z.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/lyra2z.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lyra2z.c > CMakeFiles/stratum.dir/algos/lyra2z.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/lyra2z.c > CMakeFiles/stratum.dir/algos/lyra2z.c.i
 
 CMakeFiles/stratum.dir/algos/lyra2z.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/lyra2z.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lyra2z.c -o CMakeFiles/stratum.dir/algos/lyra2z.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/lyra2z.c -o CMakeFiles/stratum.dir/algos/lyra2z.c.s
 
 CMakeFiles/stratum.dir/algos/m7m.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/m7m.c.o: ../algos/m7m.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/stratum.dir/algos/m7m.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/m7m.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/m7m.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/stratum.dir/algos/m7m.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/m7m.c.o   -c /home/pool/stratum/algos/m7m.c
 
 CMakeFiles/stratum.dir/algos/m7m.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/m7m.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/m7m.c > CMakeFiles/stratum.dir/algos/m7m.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/m7m.c > CMakeFiles/stratum.dir/algos/m7m.c.i
 
 CMakeFiles/stratum.dir/algos/m7m.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/m7m.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/m7m.c -o CMakeFiles/stratum.dir/algos/m7m.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/m7m.c -o CMakeFiles/stratum.dir/algos/m7m.c.s
 
 CMakeFiles/stratum.dir/algos/magimath.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/magimath.cpp.o: ../algos/magimath.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/stratum.dir/algos/magimath.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/algos/magimath.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/magimath.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/stratum.dir/algos/magimath.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/algos/magimath.cpp.o -c /home/pool/stratum/algos/magimath.cpp
 
 CMakeFiles/stratum.dir/algos/magimath.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/algos/magimath.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/magimath.cpp > CMakeFiles/stratum.dir/algos/magimath.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/algos/magimath.cpp > CMakeFiles/stratum.dir/algos/magimath.cpp.i
 
 CMakeFiles/stratum.dir/algos/magimath.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/algos/magimath.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/magimath.cpp -o CMakeFiles/stratum.dir/algos/magimath.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/algos/magimath.cpp -o CMakeFiles/stratum.dir/algos/magimath.cpp.s
 
 CMakeFiles/stratum.dir/algos/neoscrypt.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/neoscrypt.c.o: ../algos/neoscrypt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/stratum.dir/algos/neoscrypt.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/neoscrypt.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/neoscrypt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/stratum.dir/algos/neoscrypt.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/neoscrypt.c.o   -c /home/pool/stratum/algos/neoscrypt.c
 
 CMakeFiles/stratum.dir/algos/neoscrypt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/neoscrypt.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/neoscrypt.c > CMakeFiles/stratum.dir/algos/neoscrypt.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/neoscrypt.c > CMakeFiles/stratum.dir/algos/neoscrypt.c.i
 
 CMakeFiles/stratum.dir/algos/neoscrypt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/neoscrypt.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/neoscrypt.c -o CMakeFiles/stratum.dir/algos/neoscrypt.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/neoscrypt.c -o CMakeFiles/stratum.dir/algos/neoscrypt.c.s
 
 CMakeFiles/stratum.dir/algos/nist5.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/nist5.c.o: ../algos/nist5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/stratum.dir/algos/nist5.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/nist5.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/nist5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/stratum.dir/algos/nist5.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/nist5.c.o   -c /home/pool/stratum/algos/nist5.c
 
 CMakeFiles/stratum.dir/algos/nist5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/nist5.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/nist5.c > CMakeFiles/stratum.dir/algos/nist5.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/nist5.c > CMakeFiles/stratum.dir/algos/nist5.c.i
 
 CMakeFiles/stratum.dir/algos/nist5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/nist5.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/nist5.c -o CMakeFiles/stratum.dir/algos/nist5.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/nist5.c -o CMakeFiles/stratum.dir/algos/nist5.c.s
 
 CMakeFiles/stratum.dir/algos/pentablake.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/pentablake.c.o: ../algos/pentablake.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/stratum.dir/algos/pentablake.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/pentablake.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/pentablake.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/stratum.dir/algos/pentablake.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/pentablake.c.o   -c /home/pool/stratum/algos/pentablake.c
 
 CMakeFiles/stratum.dir/algos/pentablake.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/pentablake.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/pentablake.c > CMakeFiles/stratum.dir/algos/pentablake.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/pentablake.c > CMakeFiles/stratum.dir/algos/pentablake.c.i
 
 CMakeFiles/stratum.dir/algos/pentablake.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/pentablake.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/pentablake.c -o CMakeFiles/stratum.dir/algos/pentablake.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/pentablake.c -o CMakeFiles/stratum.dir/algos/pentablake.c.s
 
 CMakeFiles/stratum.dir/algos/phi.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/phi.c.o: ../algos/phi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/stratum.dir/algos/phi.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/phi.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/phi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/stratum.dir/algos/phi.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/phi.c.o   -c /home/pool/stratum/algos/phi.c
 
 CMakeFiles/stratum.dir/algos/phi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/phi.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/phi.c > CMakeFiles/stratum.dir/algos/phi.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/phi.c > CMakeFiles/stratum.dir/algos/phi.c.i
 
 CMakeFiles/stratum.dir/algos/phi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/phi.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/phi.c -o CMakeFiles/stratum.dir/algos/phi.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/phi.c -o CMakeFiles/stratum.dir/algos/phi.c.s
 
 CMakeFiles/stratum.dir/algos/phi2.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/phi2.c.o: ../algos/phi2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/stratum.dir/algos/phi2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/phi2.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/phi2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/stratum.dir/algos/phi2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/phi2.c.o   -c /home/pool/stratum/algos/phi2.c
 
 CMakeFiles/stratum.dir/algos/phi2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/phi2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/phi2.c > CMakeFiles/stratum.dir/algos/phi2.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/phi2.c > CMakeFiles/stratum.dir/algos/phi2.c.i
 
 CMakeFiles/stratum.dir/algos/phi2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/phi2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/phi2.c -o CMakeFiles/stratum.dir/algos/phi2.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/phi2.c -o CMakeFiles/stratum.dir/algos/phi2.c.s
 
 CMakeFiles/stratum.dir/algos/polytimos.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/polytimos.c.o: ../algos/polytimos.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/stratum.dir/algos/polytimos.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/polytimos.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/polytimos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/stratum.dir/algos/polytimos.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/polytimos.c.o   -c /home/pool/stratum/algos/polytimos.c
 
 CMakeFiles/stratum.dir/algos/polytimos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/polytimos.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/polytimos.c > CMakeFiles/stratum.dir/algos/polytimos.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/polytimos.c > CMakeFiles/stratum.dir/algos/polytimos.c.i
 
 CMakeFiles/stratum.dir/algos/polytimos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/polytimos.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/polytimos.c -o CMakeFiles/stratum.dir/algos/polytimos.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/polytimos.c -o CMakeFiles/stratum.dir/algos/polytimos.c.s
 
 CMakeFiles/stratum.dir/algos/pomelo.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/pomelo.c.o: ../algos/pomelo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/stratum.dir/algos/pomelo.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/pomelo.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/pomelo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/stratum.dir/algos/pomelo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/pomelo.c.o   -c /home/pool/stratum/algos/pomelo.c
 
 CMakeFiles/stratum.dir/algos/pomelo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/pomelo.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/pomelo.c > CMakeFiles/stratum.dir/algos/pomelo.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/pomelo.c > CMakeFiles/stratum.dir/algos/pomelo.c.i
 
 CMakeFiles/stratum.dir/algos/pomelo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/pomelo.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/pomelo.c -o CMakeFiles/stratum.dir/algos/pomelo.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/pomelo.c -o CMakeFiles/stratum.dir/algos/pomelo.c.s
 
 CMakeFiles/stratum.dir/algos/quark.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/quark.c.o: ../algos/quark.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/stratum.dir/algos/quark.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/quark.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/quark.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/stratum.dir/algos/quark.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/quark.c.o   -c /home/pool/stratum/algos/quark.c
 
 CMakeFiles/stratum.dir/algos/quark.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/quark.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/quark.c > CMakeFiles/stratum.dir/algos/quark.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/quark.c > CMakeFiles/stratum.dir/algos/quark.c.i
 
 CMakeFiles/stratum.dir/algos/quark.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/quark.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/quark.c -o CMakeFiles/stratum.dir/algos/quark.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/quark.c -o CMakeFiles/stratum.dir/algos/quark.c.s
 
 CMakeFiles/stratum.dir/algos/qubit.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/qubit.c.o: ../algos/qubit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/stratum.dir/algos/qubit.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/qubit.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/qubit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/stratum.dir/algos/qubit.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/qubit.c.o   -c /home/pool/stratum/algos/qubit.c
 
 CMakeFiles/stratum.dir/algos/qubit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/qubit.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/qubit.c > CMakeFiles/stratum.dir/algos/qubit.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/qubit.c > CMakeFiles/stratum.dir/algos/qubit.c.i
 
 CMakeFiles/stratum.dir/algos/qubit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/qubit.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/qubit.c -o CMakeFiles/stratum.dir/algos/qubit.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/qubit.c -o CMakeFiles/stratum.dir/algos/qubit.c.s
 
 CMakeFiles/stratum.dir/algos/rainforest.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/rainforest.c.o: ../algos/rainforest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/stratum.dir/algos/rainforest.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/rainforest.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/rainforest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/stratum.dir/algos/rainforest.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/rainforest.c.o   -c /home/pool/stratum/algos/rainforest.c
 
 CMakeFiles/stratum.dir/algos/rainforest.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/rainforest.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/rainforest.c > CMakeFiles/stratum.dir/algos/rainforest.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/rainforest.c > CMakeFiles/stratum.dir/algos/rainforest.c.i
 
 CMakeFiles/stratum.dir/algos/rainforest.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/rainforest.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/rainforest.c -o CMakeFiles/stratum.dir/algos/rainforest.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/rainforest.c -o CMakeFiles/stratum.dir/algos/rainforest.c.s
 
 CMakeFiles/stratum.dir/algos/scrypt.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/scrypt.c.o: ../algos/scrypt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/stratum.dir/algos/scrypt.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/scrypt.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/scrypt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/stratum.dir/algos/scrypt.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/scrypt.c.o   -c /home/pool/stratum/algos/scrypt.c
 
 CMakeFiles/stratum.dir/algos/scrypt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/scrypt.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/scrypt.c > CMakeFiles/stratum.dir/algos/scrypt.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/scrypt.c > CMakeFiles/stratum.dir/algos/scrypt.c.i
 
 CMakeFiles/stratum.dir/algos/scrypt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/scrypt.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/scrypt.c -o CMakeFiles/stratum.dir/algos/scrypt.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/scrypt.c -o CMakeFiles/stratum.dir/algos/scrypt.c.s
 
 CMakeFiles/stratum.dir/algos/scryptn.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/scryptn.c.o: ../algos/scryptn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/stratum.dir/algos/scryptn.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/scryptn.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/scryptn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/stratum.dir/algos/scryptn.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/scryptn.c.o   -c /home/pool/stratum/algos/scryptn.c
 
 CMakeFiles/stratum.dir/algos/scryptn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/scryptn.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/scryptn.c > CMakeFiles/stratum.dir/algos/scryptn.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/scryptn.c > CMakeFiles/stratum.dir/algos/scryptn.c.i
 
 CMakeFiles/stratum.dir/algos/scryptn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/scryptn.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/scryptn.c -o CMakeFiles/stratum.dir/algos/scryptn.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/scryptn.c -o CMakeFiles/stratum.dir/algos/scryptn.c.s
 
 CMakeFiles/stratum.dir/algos/sha256.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/sha256.c.o: ../algos/sha256.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/stratum.dir/algos/sha256.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/sha256.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sha256.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/stratum.dir/algos/sha256.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/sha256.c.o   -c /home/pool/stratum/algos/sha256.c
 
 CMakeFiles/stratum.dir/algos/sha256.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/sha256.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sha256.c > CMakeFiles/stratum.dir/algos/sha256.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/sha256.c > CMakeFiles/stratum.dir/algos/sha256.c.i
 
 CMakeFiles/stratum.dir/algos/sha256.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/sha256.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sha256.c -o CMakeFiles/stratum.dir/algos/sha256.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/sha256.c -o CMakeFiles/stratum.dir/algos/sha256.c.s
 
 CMakeFiles/stratum.dir/algos/sha256_Y.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/sha256_Y.c.o: ../algos/sha256_Y.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/stratum.dir/algos/sha256_Y.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/sha256_Y.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sha256_Y.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/stratum.dir/algos/sha256_Y.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/sha256_Y.c.o   -c /home/pool/stratum/algos/sha256_Y.c
 
 CMakeFiles/stratum.dir/algos/sha256_Y.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/sha256_Y.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sha256_Y.c > CMakeFiles/stratum.dir/algos/sha256_Y.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/sha256_Y.c > CMakeFiles/stratum.dir/algos/sha256_Y.c.i
 
 CMakeFiles/stratum.dir/algos/sha256_Y.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/sha256_Y.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sha256_Y.c -o CMakeFiles/stratum.dir/algos/sha256_Y.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/sha256_Y.c -o CMakeFiles/stratum.dir/algos/sha256_Y.c.s
 
 CMakeFiles/stratum.dir/algos/sha256q.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/sha256q.c.o: ../algos/sha256q.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/stratum.dir/algos/sha256q.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/sha256q.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sha256q.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/stratum.dir/algos/sha256q.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/sha256q.c.o   -c /home/pool/stratum/algos/sha256q.c
 
 CMakeFiles/stratum.dir/algos/sha256q.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/sha256q.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sha256q.c > CMakeFiles/stratum.dir/algos/sha256q.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/sha256q.c > CMakeFiles/stratum.dir/algos/sha256q.c.i
 
 CMakeFiles/stratum.dir/algos/sha256q.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/sha256q.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sha256q.c -o CMakeFiles/stratum.dir/algos/sha256q.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/sha256q.c -o CMakeFiles/stratum.dir/algos/sha256q.c.s
 
 CMakeFiles/stratum.dir/algos/sha256t.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/sha256t.c.o: ../algos/sha256t.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/stratum.dir/algos/sha256t.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/sha256t.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sha256t.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/stratum.dir/algos/sha256t.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/sha256t.c.o   -c /home/pool/stratum/algos/sha256t.c
 
 CMakeFiles/stratum.dir/algos/sha256t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/sha256t.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sha256t.c > CMakeFiles/stratum.dir/algos/sha256t.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/sha256t.c > CMakeFiles/stratum.dir/algos/sha256t.c.i
 
 CMakeFiles/stratum.dir/algos/sha256t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/sha256t.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sha256t.c -o CMakeFiles/stratum.dir/algos/sha256t.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/sha256t.c -o CMakeFiles/stratum.dir/algos/sha256t.c.s
 
 CMakeFiles/stratum.dir/algos/sib.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/sib.c.o: ../algos/sib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/stratum.dir/algos/sib.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/sib.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/stratum.dir/algos/sib.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/sib.c.o   -c /home/pool/stratum/algos/sib.c
 
 CMakeFiles/stratum.dir/algos/sib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/sib.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sib.c > CMakeFiles/stratum.dir/algos/sib.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/sib.c > CMakeFiles/stratum.dir/algos/sib.c.i
 
 CMakeFiles/stratum.dir/algos/sib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/sib.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sib.c -o CMakeFiles/stratum.dir/algos/sib.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/sib.c -o CMakeFiles/stratum.dir/algos/sib.c.s
 
 CMakeFiles/stratum.dir/algos/skein.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/skein.c.o: ../algos/skein.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/stratum.dir/algos/skein.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/skein.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/skein.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/stratum.dir/algos/skein.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/skein.c.o   -c /home/pool/stratum/algos/skein.c
 
 CMakeFiles/stratum.dir/algos/skein.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/skein.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/skein.c > CMakeFiles/stratum.dir/algos/skein.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/skein.c > CMakeFiles/stratum.dir/algos/skein.c.i
 
 CMakeFiles/stratum.dir/algos/skein.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/skein.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/skein.c -o CMakeFiles/stratum.dir/algos/skein.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/skein.c -o CMakeFiles/stratum.dir/algos/skein.c.s
 
 CMakeFiles/stratum.dir/algos/skein2.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/skein2.c.o: ../algos/skein2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/stratum.dir/algos/skein2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/skein2.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/skein2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/stratum.dir/algos/skein2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/skein2.c.o   -c /home/pool/stratum/algos/skein2.c
 
 CMakeFiles/stratum.dir/algos/skein2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/skein2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/skein2.c > CMakeFiles/stratum.dir/algos/skein2.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/skein2.c > CMakeFiles/stratum.dir/algos/skein2.c.i
 
 CMakeFiles/stratum.dir/algos/skein2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/skein2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/skein2.c -o CMakeFiles/stratum.dir/algos/skein2.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/skein2.c -o CMakeFiles/stratum.dir/algos/skein2.c.s
 
 CMakeFiles/stratum.dir/algos/skunk.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/skunk.c.o: ../algos/skunk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/stratum.dir/algos/skunk.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/skunk.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/skunk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/stratum.dir/algos/skunk.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/skunk.c.o   -c /home/pool/stratum/algos/skunk.c
 
 CMakeFiles/stratum.dir/algos/skunk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/skunk.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/skunk.c > CMakeFiles/stratum.dir/algos/skunk.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/skunk.c > CMakeFiles/stratum.dir/algos/skunk.c.i
 
 CMakeFiles/stratum.dir/algos/skunk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/skunk.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/skunk.c -o CMakeFiles/stratum.dir/algos/skunk.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/skunk.c -o CMakeFiles/stratum.dir/algos/skunk.c.s
 
 CMakeFiles/stratum.dir/algos/sm3.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/sm3.c.o: ../algos/sm3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/stratum.dir/algos/sm3.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/sm3.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sm3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/stratum.dir/algos/sm3.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/sm3.c.o   -c /home/pool/stratum/algos/sm3.c
 
 CMakeFiles/stratum.dir/algos/sm3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/sm3.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sm3.c > CMakeFiles/stratum.dir/algos/sm3.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/sm3.c > CMakeFiles/stratum.dir/algos/sm3.c.i
 
 CMakeFiles/stratum.dir/algos/sm3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/sm3.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sm3.c -o CMakeFiles/stratum.dir/algos/sm3.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/sm3.c -o CMakeFiles/stratum.dir/algos/sm3.c.s
 
 CMakeFiles/stratum.dir/algos/sonoa.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/sonoa.c.o: ../algos/sonoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/stratum.dir/algos/sonoa.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/sonoa.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sonoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/stratum.dir/algos/sonoa.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/sonoa.c.o   -c /home/pool/stratum/algos/sonoa.c
 
 CMakeFiles/stratum.dir/algos/sonoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/sonoa.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sonoa.c > CMakeFiles/stratum.dir/algos/sonoa.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/sonoa.c > CMakeFiles/stratum.dir/algos/sonoa.c.i
 
 CMakeFiles/stratum.dir/algos/sonoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/sonoa.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sonoa.c -o CMakeFiles/stratum.dir/algos/sonoa.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/sonoa.c -o CMakeFiles/stratum.dir/algos/sonoa.c.s
 
 CMakeFiles/stratum.dir/algos/Sponge.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/Sponge.c.o: ../algos/Sponge.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/stratum.dir/algos/Sponge.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/Sponge.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/Sponge.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/stratum.dir/algos/Sponge.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/Sponge.c.o   -c /home/pool/stratum/algos/Sponge.c
 
 CMakeFiles/stratum.dir/algos/Sponge.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/Sponge.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/Sponge.c > CMakeFiles/stratum.dir/algos/Sponge.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/Sponge.c > CMakeFiles/stratum.dir/algos/Sponge.c.i
 
 CMakeFiles/stratum.dir/algos/Sponge.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/Sponge.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/Sponge.c -o CMakeFiles/stratum.dir/algos/Sponge.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/Sponge.c -o CMakeFiles/stratum.dir/algos/Sponge.c.s
 
 CMakeFiles/stratum.dir/algos/timetravel.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/timetravel.c.o: ../algos/timetravel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/stratum.dir/algos/timetravel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/timetravel.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/timetravel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/stratum.dir/algos/timetravel.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/timetravel.c.o   -c /home/pool/stratum/algos/timetravel.c
 
 CMakeFiles/stratum.dir/algos/timetravel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/timetravel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/timetravel.c > CMakeFiles/stratum.dir/algos/timetravel.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/timetravel.c > CMakeFiles/stratum.dir/algos/timetravel.c.i
 
 CMakeFiles/stratum.dir/algos/timetravel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/timetravel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/timetravel.c -o CMakeFiles/stratum.dir/algos/timetravel.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/timetravel.c -o CMakeFiles/stratum.dir/algos/timetravel.c.s
 
 CMakeFiles/stratum.dir/algos/tribus.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/tribus.c.o: ../algos/tribus.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/stratum.dir/algos/tribus.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/tribus.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/tribus.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/stratum.dir/algos/tribus.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/tribus.c.o   -c /home/pool/stratum/algos/tribus.c
 
 CMakeFiles/stratum.dir/algos/tribus.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/tribus.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/tribus.c > CMakeFiles/stratum.dir/algos/tribus.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/tribus.c > CMakeFiles/stratum.dir/algos/tribus.c.i
 
 CMakeFiles/stratum.dir/algos/tribus.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/tribus.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/tribus.c -o CMakeFiles/stratum.dir/algos/tribus.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/tribus.c -o CMakeFiles/stratum.dir/algos/tribus.c.s
 
 CMakeFiles/stratum.dir/algos/veltor.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/veltor.c.o: ../algos/veltor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/stratum.dir/algos/veltor.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/veltor.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/veltor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/stratum.dir/algos/veltor.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/veltor.c.o   -c /home/pool/stratum/algos/veltor.c
 
 CMakeFiles/stratum.dir/algos/veltor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/veltor.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/veltor.c > CMakeFiles/stratum.dir/algos/veltor.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/veltor.c > CMakeFiles/stratum.dir/algos/veltor.c.i
 
 CMakeFiles/stratum.dir/algos/veltor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/veltor.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/veltor.c -o CMakeFiles/stratum.dir/algos/veltor.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/veltor.c -o CMakeFiles/stratum.dir/algos/veltor.c.s
 
 CMakeFiles/stratum.dir/algos/velvet.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/velvet.c.o: ../algos/velvet.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/stratum.dir/algos/velvet.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/velvet.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/velvet.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/stratum.dir/algos/velvet.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/velvet.c.o   -c /home/pool/stratum/algos/velvet.c
 
 CMakeFiles/stratum.dir/algos/velvet.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/velvet.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/velvet.c > CMakeFiles/stratum.dir/algos/velvet.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/velvet.c > CMakeFiles/stratum.dir/algos/velvet.c.i
 
 CMakeFiles/stratum.dir/algos/velvet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/velvet.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/velvet.c -o CMakeFiles/stratum.dir/algos/velvet.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/velvet.c -o CMakeFiles/stratum.dir/algos/velvet.c.s
 
 CMakeFiles/stratum.dir/algos/vitalium.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/vitalium.c.o: ../algos/vitalium.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/stratum.dir/algos/vitalium.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/vitalium.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/vitalium.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/stratum.dir/algos/vitalium.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/vitalium.c.o   -c /home/pool/stratum/algos/vitalium.c
 
 CMakeFiles/stratum.dir/algos/vitalium.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/vitalium.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/vitalium.c > CMakeFiles/stratum.dir/algos/vitalium.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/vitalium.c > CMakeFiles/stratum.dir/algos/vitalium.c.i
 
 CMakeFiles/stratum.dir/algos/vitalium.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/vitalium.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/vitalium.c -o CMakeFiles/stratum.dir/algos/vitalium.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/vitalium.c -o CMakeFiles/stratum.dir/algos/vitalium.c.s
 
 CMakeFiles/stratum.dir/algos/whirlpool.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/whirlpool.c.o: ../algos/whirlpool.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/stratum.dir/algos/whirlpool.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/whirlpool.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/whirlpool.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/stratum.dir/algos/whirlpool.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/whirlpool.c.o   -c /home/pool/stratum/algos/whirlpool.c
 
 CMakeFiles/stratum.dir/algos/whirlpool.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/whirlpool.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/whirlpool.c > CMakeFiles/stratum.dir/algos/whirlpool.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/whirlpool.c > CMakeFiles/stratum.dir/algos/whirlpool.c.i
 
 CMakeFiles/stratum.dir/algos/whirlpool.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/whirlpool.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/whirlpool.c -o CMakeFiles/stratum.dir/algos/whirlpool.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/whirlpool.c -o CMakeFiles/stratum.dir/algos/whirlpool.c.s
 
 CMakeFiles/stratum.dir/algos/whirlpoolx.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/whirlpoolx.c.o: ../algos/whirlpoolx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/stratum.dir/algos/whirlpoolx.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/whirlpoolx.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/whirlpoolx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/stratum.dir/algos/whirlpoolx.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/whirlpoolx.c.o   -c /home/pool/stratum/algos/whirlpoolx.c
 
 CMakeFiles/stratum.dir/algos/whirlpoolx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/whirlpoolx.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/whirlpoolx.c > CMakeFiles/stratum.dir/algos/whirlpoolx.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/whirlpoolx.c > CMakeFiles/stratum.dir/algos/whirlpoolx.c.i
 
 CMakeFiles/stratum.dir/algos/whirlpoolx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/whirlpoolx.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/whirlpoolx.c -o CMakeFiles/stratum.dir/algos/whirlpoolx.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/whirlpoolx.c -o CMakeFiles/stratum.dir/algos/whirlpoolx.c.s
 
 CMakeFiles/stratum.dir/algos/x11.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/x11.c.o: ../algos/x11.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/stratum.dir/algos/x11.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/x11.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x11.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/stratum.dir/algos/x11.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/x11.c.o   -c /home/pool/stratum/algos/x11.c
 
 CMakeFiles/stratum.dir/algos/x11.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/x11.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x11.c > CMakeFiles/stratum.dir/algos/x11.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/x11.c > CMakeFiles/stratum.dir/algos/x11.c.i
 
 CMakeFiles/stratum.dir/algos/x11.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/x11.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x11.c -o CMakeFiles/stratum.dir/algos/x11.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/x11.c -o CMakeFiles/stratum.dir/algos/x11.c.s
 
 CMakeFiles/stratum.dir/algos/x11evo.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/x11evo.c.o: ../algos/x11evo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/stratum.dir/algos/x11evo.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/x11evo.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x11evo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/stratum.dir/algos/x11evo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/x11evo.c.o   -c /home/pool/stratum/algos/x11evo.c
 
 CMakeFiles/stratum.dir/algos/x11evo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/x11evo.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x11evo.c > CMakeFiles/stratum.dir/algos/x11evo.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/x11evo.c > CMakeFiles/stratum.dir/algos/x11evo.c.i
 
 CMakeFiles/stratum.dir/algos/x11evo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/x11evo.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x11evo.c -o CMakeFiles/stratum.dir/algos/x11evo.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/x11evo.c -o CMakeFiles/stratum.dir/algos/x11evo.c.s
 
 CMakeFiles/stratum.dir/algos/x12.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/x12.c.o: ../algos/x12.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/stratum.dir/algos/x12.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/x12.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x12.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/stratum.dir/algos/x12.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/x12.c.o   -c /home/pool/stratum/algos/x12.c
 
 CMakeFiles/stratum.dir/algos/x12.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/x12.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x12.c > CMakeFiles/stratum.dir/algos/x12.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/x12.c > CMakeFiles/stratum.dir/algos/x12.c.i
 
 CMakeFiles/stratum.dir/algos/x12.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/x12.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x12.c -o CMakeFiles/stratum.dir/algos/x12.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/x12.c -o CMakeFiles/stratum.dir/algos/x12.c.s
 
 CMakeFiles/stratum.dir/algos/x13.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/x13.c.o: ../algos/x13.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/stratum.dir/algos/x13.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/x13.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x13.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/stratum.dir/algos/x13.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/x13.c.o   -c /home/pool/stratum/algos/x13.c
 
 CMakeFiles/stratum.dir/algos/x13.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/x13.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x13.c > CMakeFiles/stratum.dir/algos/x13.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/x13.c > CMakeFiles/stratum.dir/algos/x13.c.i
 
 CMakeFiles/stratum.dir/algos/x13.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/x13.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x13.c -o CMakeFiles/stratum.dir/algos/x13.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/x13.c -o CMakeFiles/stratum.dir/algos/x13.c.s
 
 CMakeFiles/stratum.dir/algos/x14.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/x14.c.o: ../algos/x14.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/stratum.dir/algos/x14.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/x14.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x14.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/stratum.dir/algos/x14.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/x14.c.o   -c /home/pool/stratum/algos/x14.c
 
 CMakeFiles/stratum.dir/algos/x14.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/x14.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x14.c > CMakeFiles/stratum.dir/algos/x14.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/x14.c > CMakeFiles/stratum.dir/algos/x14.c.i
 
 CMakeFiles/stratum.dir/algos/x14.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/x14.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x14.c -o CMakeFiles/stratum.dir/algos/x14.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/x14.c -o CMakeFiles/stratum.dir/algos/x14.c.s
 
 CMakeFiles/stratum.dir/algos/x15.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/x15.c.o: ../algos/x15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/stratum.dir/algos/x15.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/x15.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x15.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/stratum.dir/algos/x15.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/x15.c.o   -c /home/pool/stratum/algos/x15.c
 
 CMakeFiles/stratum.dir/algos/x15.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/x15.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x15.c > CMakeFiles/stratum.dir/algos/x15.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/x15.c > CMakeFiles/stratum.dir/algos/x15.c.i
 
 CMakeFiles/stratum.dir/algos/x15.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/x15.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x15.c -o CMakeFiles/stratum.dir/algos/x15.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/x15.c -o CMakeFiles/stratum.dir/algos/x15.c.s
 
 CMakeFiles/stratum.dir/algos/x16r.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/x16r.c.o: ../algos/x16r.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/stratum.dir/algos/x16r.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/x16r.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x16r.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/stratum.dir/algos/x16r.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/x16r.c.o   -c /home/pool/stratum/algos/x16r.c
 
 CMakeFiles/stratum.dir/algos/x16r.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/x16r.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x16r.c > CMakeFiles/stratum.dir/algos/x16r.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/x16r.c > CMakeFiles/stratum.dir/algos/x16r.c.i
 
 CMakeFiles/stratum.dir/algos/x16r.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/x16r.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x16r.c -o CMakeFiles/stratum.dir/algos/x16r.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/x16r.c -o CMakeFiles/stratum.dir/algos/x16r.c.s
 
 CMakeFiles/stratum.dir/algos/x16s.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/x16s.c.o: ../algos/x16s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/stratum.dir/algos/x16s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/x16s.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x16s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/stratum.dir/algos/x16s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/x16s.c.o   -c /home/pool/stratum/algos/x16s.c
 
 CMakeFiles/stratum.dir/algos/x16s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/x16s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x16s.c > CMakeFiles/stratum.dir/algos/x16s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/x16s.c > CMakeFiles/stratum.dir/algos/x16s.c.i
 
 CMakeFiles/stratum.dir/algos/x16s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/x16s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x16s.c -o CMakeFiles/stratum.dir/algos/x16s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/x16s.c -o CMakeFiles/stratum.dir/algos/x16s.c.s
 
 CMakeFiles/stratum.dir/algos/x17.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/x17.c.o: ../algos/x17.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/stratum.dir/algos/x17.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/x17.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x17.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/stratum.dir/algos/x17.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/x17.c.o   -c /home/pool/stratum/algos/x17.c
 
 CMakeFiles/stratum.dir/algos/x17.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/x17.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x17.c > CMakeFiles/stratum.dir/algos/x17.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/x17.c > CMakeFiles/stratum.dir/algos/x17.c.i
 
 CMakeFiles/stratum.dir/algos/x17.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/x17.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x17.c -o CMakeFiles/stratum.dir/algos/x17.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/x17.c -o CMakeFiles/stratum.dir/algos/x17.c.s
 
 CMakeFiles/stratum.dir/algos/x22i.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/x22i.c.o: ../algos/x22i.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/stratum.dir/algos/x22i.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/x22i.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x22i.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/stratum.dir/algos/x22i.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/x22i.c.o   -c /home/pool/stratum/algos/x22i.c
 
 CMakeFiles/stratum.dir/algos/x22i.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/x22i.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x22i.c > CMakeFiles/stratum.dir/algos/x22i.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/x22i.c > CMakeFiles/stratum.dir/algos/x22i.c.i
 
 CMakeFiles/stratum.dir/algos/x22i.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/x22i.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x22i.c -o CMakeFiles/stratum.dir/algos/x22i.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/x22i.c -o CMakeFiles/stratum.dir/algos/x22i.c.s
 
 CMakeFiles/stratum.dir/algos/xevan.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/xevan.c.o: ../algos/xevan.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/stratum.dir/algos/xevan.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/xevan.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/xevan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/stratum.dir/algos/xevan.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/xevan.c.o   -c /home/pool/stratum/algos/xevan.c
 
 CMakeFiles/stratum.dir/algos/xevan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/xevan.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/xevan.c > CMakeFiles/stratum.dir/algos/xevan.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/xevan.c > CMakeFiles/stratum.dir/algos/xevan.c.i
 
 CMakeFiles/stratum.dir/algos/xevan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/xevan.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/xevan.c -o CMakeFiles/stratum.dir/algos/xevan.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/xevan.c -o CMakeFiles/stratum.dir/algos/xevan.c.s
 
 CMakeFiles/stratum.dir/algos/yescrypt-opt.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/yescrypt-opt.c.o: ../algos/yescrypt-opt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/stratum.dir/algos/yescrypt-opt.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/yescrypt-opt.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/yescrypt-opt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/stratum.dir/algos/yescrypt-opt.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/yescrypt-opt.c.o   -c /home/pool/stratum/algos/yescrypt-opt.c
 
 CMakeFiles/stratum.dir/algos/yescrypt-opt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/yescrypt-opt.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/yescrypt-opt.c > CMakeFiles/stratum.dir/algos/yescrypt-opt.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/yescrypt-opt.c > CMakeFiles/stratum.dir/algos/yescrypt-opt.c.i
 
 CMakeFiles/stratum.dir/algos/yescrypt-opt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/yescrypt-opt.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/yescrypt-opt.c -o CMakeFiles/stratum.dir/algos/yescrypt-opt.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/yescrypt-opt.c -o CMakeFiles/stratum.dir/algos/yescrypt-opt.c.s
 
 CMakeFiles/stratum.dir/algos/yescrypt-platform.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/yescrypt-platform.c.o: ../algos/yescrypt-platform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/stratum.dir/algos/yescrypt-platform.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/yescrypt-platform.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/yescrypt-platform.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/stratum.dir/algos/yescrypt-platform.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/yescrypt-platform.c.o   -c /home/pool/stratum/algos/yescrypt-platform.c
 
 CMakeFiles/stratum.dir/algos/yescrypt-platform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/yescrypt-platform.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/yescrypt-platform.c > CMakeFiles/stratum.dir/algos/yescrypt-platform.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/yescrypt-platform.c > CMakeFiles/stratum.dir/algos/yescrypt-platform.c.i
 
 CMakeFiles/stratum.dir/algos/yescrypt-platform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/yescrypt-platform.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/yescrypt-platform.c -o CMakeFiles/stratum.dir/algos/yescrypt-platform.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/yescrypt-platform.c -o CMakeFiles/stratum.dir/algos/yescrypt-platform.c.s
 
 CMakeFiles/stratum.dir/algos/yescrypt.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/yescrypt.c.o: ../algos/yescrypt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/stratum.dir/algos/yescrypt.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/yescrypt.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/yescrypt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/stratum.dir/algos/yescrypt.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/yescrypt.c.o   -c /home/pool/stratum/algos/yescrypt.c
 
 CMakeFiles/stratum.dir/algos/yescrypt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/yescrypt.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/yescrypt.c > CMakeFiles/stratum.dir/algos/yescrypt.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/yescrypt.c > CMakeFiles/stratum.dir/algos/yescrypt.c.i
 
 CMakeFiles/stratum.dir/algos/yescrypt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/yescrypt.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/yescrypt.c -o CMakeFiles/stratum.dir/algos/yescrypt.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/yescrypt.c -o CMakeFiles/stratum.dir/algos/yescrypt.c.s
 
 CMakeFiles/stratum.dir/algos/zr5.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/algos/zr5.c.o: ../algos/zr5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/stratum.dir/algos/zr5.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/zr5.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/zr5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/stratum.dir/algos/zr5.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/algos/zr5.c.o   -c /home/pool/stratum/algos/zr5.c
 
 CMakeFiles/stratum.dir/algos/zr5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/algos/zr5.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/zr5.c > CMakeFiles/stratum.dir/algos/zr5.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/algos/zr5.c > CMakeFiles/stratum.dir/algos/zr5.c.i
 
 CMakeFiles/stratum.dir/algos/zr5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/algos/zr5.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/zr5.c -o CMakeFiles/stratum.dir/algos/zr5.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/algos/zr5.c -o CMakeFiles/stratum.dir/algos/zr5.c.s
 
 CMakeFiles/stratum.dir/iniparser/src/dictionary.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/iniparser/src/dictionary.c.o: ../iniparser/src/dictionary.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/stratum.dir/iniparser/src/dictionary.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/iniparser/src/dictionary.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/src/dictionary.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/stratum.dir/iniparser/src/dictionary.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/iniparser/src/dictionary.c.o   -c /home/pool/stratum/iniparser/src/dictionary.c
 
 CMakeFiles/stratum.dir/iniparser/src/dictionary.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/iniparser/src/dictionary.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/src/dictionary.c > CMakeFiles/stratum.dir/iniparser/src/dictionary.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/iniparser/src/dictionary.c > CMakeFiles/stratum.dir/iniparser/src/dictionary.c.i
 
 CMakeFiles/stratum.dir/iniparser/src/dictionary.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/iniparser/src/dictionary.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/src/dictionary.c -o CMakeFiles/stratum.dir/iniparser/src/dictionary.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/iniparser/src/dictionary.c -o CMakeFiles/stratum.dir/iniparser/src/dictionary.c.s
 
 CMakeFiles/stratum.dir/iniparser/src/iniparser.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/iniparser/src/iniparser.c.o: ../iniparser/src/iniparser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/stratum.dir/iniparser/src/iniparser.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/iniparser/src/iniparser.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/src/iniparser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/stratum.dir/iniparser/src/iniparser.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/iniparser/src/iniparser.c.o   -c /home/pool/stratum/iniparser/src/iniparser.c
 
 CMakeFiles/stratum.dir/iniparser/src/iniparser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/iniparser/src/iniparser.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/src/iniparser.c > CMakeFiles/stratum.dir/iniparser/src/iniparser.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/iniparser/src/iniparser.c > CMakeFiles/stratum.dir/iniparser/src/iniparser.c.i
 
 CMakeFiles/stratum.dir/iniparser/src/iniparser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/iniparser/src/iniparser.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/src/iniparser.c -o CMakeFiles/stratum.dir/iniparser/src/iniparser.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/iniparser/src/iniparser.c -o CMakeFiles/stratum.dir/iniparser/src/iniparser.c.s
 
 CMakeFiles/stratum.dir/iniparser/test/iniexample.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/iniparser/test/iniexample.c.o: ../iniparser/test/iniexample.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/stratum.dir/iniparser/test/iniexample.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/iniparser/test/iniexample.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/test/iniexample.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/stratum.dir/iniparser/test/iniexample.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/iniparser/test/iniexample.c.o   -c /home/pool/stratum/iniparser/test/iniexample.c
 
 CMakeFiles/stratum.dir/iniparser/test/iniexample.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/iniparser/test/iniexample.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/test/iniexample.c > CMakeFiles/stratum.dir/iniparser/test/iniexample.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/iniparser/test/iniexample.c > CMakeFiles/stratum.dir/iniparser/test/iniexample.c.i
 
 CMakeFiles/stratum.dir/iniparser/test/iniexample.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/iniparser/test/iniexample.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/test/iniexample.c -o CMakeFiles/stratum.dir/iniparser/test/iniexample.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/iniparser/test/iniexample.c -o CMakeFiles/stratum.dir/iniparser/test/iniexample.c.s
 
 CMakeFiles/stratum.dir/iniparser/test/parse.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/iniparser/test/parse.c.o: ../iniparser/test/parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/stratum.dir/iniparser/test/parse.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/iniparser/test/parse.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/test/parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/stratum.dir/iniparser/test/parse.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/iniparser/test/parse.c.o   -c /home/pool/stratum/iniparser/test/parse.c
 
 CMakeFiles/stratum.dir/iniparser/test/parse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/iniparser/test/parse.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/test/parse.c > CMakeFiles/stratum.dir/iniparser/test/parse.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/iniparser/test/parse.c > CMakeFiles/stratum.dir/iniparser/test/parse.c.i
 
 CMakeFiles/stratum.dir/iniparser/test/parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/iniparser/test/parse.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/test/parse.c -o CMakeFiles/stratum.dir/iniparser/test/parse.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/iniparser/test/parse.c -o CMakeFiles/stratum.dir/iniparser/test/parse.c.s
 
 CMakeFiles/stratum.dir/sha3/aes_helper.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/aes_helper.c.o: ../sha3/aes_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/stratum.dir/sha3/aes_helper.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/aes_helper.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/aes_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/stratum.dir/sha3/aes_helper.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/aes_helper.c.o   -c /home/pool/stratum/sha3/aes_helper.c
 
 CMakeFiles/stratum.dir/sha3/aes_helper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/aes_helper.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/aes_helper.c > CMakeFiles/stratum.dir/sha3/aes_helper.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/aes_helper.c > CMakeFiles/stratum.dir/sha3/aes_helper.c.i
 
 CMakeFiles/stratum.dir/sha3/aes_helper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/aes_helper.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/aes_helper.c -o CMakeFiles/stratum.dir/sha3/aes_helper.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/aes_helper.c -o CMakeFiles/stratum.dir/sha3/aes_helper.c.s
 
 CMakeFiles/stratum.dir/sha3/blake2b.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/blake2b.c.o: ../sha3/blake2b.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/stratum.dir/sha3/blake2b.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/blake2b.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/blake2b.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/stratum.dir/sha3/blake2b.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/blake2b.c.o   -c /home/pool/stratum/sha3/blake2b.c
 
 CMakeFiles/stratum.dir/sha3/blake2b.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/blake2b.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/blake2b.c > CMakeFiles/stratum.dir/sha3/blake2b.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/blake2b.c > CMakeFiles/stratum.dir/sha3/blake2b.c.i
 
 CMakeFiles/stratum.dir/sha3/blake2b.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/blake2b.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/blake2b.c -o CMakeFiles/stratum.dir/sha3/blake2b.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/blake2b.c -o CMakeFiles/stratum.dir/sha3/blake2b.c.s
 
 CMakeFiles/stratum.dir/sha3/blake2s.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/blake2s.c.o: ../sha3/blake2s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/stratum.dir/sha3/blake2s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/blake2s.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/blake2s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/stratum.dir/sha3/blake2s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/blake2s.c.o   -c /home/pool/stratum/sha3/blake2s.c
 
 CMakeFiles/stratum.dir/sha3/blake2s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/blake2s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/blake2s.c > CMakeFiles/stratum.dir/sha3/blake2s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/blake2s.c > CMakeFiles/stratum.dir/sha3/blake2s.c.i
 
 CMakeFiles/stratum.dir/sha3/blake2s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/blake2s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/blake2s.c -o CMakeFiles/stratum.dir/sha3/blake2s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/blake2s.c -o CMakeFiles/stratum.dir/sha3/blake2s.c.s
 
 CMakeFiles/stratum.dir/sha3/hamsi_helper.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/hamsi_helper.c.o: ../sha3/hamsi_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/stratum.dir/sha3/hamsi_helper.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/hamsi_helper.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/hamsi_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/stratum.dir/sha3/hamsi_helper.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/hamsi_helper.c.o   -c /home/pool/stratum/sha3/hamsi_helper.c
 
 CMakeFiles/stratum.dir/sha3/hamsi_helper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/hamsi_helper.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/hamsi_helper.c > CMakeFiles/stratum.dir/sha3/hamsi_helper.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/hamsi_helper.c > CMakeFiles/stratum.dir/sha3/hamsi_helper.c.i
 
 CMakeFiles/stratum.dir/sha3/hamsi_helper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/hamsi_helper.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/hamsi_helper.c -o CMakeFiles/stratum.dir/sha3/hamsi_helper.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/hamsi_helper.c -o CMakeFiles/stratum.dir/sha3/hamsi_helper.c.s
 
 CMakeFiles/stratum.dir/sha3/haval_helper.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/haval_helper.c.o: ../sha3/haval_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/stratum.dir/sha3/haval_helper.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/haval_helper.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/haval_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/stratum.dir/sha3/haval_helper.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/haval_helper.c.o   -c /home/pool/stratum/sha3/haval_helper.c
 
 CMakeFiles/stratum.dir/sha3/haval_helper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/haval_helper.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/haval_helper.c > CMakeFiles/stratum.dir/sha3/haval_helper.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/haval_helper.c > CMakeFiles/stratum.dir/sha3/haval_helper.c.i
 
 CMakeFiles/stratum.dir/sha3/haval_helper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/haval_helper.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/haval_helper.c -o CMakeFiles/stratum.dir/sha3/haval_helper.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/haval_helper.c -o CMakeFiles/stratum.dir/sha3/haval_helper.c.s
 
 CMakeFiles/stratum.dir/sha3/md_helper.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/md_helper.c.o: ../sha3/md_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/stratum.dir/sha3/md_helper.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/md_helper.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/md_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/stratum.dir/sha3/md_helper.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/md_helper.c.o   -c /home/pool/stratum/sha3/md_helper.c
 
 CMakeFiles/stratum.dir/sha3/md_helper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/md_helper.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/md_helper.c > CMakeFiles/stratum.dir/sha3/md_helper.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/md_helper.c > CMakeFiles/stratum.dir/sha3/md_helper.c.i
 
 CMakeFiles/stratum.dir/sha3/md_helper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/md_helper.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/md_helper.c -o CMakeFiles/stratum.dir/sha3/md_helper.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/md_helper.c -o CMakeFiles/stratum.dir/sha3/md_helper.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_blake.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_blake.c.o: ../sha3/sph_blake.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/stratum.dir/sha3/sph_blake.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_blake.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_blake.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/stratum.dir/sha3/sph_blake.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_blake.c.o   -c /home/pool/stratum/sha3/sph_blake.c
 
 CMakeFiles/stratum.dir/sha3/sph_blake.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_blake.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_blake.c > CMakeFiles/stratum.dir/sha3/sph_blake.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_blake.c > CMakeFiles/stratum.dir/sha3/sph_blake.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_blake.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_blake.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_blake.c -o CMakeFiles/stratum.dir/sha3/sph_blake.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_blake.c -o CMakeFiles/stratum.dir/sha3/sph_blake.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_bmw.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_bmw.c.o: ../sha3/sph_bmw.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/stratum.dir/sha3/sph_bmw.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_bmw.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_bmw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/stratum.dir/sha3/sph_bmw.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_bmw.c.o   -c /home/pool/stratum/sha3/sph_bmw.c
 
 CMakeFiles/stratum.dir/sha3/sph_bmw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_bmw.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_bmw.c > CMakeFiles/stratum.dir/sha3/sph_bmw.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_bmw.c > CMakeFiles/stratum.dir/sha3/sph_bmw.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_bmw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_bmw.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_bmw.c -o CMakeFiles/stratum.dir/sha3/sph_bmw.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_bmw.c -o CMakeFiles/stratum.dir/sha3/sph_bmw.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_cubehash.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_cubehash.c.o: ../sha3/sph_cubehash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/stratum.dir/sha3/sph_cubehash.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_cubehash.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_cubehash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/stratum.dir/sha3/sph_cubehash.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_cubehash.c.o   -c /home/pool/stratum/sha3/sph_cubehash.c
 
 CMakeFiles/stratum.dir/sha3/sph_cubehash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_cubehash.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_cubehash.c > CMakeFiles/stratum.dir/sha3/sph_cubehash.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_cubehash.c > CMakeFiles/stratum.dir/sha3/sph_cubehash.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_cubehash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_cubehash.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_cubehash.c -o CMakeFiles/stratum.dir/sha3/sph_cubehash.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_cubehash.c -o CMakeFiles/stratum.dir/sha3/sph_cubehash.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_echo.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_echo.c.o: ../sha3/sph_echo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/stratum.dir/sha3/sph_echo.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_echo.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_echo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/stratum.dir/sha3/sph_echo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_echo.c.o   -c /home/pool/stratum/sha3/sph_echo.c
 
 CMakeFiles/stratum.dir/sha3/sph_echo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_echo.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_echo.c > CMakeFiles/stratum.dir/sha3/sph_echo.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_echo.c > CMakeFiles/stratum.dir/sha3/sph_echo.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_echo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_echo.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_echo.c -o CMakeFiles/stratum.dir/sha3/sph_echo.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_echo.c -o CMakeFiles/stratum.dir/sha3/sph_echo.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_fugue.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_fugue.c.o: ../sha3/sph_fugue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/stratum.dir/sha3/sph_fugue.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_fugue.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_fugue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/stratum.dir/sha3/sph_fugue.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_fugue.c.o   -c /home/pool/stratum/sha3/sph_fugue.c
 
 CMakeFiles/stratum.dir/sha3/sph_fugue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_fugue.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_fugue.c > CMakeFiles/stratum.dir/sha3/sph_fugue.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_fugue.c > CMakeFiles/stratum.dir/sha3/sph_fugue.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_fugue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_fugue.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_fugue.c -o CMakeFiles/stratum.dir/sha3/sph_fugue.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_fugue.c -o CMakeFiles/stratum.dir/sha3/sph_fugue.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_groestl.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_groestl.c.o: ../sha3/sph_groestl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/stratum.dir/sha3/sph_groestl.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_groestl.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_groestl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/stratum.dir/sha3/sph_groestl.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_groestl.c.o   -c /home/pool/stratum/sha3/sph_groestl.c
 
 CMakeFiles/stratum.dir/sha3/sph_groestl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_groestl.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_groestl.c > CMakeFiles/stratum.dir/sha3/sph_groestl.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_groestl.c > CMakeFiles/stratum.dir/sha3/sph_groestl.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_groestl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_groestl.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_groestl.c -o CMakeFiles/stratum.dir/sha3/sph_groestl.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_groestl.c -o CMakeFiles/stratum.dir/sha3/sph_groestl.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_hamsi.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_hamsi.c.o: ../sha3/sph_hamsi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/stratum.dir/sha3/sph_hamsi.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_hamsi.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_hamsi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/stratum.dir/sha3/sph_hamsi.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_hamsi.c.o   -c /home/pool/stratum/sha3/sph_hamsi.c
 
 CMakeFiles/stratum.dir/sha3/sph_hamsi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_hamsi.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_hamsi.c > CMakeFiles/stratum.dir/sha3/sph_hamsi.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_hamsi.c > CMakeFiles/stratum.dir/sha3/sph_hamsi.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_hamsi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_hamsi.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_hamsi.c -o CMakeFiles/stratum.dir/sha3/sph_hamsi.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_hamsi.c -o CMakeFiles/stratum.dir/sha3/sph_hamsi.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_haval.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_haval.c.o: ../sha3/sph_haval.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/stratum.dir/sha3/sph_haval.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_haval.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_haval.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/stratum.dir/sha3/sph_haval.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_haval.c.o   -c /home/pool/stratum/sha3/sph_haval.c
 
 CMakeFiles/stratum.dir/sha3/sph_haval.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_haval.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_haval.c > CMakeFiles/stratum.dir/sha3/sph_haval.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_haval.c > CMakeFiles/stratum.dir/sha3/sph_haval.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_haval.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_haval.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_haval.c -o CMakeFiles/stratum.dir/sha3/sph_haval.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_haval.c -o CMakeFiles/stratum.dir/sha3/sph_haval.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_hefty1.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_hefty1.c.o: ../sha3/sph_hefty1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/stratum.dir/sha3/sph_hefty1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_hefty1.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_hefty1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/stratum.dir/sha3/sph_hefty1.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_hefty1.c.o   -c /home/pool/stratum/sha3/sph_hefty1.c
 
 CMakeFiles/stratum.dir/sha3/sph_hefty1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_hefty1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_hefty1.c > CMakeFiles/stratum.dir/sha3/sph_hefty1.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_hefty1.c > CMakeFiles/stratum.dir/sha3/sph_hefty1.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_hefty1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_hefty1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_hefty1.c -o CMakeFiles/stratum.dir/sha3/sph_hefty1.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_hefty1.c -o CMakeFiles/stratum.dir/sha3/sph_hefty1.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_jh.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_jh.c.o: ../sha3/sph_jh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/stratum.dir/sha3/sph_jh.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_jh.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_jh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/stratum.dir/sha3/sph_jh.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_jh.c.o   -c /home/pool/stratum/sha3/sph_jh.c
 
 CMakeFiles/stratum.dir/sha3/sph_jh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_jh.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_jh.c > CMakeFiles/stratum.dir/sha3/sph_jh.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_jh.c > CMakeFiles/stratum.dir/sha3/sph_jh.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_jh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_jh.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_jh.c -o CMakeFiles/stratum.dir/sha3/sph_jh.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_jh.c -o CMakeFiles/stratum.dir/sha3/sph_jh.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_keccak.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_keccak.c.o: ../sha3/sph_keccak.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/stratum.dir/sha3/sph_keccak.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_keccak.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_keccak.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/stratum.dir/sha3/sph_keccak.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_keccak.c.o   -c /home/pool/stratum/sha3/sph_keccak.c
 
 CMakeFiles/stratum.dir/sha3/sph_keccak.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_keccak.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_keccak.c > CMakeFiles/stratum.dir/sha3/sph_keccak.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_keccak.c > CMakeFiles/stratum.dir/sha3/sph_keccak.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_keccak.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_keccak.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_keccak.c -o CMakeFiles/stratum.dir/sha3/sph_keccak.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_keccak.c -o CMakeFiles/stratum.dir/sha3/sph_keccak.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_luffa.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_luffa.c.o: ../sha3/sph_luffa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/stratum.dir/sha3/sph_luffa.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_luffa.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_luffa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/stratum.dir/sha3/sph_luffa.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_luffa.c.o   -c /home/pool/stratum/sha3/sph_luffa.c
 
 CMakeFiles/stratum.dir/sha3/sph_luffa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_luffa.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_luffa.c > CMakeFiles/stratum.dir/sha3/sph_luffa.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_luffa.c > CMakeFiles/stratum.dir/sha3/sph_luffa.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_luffa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_luffa.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_luffa.c -o CMakeFiles/stratum.dir/sha3/sph_luffa.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_luffa.c -o CMakeFiles/stratum.dir/sha3/sph_luffa.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_ripemd.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_ripemd.c.o: ../sha3/sph_ripemd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/stratum.dir/sha3/sph_ripemd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_ripemd.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_ripemd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/stratum.dir/sha3/sph_ripemd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_ripemd.c.o   -c /home/pool/stratum/sha3/sph_ripemd.c
 
 CMakeFiles/stratum.dir/sha3/sph_ripemd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_ripemd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_ripemd.c > CMakeFiles/stratum.dir/sha3/sph_ripemd.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_ripemd.c > CMakeFiles/stratum.dir/sha3/sph_ripemd.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_ripemd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_ripemd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_ripemd.c -o CMakeFiles/stratum.dir/sha3/sph_ripemd.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_ripemd.c -o CMakeFiles/stratum.dir/sha3/sph_ripemd.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_sha2.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_sha2.c.o: ../sha3/sph_sha2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/stratum.dir/sha3/sph_sha2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_sha2.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_sha2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/stratum.dir/sha3/sph_sha2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_sha2.c.o   -c /home/pool/stratum/sha3/sph_sha2.c
 
 CMakeFiles/stratum.dir/sha3/sph_sha2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_sha2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_sha2.c > CMakeFiles/stratum.dir/sha3/sph_sha2.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_sha2.c > CMakeFiles/stratum.dir/sha3/sph_sha2.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_sha2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_sha2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_sha2.c -o CMakeFiles/stratum.dir/sha3/sph_sha2.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_sha2.c -o CMakeFiles/stratum.dir/sha3/sph_sha2.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_sha2big.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_sha2big.c.o: ../sha3/sph_sha2big.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/stratum.dir/sha3/sph_sha2big.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_sha2big.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_sha2big.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/stratum.dir/sha3/sph_sha2big.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_sha2big.c.o   -c /home/pool/stratum/sha3/sph_sha2big.c
 
 CMakeFiles/stratum.dir/sha3/sph_sha2big.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_sha2big.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_sha2big.c > CMakeFiles/stratum.dir/sha3/sph_sha2big.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_sha2big.c > CMakeFiles/stratum.dir/sha3/sph_sha2big.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_sha2big.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_sha2big.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_sha2big.c -o CMakeFiles/stratum.dir/sha3/sph_sha2big.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_sha2big.c -o CMakeFiles/stratum.dir/sha3/sph_sha2big.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_shabal.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_shabal.c.o: ../sha3/sph_shabal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/stratum.dir/sha3/sph_shabal.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_shabal.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_shabal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/stratum.dir/sha3/sph_shabal.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_shabal.c.o   -c /home/pool/stratum/sha3/sph_shabal.c
 
 CMakeFiles/stratum.dir/sha3/sph_shabal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_shabal.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_shabal.c > CMakeFiles/stratum.dir/sha3/sph_shabal.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_shabal.c > CMakeFiles/stratum.dir/sha3/sph_shabal.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_shabal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_shabal.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_shabal.c -o CMakeFiles/stratum.dir/sha3/sph_shabal.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_shabal.c -o CMakeFiles/stratum.dir/sha3/sph_shabal.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_shavite.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_shavite.c.o: ../sha3/sph_shavite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/stratum.dir/sha3/sph_shavite.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_shavite.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_shavite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/stratum.dir/sha3/sph_shavite.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_shavite.c.o   -c /home/pool/stratum/sha3/sph_shavite.c
 
 CMakeFiles/stratum.dir/sha3/sph_shavite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_shavite.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_shavite.c > CMakeFiles/stratum.dir/sha3/sph_shavite.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_shavite.c > CMakeFiles/stratum.dir/sha3/sph_shavite.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_shavite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_shavite.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_shavite.c -o CMakeFiles/stratum.dir/sha3/sph_shavite.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_shavite.c -o CMakeFiles/stratum.dir/sha3/sph_shavite.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_simd.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_simd.c.o: ../sha3/sph_simd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/stratum.dir/sha3/sph_simd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_simd.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_simd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/stratum.dir/sha3/sph_simd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_simd.c.o   -c /home/pool/stratum/sha3/sph_simd.c
 
 CMakeFiles/stratum.dir/sha3/sph_simd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_simd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_simd.c > CMakeFiles/stratum.dir/sha3/sph_simd.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_simd.c > CMakeFiles/stratum.dir/sha3/sph_simd.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_simd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_simd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_simd.c -o CMakeFiles/stratum.dir/sha3/sph_simd.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_simd.c -o CMakeFiles/stratum.dir/sha3/sph_simd.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_skein.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_skein.c.o: ../sha3/sph_skein.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/stratum.dir/sha3/sph_skein.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_skein.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_skein.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/stratum.dir/sha3/sph_skein.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_skein.c.o   -c /home/pool/stratum/sha3/sph_skein.c
 
 CMakeFiles/stratum.dir/sha3/sph_skein.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_skein.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_skein.c > CMakeFiles/stratum.dir/sha3/sph_skein.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_skein.c > CMakeFiles/stratum.dir/sha3/sph_skein.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_skein.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_skein.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_skein.c -o CMakeFiles/stratum.dir/sha3/sph_skein.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_skein.c -o CMakeFiles/stratum.dir/sha3/sph_skein.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_tiger.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_tiger.c.o: ../sha3/sph_tiger.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/stratum.dir/sha3/sph_tiger.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_tiger.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_tiger.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/stratum.dir/sha3/sph_tiger.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_tiger.c.o   -c /home/pool/stratum/sha3/sph_tiger.c
 
 CMakeFiles/stratum.dir/sha3/sph_tiger.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_tiger.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_tiger.c > CMakeFiles/stratum.dir/sha3/sph_tiger.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_tiger.c > CMakeFiles/stratum.dir/sha3/sph_tiger.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_tiger.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_tiger.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_tiger.c -o CMakeFiles/stratum.dir/sha3/sph_tiger.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_tiger.c -o CMakeFiles/stratum.dir/sha3/sph_tiger.c.s
 
 CMakeFiles/stratum.dir/sha3/sph_whirlpool.c.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/sha3/sph_whirlpool.c.o: ../sha3/sph_whirlpool.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/stratum.dir/sha3/sph_whirlpool.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_whirlpool.c.o   -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_whirlpool.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/stratum.dir/sha3/sph_whirlpool.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/stratum.dir/sha3/sph_whirlpool.c.o   -c /home/pool/stratum/sha3/sph_whirlpool.c
 
 CMakeFiles/stratum.dir/sha3/sph_whirlpool.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stratum.dir/sha3/sph_whirlpool.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_whirlpool.c > CMakeFiles/stratum.dir/sha3/sph_whirlpool.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pool/stratum/sha3/sph_whirlpool.c > CMakeFiles/stratum.dir/sha3/sph_whirlpool.c.i
 
 CMakeFiles/stratum.dir/sha3/sph_whirlpool.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stratum.dir/sha3/sph_whirlpool.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_whirlpool.c -o CMakeFiles/stratum.dir/sha3/sph_whirlpool.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pool/stratum/sha3/sph_whirlpool.c -o CMakeFiles/stratum.dir/sha3/sph_whirlpool.c.s
 
 CMakeFiles/stratum.dir/base58.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/base58.cpp.o: ../base58.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/stratum.dir/base58.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/base58.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/base58.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/stratum.dir/base58.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/base58.cpp.o -c /home/pool/stratum/base58.cpp
 
 CMakeFiles/stratum.dir/base58.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/base58.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/base58.cpp > CMakeFiles/stratum.dir/base58.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/base58.cpp > CMakeFiles/stratum.dir/base58.cpp.i
 
 CMakeFiles/stratum.dir/base58.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/base58.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/base58.cpp -o CMakeFiles/stratum.dir/base58.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/base58.cpp -o CMakeFiles/stratum.dir/base58.cpp.s
 
 CMakeFiles/stratum.dir/client.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/client.cpp.o: ../client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/stratum.dir/client.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/client.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/stratum.dir/client.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/client.cpp.o -c /home/pool/stratum/client.cpp
 
 CMakeFiles/stratum.dir/client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/client.cpp > CMakeFiles/stratum.dir/client.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/client.cpp > CMakeFiles/stratum.dir/client.cpp.i
 
 CMakeFiles/stratum.dir/client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/client.cpp -o CMakeFiles/stratum.dir/client.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/client.cpp -o CMakeFiles/stratum.dir/client.cpp.s
 
 CMakeFiles/stratum.dir/client_core.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/client_core.cpp.o: ../client_core.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/stratum.dir/client_core.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/client_core.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/client_core.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/stratum.dir/client_core.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/client_core.cpp.o -c /home/pool/stratum/client_core.cpp
 
 CMakeFiles/stratum.dir/client_core.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/client_core.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/client_core.cpp > CMakeFiles/stratum.dir/client_core.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/client_core.cpp > CMakeFiles/stratum.dir/client_core.cpp.i
 
 CMakeFiles/stratum.dir/client_core.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/client_core.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/client_core.cpp -o CMakeFiles/stratum.dir/client_core.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/client_core.cpp -o CMakeFiles/stratum.dir/client_core.cpp.s
 
 CMakeFiles/stratum.dir/client_difficulty.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/client_difficulty.cpp.o: ../client_difficulty.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/stratum.dir/client_difficulty.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/client_difficulty.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/client_difficulty.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/stratum.dir/client_difficulty.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/client_difficulty.cpp.o -c /home/pool/stratum/client_difficulty.cpp
 
 CMakeFiles/stratum.dir/client_difficulty.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/client_difficulty.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/client_difficulty.cpp > CMakeFiles/stratum.dir/client_difficulty.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/client_difficulty.cpp > CMakeFiles/stratum.dir/client_difficulty.cpp.i
 
 CMakeFiles/stratum.dir/client_difficulty.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/client_difficulty.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/client_difficulty.cpp -o CMakeFiles/stratum.dir/client_difficulty.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/client_difficulty.cpp -o CMakeFiles/stratum.dir/client_difficulty.cpp.s
 
 CMakeFiles/stratum.dir/client_submit.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/client_submit.cpp.o: ../client_submit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/stratum.dir/client_submit.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/client_submit.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/client_submit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/stratum.dir/client_submit.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/client_submit.cpp.o -c /home/pool/stratum/client_submit.cpp
 
 CMakeFiles/stratum.dir/client_submit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/client_submit.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/client_submit.cpp > CMakeFiles/stratum.dir/client_submit.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/client_submit.cpp > CMakeFiles/stratum.dir/client_submit.cpp.i
 
 CMakeFiles/stratum.dir/client_submit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/client_submit.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/client_submit.cpp -o CMakeFiles/stratum.dir/client_submit.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/client_submit.cpp -o CMakeFiles/stratum.dir/client_submit.cpp.s
 
 CMakeFiles/stratum.dir/coinbase.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/coinbase.cpp.o: ../coinbase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/stratum.dir/coinbase.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/coinbase.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coinbase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/stratum.dir/coinbase.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/coinbase.cpp.o -c /home/pool/stratum/coinbase.cpp
 
 CMakeFiles/stratum.dir/coinbase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/coinbase.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coinbase.cpp > CMakeFiles/stratum.dir/coinbase.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/coinbase.cpp > CMakeFiles/stratum.dir/coinbase.cpp.i
 
 CMakeFiles/stratum.dir/coinbase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/coinbase.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coinbase.cpp -o CMakeFiles/stratum.dir/coinbase.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/coinbase.cpp -o CMakeFiles/stratum.dir/coinbase.cpp.s
 
 CMakeFiles/stratum.dir/coind.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/coind.cpp.o: ../coind.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/stratum.dir/coind.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/coind.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coind.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/stratum.dir/coind.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/coind.cpp.o -c /home/pool/stratum/coind.cpp
 
 CMakeFiles/stratum.dir/coind.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/coind.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coind.cpp > CMakeFiles/stratum.dir/coind.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/coind.cpp > CMakeFiles/stratum.dir/coind.cpp.i
 
 CMakeFiles/stratum.dir/coind.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/coind.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coind.cpp -o CMakeFiles/stratum.dir/coind.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/coind.cpp -o CMakeFiles/stratum.dir/coind.cpp.s
 
 CMakeFiles/stratum.dir/coind_aux.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/coind_aux.cpp.o: ../coind_aux.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/stratum.dir/coind_aux.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/coind_aux.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coind_aux.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/stratum.dir/coind_aux.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/coind_aux.cpp.o -c /home/pool/stratum/coind_aux.cpp
 
 CMakeFiles/stratum.dir/coind_aux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/coind_aux.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coind_aux.cpp > CMakeFiles/stratum.dir/coind_aux.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/coind_aux.cpp > CMakeFiles/stratum.dir/coind_aux.cpp.i
 
 CMakeFiles/stratum.dir/coind_aux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/coind_aux.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coind_aux.cpp -o CMakeFiles/stratum.dir/coind_aux.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/coind_aux.cpp -o CMakeFiles/stratum.dir/coind_aux.cpp.s
 
 CMakeFiles/stratum.dir/coind_submit.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/coind_submit.cpp.o: ../coind_submit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/stratum.dir/coind_submit.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/coind_submit.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coind_submit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/stratum.dir/coind_submit.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/coind_submit.cpp.o -c /home/pool/stratum/coind_submit.cpp
 
 CMakeFiles/stratum.dir/coind_submit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/coind_submit.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coind_submit.cpp > CMakeFiles/stratum.dir/coind_submit.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/coind_submit.cpp > CMakeFiles/stratum.dir/coind_submit.cpp.i
 
 CMakeFiles/stratum.dir/coind_submit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/coind_submit.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coind_submit.cpp -o CMakeFiles/stratum.dir/coind_submit.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/coind_submit.cpp -o CMakeFiles/stratum.dir/coind_submit.cpp.s
 
 CMakeFiles/stratum.dir/coind_template.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/coind_template.cpp.o: ../coind_template.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/stratum.dir/coind_template.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/coind_template.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coind_template.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/stratum.dir/coind_template.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/coind_template.cpp.o -c /home/pool/stratum/coind_template.cpp
 
 CMakeFiles/stratum.dir/coind_template.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/coind_template.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coind_template.cpp > CMakeFiles/stratum.dir/coind_template.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/coind_template.cpp > CMakeFiles/stratum.dir/coind_template.cpp.i
 
 CMakeFiles/stratum.dir/coind_template.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/coind_template.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coind_template.cpp -o CMakeFiles/stratum.dir/coind_template.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/coind_template.cpp -o CMakeFiles/stratum.dir/coind_template.cpp.s
 
 CMakeFiles/stratum.dir/db.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/db.cpp.o: ../db.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/stratum.dir/db.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/db.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/db.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/stratum.dir/db.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/db.cpp.o -c /home/pool/stratum/db.cpp
 
 CMakeFiles/stratum.dir/db.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/db.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/db.cpp > CMakeFiles/stratum.dir/db.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/db.cpp > CMakeFiles/stratum.dir/db.cpp.i
 
 CMakeFiles/stratum.dir/db.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/db.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/db.cpp -o CMakeFiles/stratum.dir/db.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/db.cpp -o CMakeFiles/stratum.dir/db.cpp.s
 
 CMakeFiles/stratum.dir/job.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/job.cpp.o: ../job.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/stratum.dir/job.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/job.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/job.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/stratum.dir/job.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/job.cpp.o -c /home/pool/stratum/job.cpp
 
 CMakeFiles/stratum.dir/job.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/job.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/job.cpp > CMakeFiles/stratum.dir/job.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/job.cpp > CMakeFiles/stratum.dir/job.cpp.i
 
 CMakeFiles/stratum.dir/job.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/job.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/job.cpp -o CMakeFiles/stratum.dir/job.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/job.cpp -o CMakeFiles/stratum.dir/job.cpp.s
 
 CMakeFiles/stratum.dir/job_core.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/job_core.cpp.o: ../job_core.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/stratum.dir/job_core.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/job_core.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/job_core.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/stratum.dir/job_core.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/job_core.cpp.o -c /home/pool/stratum/job_core.cpp
 
 CMakeFiles/stratum.dir/job_core.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/job_core.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/job_core.cpp > CMakeFiles/stratum.dir/job_core.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/job_core.cpp > CMakeFiles/stratum.dir/job_core.cpp.i
 
 CMakeFiles/stratum.dir/job_core.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/job_core.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/job_core.cpp -o CMakeFiles/stratum.dir/job_core.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/job_core.cpp -o CMakeFiles/stratum.dir/job_core.cpp.s
 
 CMakeFiles/stratum.dir/job_send.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/job_send.cpp.o: ../job_send.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/stratum.dir/job_send.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/job_send.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/job_send.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/stratum.dir/job_send.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/job_send.cpp.o -c /home/pool/stratum/job_send.cpp
 
 CMakeFiles/stratum.dir/job_send.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/job_send.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/job_send.cpp > CMakeFiles/stratum.dir/job_send.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/job_send.cpp > CMakeFiles/stratum.dir/job_send.cpp.i
 
 CMakeFiles/stratum.dir/job_send.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/job_send.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/job_send.cpp -o CMakeFiles/stratum.dir/job_send.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/job_send.cpp -o CMakeFiles/stratum.dir/job_send.cpp.s
 
 CMakeFiles/stratum.dir/json.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/json.cpp.o: ../json.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/stratum.dir/json.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/json.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/json.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/stratum.dir/json.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/json.cpp.o -c /home/pool/stratum/json.cpp
 
 CMakeFiles/stratum.dir/json.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/json.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/json.cpp > CMakeFiles/stratum.dir/json.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/json.cpp > CMakeFiles/stratum.dir/json.cpp.i
 
 CMakeFiles/stratum.dir/json.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/json.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/json.cpp -o CMakeFiles/stratum.dir/json.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/json.cpp -o CMakeFiles/stratum.dir/json.cpp.s
 
 CMakeFiles/stratum.dir/list.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/list.cpp.o: ../list.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/stratum.dir/list.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/list.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/stratum.dir/list.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/list.cpp.o -c /home/pool/stratum/list.cpp
 
 CMakeFiles/stratum.dir/list.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/list.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/list.cpp > CMakeFiles/stratum.dir/list.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/list.cpp > CMakeFiles/stratum.dir/list.cpp.i
 
 CMakeFiles/stratum.dir/list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/list.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/list.cpp -o CMakeFiles/stratum.dir/list.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/list.cpp -o CMakeFiles/stratum.dir/list.cpp.s
 
 CMakeFiles/stratum.dir/merkle.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/merkle.cpp.o: ../merkle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/stratum.dir/merkle.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/merkle.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/merkle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/stratum.dir/merkle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/merkle.cpp.o -c /home/pool/stratum/merkle.cpp
 
 CMakeFiles/stratum.dir/merkle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/merkle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/merkle.cpp > CMakeFiles/stratum.dir/merkle.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/merkle.cpp > CMakeFiles/stratum.dir/merkle.cpp.i
 
 CMakeFiles/stratum.dir/merkle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/merkle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/merkle.cpp -o CMakeFiles/stratum.dir/merkle.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/merkle.cpp -o CMakeFiles/stratum.dir/merkle.cpp.s
 
 CMakeFiles/stratum.dir/object.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/object.cpp.o: ../object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/stratum.dir/object.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/object.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/stratum.dir/object.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/object.cpp.o -c /home/pool/stratum/object.cpp
 
 CMakeFiles/stratum.dir/object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/object.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/object.cpp > CMakeFiles/stratum.dir/object.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/object.cpp > CMakeFiles/stratum.dir/object.cpp.i
 
 CMakeFiles/stratum.dir/object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/object.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/object.cpp -o CMakeFiles/stratum.dir/object.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/object.cpp -o CMakeFiles/stratum.dir/object.cpp.s
 
 CMakeFiles/stratum.dir/remote.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/remote.cpp.o: ../remote.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/stratum.dir/remote.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/remote.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/remote.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/stratum.dir/remote.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/remote.cpp.o -c /home/pool/stratum/remote.cpp
 
 CMakeFiles/stratum.dir/remote.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/remote.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/remote.cpp > CMakeFiles/stratum.dir/remote.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/remote.cpp > CMakeFiles/stratum.dir/remote.cpp.i
 
 CMakeFiles/stratum.dir/remote.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/remote.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/remote.cpp -o CMakeFiles/stratum.dir/remote.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/remote.cpp -o CMakeFiles/stratum.dir/remote.cpp.s
 
 CMakeFiles/stratum.dir/remote_template.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/remote_template.cpp.o: ../remote_template.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/stratum.dir/remote_template.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/remote_template.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/remote_template.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/stratum.dir/remote_template.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/remote_template.cpp.o -c /home/pool/stratum/remote_template.cpp
 
 CMakeFiles/stratum.dir/remote_template.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/remote_template.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/remote_template.cpp > CMakeFiles/stratum.dir/remote_template.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/remote_template.cpp > CMakeFiles/stratum.dir/remote_template.cpp.i
 
 CMakeFiles/stratum.dir/remote_template.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/remote_template.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/remote_template.cpp -o CMakeFiles/stratum.dir/remote_template.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/remote_template.cpp -o CMakeFiles/stratum.dir/remote_template.cpp.s
 
 CMakeFiles/stratum.dir/rpc.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/rpc.cpp.o: ../rpc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/stratum.dir/rpc.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/rpc.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/rpc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/stratum.dir/rpc.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/rpc.cpp.o -c /home/pool/stratum/rpc.cpp
 
 CMakeFiles/stratum.dir/rpc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/rpc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/rpc.cpp > CMakeFiles/stratum.dir/rpc.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/rpc.cpp > CMakeFiles/stratum.dir/rpc.cpp.i
 
 CMakeFiles/stratum.dir/rpc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/rpc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/rpc.cpp -o CMakeFiles/stratum.dir/rpc.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/rpc.cpp -o CMakeFiles/stratum.dir/rpc.cpp.s
 
 CMakeFiles/stratum.dir/rpc_curl.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/rpc_curl.cpp.o: ../rpc_curl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/stratum.dir/rpc_curl.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/rpc_curl.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/rpc_curl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/stratum.dir/rpc_curl.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/rpc_curl.cpp.o -c /home/pool/stratum/rpc_curl.cpp
 
 CMakeFiles/stratum.dir/rpc_curl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/rpc_curl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/rpc_curl.cpp > CMakeFiles/stratum.dir/rpc_curl.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/rpc_curl.cpp > CMakeFiles/stratum.dir/rpc_curl.cpp.i
 
 CMakeFiles/stratum.dir/rpc_curl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/rpc_curl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/rpc_curl.cpp -o CMakeFiles/stratum.dir/rpc_curl.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/rpc_curl.cpp -o CMakeFiles/stratum.dir/rpc_curl.cpp.s
 
 CMakeFiles/stratum.dir/share.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/share.cpp.o: ../share.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/stratum.dir/share.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/share.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/share.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/stratum.dir/share.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/share.cpp.o -c /home/pool/stratum/share.cpp
 
 CMakeFiles/stratum.dir/share.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/share.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/share.cpp > CMakeFiles/stratum.dir/share.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/share.cpp > CMakeFiles/stratum.dir/share.cpp.i
 
 CMakeFiles/stratum.dir/share.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/share.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/share.cpp -o CMakeFiles/stratum.dir/share.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/share.cpp -o CMakeFiles/stratum.dir/share.cpp.s
 
 CMakeFiles/stratum.dir/socket.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/socket.cpp.o: ../socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/stratum.dir/socket.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/socket.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/stratum.dir/socket.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/socket.cpp.o -c /home/pool/stratum/socket.cpp
 
 CMakeFiles/stratum.dir/socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/socket.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/socket.cpp > CMakeFiles/stratum.dir/socket.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/socket.cpp > CMakeFiles/stratum.dir/socket.cpp.i
 
 CMakeFiles/stratum.dir/socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/socket.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/socket.cpp -o CMakeFiles/stratum.dir/socket.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/socket.cpp -o CMakeFiles/stratum.dir/socket.cpp.s
 
 CMakeFiles/stratum.dir/stratum.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/stratum.cpp.o: ../stratum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/stratum.dir/stratum.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/stratum.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/stratum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/stratum.dir/stratum.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/stratum.cpp.o -c /home/pool/stratum/stratum.cpp
 
 CMakeFiles/stratum.dir/stratum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/stratum.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/stratum.cpp > CMakeFiles/stratum.dir/stratum.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/stratum.cpp > CMakeFiles/stratum.dir/stratum.cpp.i
 
 CMakeFiles/stratum.dir/stratum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/stratum.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/stratum.cpp -o CMakeFiles/stratum.dir/stratum.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/stratum.cpp -o CMakeFiles/stratum.dir/stratum.cpp.s
 
 CMakeFiles/stratum.dir/user.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/user.cpp.o: ../user.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/stratum.dir/user.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/user.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/user.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/stratum.dir/user.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/user.cpp.o -c /home/pool/stratum/user.cpp
 
 CMakeFiles/stratum.dir/user.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/user.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/user.cpp > CMakeFiles/stratum.dir/user.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/user.cpp > CMakeFiles/stratum.dir/user.cpp.i
 
 CMakeFiles/stratum.dir/user.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/user.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/user.cpp -o CMakeFiles/stratum.dir/user.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/user.cpp -o CMakeFiles/stratum.dir/user.cpp.s
 
 CMakeFiles/stratum.dir/util.cpp.o: CMakeFiles/stratum.dir/flags.make
 CMakeFiles/stratum.dir/util.cpp.o: ../util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/stratum.dir/util.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/util.cpp.o -c /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/stratum.dir/util.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stratum.dir/util.cpp.o -c /home/pool/stratum/util.cpp
 
 CMakeFiles/stratum.dir/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stratum.dir/util.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/util.cpp > CMakeFiles/stratum.dir/util.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pool/stratum/util.cpp > CMakeFiles/stratum.dir/util.cpp.i
 
 CMakeFiles/stratum.dir/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stratum.dir/util.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/util.cpp -o CMakeFiles/stratum.dir/util.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pool/stratum/util.cpp -o CMakeFiles/stratum.dir/util.cpp.s
 
 # Object files for target stratum
 stratum_OBJECTS = \
@@ -2011,6 +2024,7 @@ stratum_OBJECTS = \
 "CMakeFiles/stratum.dir/algos/Lyra2.c.o" \
 "CMakeFiles/stratum.dir/algos/lyra2re.c.o" \
 "CMakeFiles/stratum.dir/algos/lyra2v2.c.o" \
+"CMakeFiles/stratum.dir/algos/lyra2v3.c.o" \
 "CMakeFiles/stratum.dir/algos/lyra2z.c.o" \
 "CMakeFiles/stratum.dir/algos/m7m.c.o" \
 "CMakeFiles/stratum.dir/algos/magimath.cpp.o" \
@@ -2162,6 +2176,7 @@ stratum: CMakeFiles/stratum.dir/algos/Lyra2-z.c.o
 stratum: CMakeFiles/stratum.dir/algos/Lyra2.c.o
 stratum: CMakeFiles/stratum.dir/algos/lyra2re.c.o
 stratum: CMakeFiles/stratum.dir/algos/lyra2v2.c.o
+stratum: CMakeFiles/stratum.dir/algos/lyra2v3.c.o
 stratum: CMakeFiles/stratum.dir/algos/lyra2z.c.o
 stratum: CMakeFiles/stratum.dir/algos/m7m.c.o
 stratum: CMakeFiles/stratum.dir/algos/magimath.cpp.o
@@ -2270,7 +2285,7 @@ stratum: CMakeFiles/stratum.dir/user.cpp.o
 stratum: CMakeFiles/stratum.dir/util.cpp.o
 stratum: CMakeFiles/stratum.dir/build.make
 stratum: CMakeFiles/stratum.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Linking CXX executable stratum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pool/stratum/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Linking CXX executable stratum"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stratum.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -2283,6 +2298,6 @@ CMakeFiles/stratum.dir/clean:
 .PHONY : CMakeFiles/stratum.dir/clean
 
 CMakeFiles/stratum.dir/depend:
-	cd /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles/stratum.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pool/stratum/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pool/stratum /home/pool/stratum /home/pool/stratum/cmake-build-debug /home/pool/stratum/cmake-build-debug /home/pool/stratum/cmake-build-debug/CMakeFiles/stratum.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/stratum.dir/depend
 

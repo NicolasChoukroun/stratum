@@ -141,6 +141,7 @@ bool client_validate_user_address(YAAMP_CLIENT *client)
 		}
 		if (client_auth_by_workers(client)) {
 			// client->coinid filled
+            clientlog(client, "client->coinid filled, return true");
 			return true;
 		}
 	}
@@ -150,9 +151,7 @@ bool client_validate_user_address(YAAMP_CLIENT *client)
 			YAAMP_COIND *coind = (YAAMP_COIND *)li->data;
 			debuglog("user %s testing on coin %s ...\n", client->username, coind->symbol);
 			//if(!coind_can_mine(coind)) continue;
-            //debuglog("passed coind_can_mine\n");
 			if(strlen(g_current_algo->name) && strcmp(g_current_algo->name, coind->algo)) continue;
-            debuglog("passed algoname check\n");
 			if(coind_validate_user_address(coind, client->username)) {
 				debuglog("new user %s for coin %s\n", client->username, coind->symbol);
 				client->coinid = coind->id;
@@ -166,9 +165,10 @@ bool client_validate_user_address(YAAMP_CLIENT *client)
 	}
 
 	if (!client->coinid) {
+        clientlog(client, "no coinid, return false");
 		return false;
 	}
-    debuglog("check part 2\n");
+
 	YAAMP_COIND *coind = (YAAMP_COIND *)object_find(&g_list_coind, client->coinid);
 	if (!coind) {
 		clientlog(client, "unable to find the wallet for coinid %d...", client->coinid);
@@ -183,10 +183,12 @@ bool client_validate_user_address(YAAMP_CLIENT *client)
 			return false;
 		}
 	}
-    debuglog("now validate\n");
+
 	bool isvalid = coind_validate_user_address(coind, client->username);
 	if (isvalid) {
 		client->coinid = coind->id;
+        clientlog(client, "isvalid is true");
+
 	} else {
 		clientlog(client, "unable to verify %s address for user coinid %d...", coind->symbol, client->coinid);
 	}
@@ -232,7 +234,7 @@ bool client_authorize(YAAMP_CLIENT *client, json_value *json_params)
 	}
 
 	if (!is_base58(client->username)) {
-		clientlog(client, "bad mining address %s", client->username);
+        clientlog(client, "bad mining address 1 %s", client->username);
 		return false;
 	}
 
@@ -266,7 +268,7 @@ bool client_authorize(YAAMP_CLIENT *client, json_value *json_params)
 	// when auto exchange is disabled, only authorize good wallet address...
 	if (!g_autoexchange && !client_validate_user_address(client)) {
 
-		clientlog(client, "bad mining address %s", client->username);
+        clientlog(client, "bad mining address 2 %s", client->username);
 		client_send_result(client, "false");
 
 		CommonLock(&g_db_mutex);

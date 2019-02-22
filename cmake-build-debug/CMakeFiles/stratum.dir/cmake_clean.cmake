@@ -40,6 +40,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/stratum.dir/algos/Lyra2.c.o"
   "CMakeFiles/stratum.dir/algos/lyra2re.c.o"
   "CMakeFiles/stratum.dir/algos/lyra2v2.c.o"
+  "CMakeFiles/stratum.dir/algos/lyra2v3.c.o"
   "CMakeFiles/stratum.dir/algos/lyra2z.c.o"
   "CMakeFiles/stratum.dir/algos/m7m.c.o"
   "CMakeFiles/stratum.dir/algos/magimath.cpp.o"

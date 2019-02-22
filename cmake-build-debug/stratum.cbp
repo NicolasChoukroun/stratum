@@ -8,40 +8,40 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug"/>
+				<Option working_dir="/home/pool/stratum/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug"/>
+				<Option working_dir="/home/pool/stratum/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="stratum">
-				<Option output="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/stratum" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug"/>
+				<Option output="/home/pool/stratum/cmake-build-debug/stratum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pool/stratum/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/."/>
-					<Add directory="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos"/>
-					<Add directory="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2"/>
-					<Add directory="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/sj"/>
-					<Add directory="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2"/>
-					<Add directory="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/SWIFFTX"/>
-					<Add directory="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/src"/>
-					<Add directory="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3"/>
+					<Add directory="/home/pool/stratum/."/>
+					<Add directory="/home/pool/stratum/algos"/>
+					<Add directory="/home/pool/stratum/algos/ar2"/>
+					<Add directory="/home/pool/stratum/algos/ar2/sj"/>
+					<Add directory="/home/pool/stratum/algos/blake2"/>
+					<Add directory="/home/pool/stratum/algos/SWIFFTX"/>
+					<Add directory="/home/pool/stratum/iniparser/src"/>
+					<Add directory="/home/pool/stratum/sha3"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -52,27 +52,27 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 stratum"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 stratum"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="stratum/fast">
-				<Option output="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/stratum" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug"/>
+				<Option output="/home/pool/stratum/cmake-build-debug/stratum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pool/stratum/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/."/>
-					<Add directory="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos"/>
-					<Add directory="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2"/>
-					<Add directory="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/sj"/>
-					<Add directory="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2"/>
-					<Add directory="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/SWIFFTX"/>
-					<Add directory="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/src"/>
-					<Add directory="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3"/>
+					<Add directory="/home/pool/stratum/."/>
+					<Add directory="/home/pool/stratum/algos"/>
+					<Add directory="/home/pool/stratum/algos/ar2"/>
+					<Add directory="/home/pool/stratum/algos/ar2/sj"/>
+					<Add directory="/home/pool/stratum/algos/blake2"/>
+					<Add directory="/home/pool/stratum/algos/SWIFFTX"/>
+					<Add directory="/home/pool/stratum/iniparser/src"/>
+					<Add directory="/home/pool/stratum/sha3"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -83,903 +83,909 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 stratum/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 stratum/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug"/>
+				<Option working_dir="/home/pool/stratum/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/Lyra2-z.c">
+		<Unit filename="/home/pool/stratum/algos/Lyra2-z.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/Lyra2-z.h">
+		<Unit filename="/home/pool/stratum/algos/Lyra2-z.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/Lyra2.c">
+		<Unit filename="/home/pool/stratum/algos/Lyra2.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/Lyra2.h">
+		<Unit filename="/home/pool/stratum/algos/Lyra2.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/SWIFFTX/SWIFFTX.c">
+		<Unit filename="/home/pool/stratum/algos/SWIFFTX/SWIFFTX.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/SWIFFTX/SWIFFTX.h">
+		<Unit filename="/home/pool/stratum/algos/SWIFFTX/SWIFFTX.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/SWIFFTX/inttypes.h">
+		<Unit filename="/home/pool/stratum/algos/SWIFFTX/inttypes.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/SWIFFTX/stdbool.h">
+		<Unit filename="/home/pool/stratum/algos/SWIFFTX/stdbool.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/SWIFFTX/stdint.h">
+		<Unit filename="/home/pool/stratum/algos/SWIFFTX/stdint.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/Sponge.c">
+		<Unit filename="/home/pool/stratum/algos/Sponge.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/Sponge.h">
+		<Unit filename="/home/pool/stratum/algos/Sponge.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/a5a.c">
+		<Unit filename="/home/pool/stratum/algos/a5a.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/a5a.h">
+		<Unit filename="/home/pool/stratum/algos/a5a.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/a5amath.c">
+		<Unit filename="/home/pool/stratum/algos/a5amath.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/a5amath.h">
+		<Unit filename="/home/pool/stratum/algos/a5amath.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/aergo.c">
+		<Unit filename="/home/pool/stratum/algos/aergo.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/aergo.h">
+		<Unit filename="/home/pool/stratum/algos/aergo.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/allium.c">
+		<Unit filename="/home/pool/stratum/algos/allium.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/allium.h">
+		<Unit filename="/home/pool/stratum/algos/allium.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/ar2-scrypt-jane.c">
+		<Unit filename="/home/pool/stratum/algos/ar2/ar2-scrypt-jane.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/ar2-scrypt-jane.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/ar2-scrypt-jane.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/argon2.c">
+		<Unit filename="/home/pool/stratum/algos/ar2/argon2.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/argon2.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/argon2.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/core.c">
+		<Unit filename="/home/pool/stratum/algos/ar2/core.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/core.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/core.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/encoding.c">
+		<Unit filename="/home/pool/stratum/algos/ar2/encoding.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/encoding.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/encoding.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/opt.c">
+		<Unit filename="/home/pool/stratum/algos/ar2/opt.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/sj/scrypt-jane-hash.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-hash.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/sj/scrypt-jane-hash_skein512.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-hash_skein512.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64-avx.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64-avx.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64-avx2.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64-avx2.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64-sse2.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64-sse2.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64-ssse3.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64-ssse3.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64-xop.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64-xop.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/sj/scrypt-jane-pbkdf2.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-pbkdf2.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/sj/scrypt-jane-portable-x86.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-portable-x86.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/sj/scrypt-jane-portable.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-portable.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/sj/scrypt-jane-romix-basic.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-romix-basic.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/sj/scrypt-jane-romix-template.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-romix-template.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/sj/scrypt-jane-romix.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-romix.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/sj/scrypt-jane-salsa64.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-salsa64.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/sj/scrypt-jane-test-vectors.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-test-vectors.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/thread.c">
+		<Unit filename="/home/pool/stratum/algos/ar2/thread.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/thread.h">
+		<Unit filename="/home/pool/stratum/algos/ar2/thread.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/argon2a.c">
+		<Unit filename="/home/pool/stratum/algos/argon2a.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/argon2a.h">
+		<Unit filename="/home/pool/stratum/algos/argon2a.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/argon2d-dyn.c">
+		<Unit filename="/home/pool/stratum/algos/argon2d-dyn.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/argon2d-dyn.h">
+		<Unit filename="/home/pool/stratum/algos/argon2d-dyn.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/bastion.c">
+		<Unit filename="/home/pool/stratum/algos/bastion.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/bastion.h">
+		<Unit filename="/home/pool/stratum/algos/bastion.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/bitcore.c">
+		<Unit filename="/home/pool/stratum/algos/bitcore.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/bitcore.h">
+		<Unit filename="/home/pool/stratum/algos/bitcore.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake.c">
+		<Unit filename="/home/pool/stratum/algos/blake.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake.h">
+		<Unit filename="/home/pool/stratum/algos/blake.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2/blake2-impl.h">
+		<Unit filename="/home/pool/stratum/algos/blake2/blake2-impl.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2/blake2.h">
+		<Unit filename="/home/pool/stratum/algos/blake2/blake2.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2/blake2b.c">
+		<Unit filename="/home/pool/stratum/algos/blake2/blake2b.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2/blamka-round-opt.h">
+		<Unit filename="/home/pool/stratum/algos/blake2/blamka-round-opt.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2/blamka-round-ref.h">
+		<Unit filename="/home/pool/stratum/algos/blake2/blamka-round-ref.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2b.c">
+		<Unit filename="/home/pool/stratum/algos/blake2b.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2b.h">
+		<Unit filename="/home/pool/stratum/algos/blake2b.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2s.c">
+		<Unit filename="/home/pool/stratum/algos/blake2s.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2s.h">
+		<Unit filename="/home/pool/stratum/algos/blake2s.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blakecoin.c">
+		<Unit filename="/home/pool/stratum/algos/blakecoin.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blakecoin.h">
+		<Unit filename="/home/pool/stratum/algos/blakecoin.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/bmw.c">
+		<Unit filename="/home/pool/stratum/algos/bmw.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/bmw.h">
+		<Unit filename="/home/pool/stratum/algos/bmw.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/c11.c">
+		<Unit filename="/home/pool/stratum/algos/c11.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/c11.h">
+		<Unit filename="/home/pool/stratum/algos/c11.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/common.h">
+		<Unit filename="/home/pool/stratum/algos/common.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/deep.c">
+		<Unit filename="/home/pool/stratum/algos/deep.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/deep.h">
+		<Unit filename="/home/pool/stratum/algos/deep.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/drop.c">
+		<Unit filename="/home/pool/stratum/algos/drop.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/drop.h">
+		<Unit filename="/home/pool/stratum/algos/drop.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/exosis.c">
+		<Unit filename="/home/pool/stratum/algos/exosis.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/exosis.h">
+		<Unit filename="/home/pool/stratum/algos/exosis.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/fresh.c">
+		<Unit filename="/home/pool/stratum/algos/fresh.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/fresh.h">
+		<Unit filename="/home/pool/stratum/algos/fresh.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/gost.c">
+		<Unit filename="/home/pool/stratum/algos/gost.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/gost.h">
+		<Unit filename="/home/pool/stratum/algos/gost.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/groestl.c">
+		<Unit filename="/home/pool/stratum/algos/groestl.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/groestl.h">
+		<Unit filename="/home/pool/stratum/algos/groestl.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/hex.c">
+		<Unit filename="/home/pool/stratum/algos/hex.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/hex.h">
+		<Unit filename="/home/pool/stratum/algos/hex.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/hive.c">
+		<Unit filename="/home/pool/stratum/algos/hive.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/hive.h">
+		<Unit filename="/home/pool/stratum/algos/hive.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/hmq17.c">
+		<Unit filename="/home/pool/stratum/algos/hmq17.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/hmq17.h">
+		<Unit filename="/home/pool/stratum/algos/hmq17.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/hsr14.c">
+		<Unit filename="/home/pool/stratum/algos/hsr14.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/hsr14.h">
+		<Unit filename="/home/pool/stratum/algos/hsr14.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/jha.c">
+		<Unit filename="/home/pool/stratum/algos/jha.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/jha.h">
+		<Unit filename="/home/pool/stratum/algos/jha.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/keccak.c">
+		<Unit filename="/home/pool/stratum/algos/keccak.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/keccak.h">
+		<Unit filename="/home/pool/stratum/algos/keccak.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lbk3.c">
+		<Unit filename="/home/pool/stratum/algos/lbk3.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lbk3.h">
+		<Unit filename="/home/pool/stratum/algos/lbk3.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lbry.c">
+		<Unit filename="/home/pool/stratum/algos/lbry.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lbry.h">
+		<Unit filename="/home/pool/stratum/algos/lbry.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/luffa.c">
+		<Unit filename="/home/pool/stratum/algos/luffa.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/luffa.h">
+		<Unit filename="/home/pool/stratum/algos/luffa.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lyra2re.c">
+		<Unit filename="/home/pool/stratum/algos/lyra2re.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lyra2re.h">
+		<Unit filename="/home/pool/stratum/algos/lyra2re.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lyra2v2.c">
+		<Unit filename="/home/pool/stratum/algos/lyra2v2.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lyra2v2.h">
+		<Unit filename="/home/pool/stratum/algos/lyra2v2.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lyra2z.c">
+		<Unit filename="/home/pool/stratum/algos/lyra2v3.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/lyra2z.h">
+		<Unit filename="/home/pool/stratum/algos/lyra2v3.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/m7m.c">
+		<Unit filename="/home/pool/stratum/algos/lyra2z.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/m7m.h">
+		<Unit filename="/home/pool/stratum/algos/lyra2z.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/magimath.cpp">
+		<Unit filename="/home/pool/stratum/algos/m7m.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/magimath.h">
+		<Unit filename="/home/pool/stratum/algos/m7m.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/neoscrypt.c">
+		<Unit filename="/home/pool/stratum/algos/magimath.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/neoscrypt.h">
+		<Unit filename="/home/pool/stratum/algos/magimath.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/nist5.c">
+		<Unit filename="/home/pool/stratum/algos/neoscrypt.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/nist5.h">
+		<Unit filename="/home/pool/stratum/algos/neoscrypt.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/pentablake.c">
+		<Unit filename="/home/pool/stratum/algos/nist5.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/pentablake.h">
+		<Unit filename="/home/pool/stratum/algos/nist5.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/phi.c">
+		<Unit filename="/home/pool/stratum/algos/pentablake.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/phi.h">
+		<Unit filename="/home/pool/stratum/algos/pentablake.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/phi2.c">
+		<Unit filename="/home/pool/stratum/algos/phi.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/phi2.h">
+		<Unit filename="/home/pool/stratum/algos/phi.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/polytimos.c">
+		<Unit filename="/home/pool/stratum/algos/phi2.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/polytimos.h">
+		<Unit filename="/home/pool/stratum/algos/phi2.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/pomelo.c">
+		<Unit filename="/home/pool/stratum/algos/polytimos.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/pomelo.h">
+		<Unit filename="/home/pool/stratum/algos/polytimos.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/quark.c">
+		<Unit filename="/home/pool/stratum/algos/pomelo.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/quark.h">
+		<Unit filename="/home/pool/stratum/algos/pomelo.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/qubit.c">
+		<Unit filename="/home/pool/stratum/algos/quark.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/qubit.h">
+		<Unit filename="/home/pool/stratum/algos/quark.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/rainforest.c">
+		<Unit filename="/home/pool/stratum/algos/qubit.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/rainforest.h">
+		<Unit filename="/home/pool/stratum/algos/qubit.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/scrypt.c">
+		<Unit filename="/home/pool/stratum/algos/rainforest.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/scryptn.c">
+		<Unit filename="/home/pool/stratum/algos/rainforest.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/scryptn.h">
+		<Unit filename="/home/pool/stratum/algos/scrypt.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sha256.c">
+		<Unit filename="/home/pool/stratum/algos/scryptn.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sha256.h">
+		<Unit filename="/home/pool/stratum/algos/scryptn.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sha256_Y.c">
+		<Unit filename="/home/pool/stratum/algos/sha256.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sha256_Y.h">
+		<Unit filename="/home/pool/stratum/algos/sha256.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sha256q.c">
+		<Unit filename="/home/pool/stratum/algos/sha256_Y.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sha256q.h">
+		<Unit filename="/home/pool/stratum/algos/sha256_Y.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sha256t.c">
+		<Unit filename="/home/pool/stratum/algos/sha256q.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sha256t.h">
+		<Unit filename="/home/pool/stratum/algos/sha256q.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sib.c">
+		<Unit filename="/home/pool/stratum/algos/sha256t.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sib.h">
+		<Unit filename="/home/pool/stratum/algos/sha256t.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/skein.c">
+		<Unit filename="/home/pool/stratum/algos/sib.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/skein.h">
+		<Unit filename="/home/pool/stratum/algos/sib.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/skein2.c">
+		<Unit filename="/home/pool/stratum/algos/skein.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/skein2.h">
+		<Unit filename="/home/pool/stratum/algos/skein.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/skunk.c">
+		<Unit filename="/home/pool/stratum/algos/skein2.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/skunk.h">
+		<Unit filename="/home/pool/stratum/algos/skein2.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sm3.c">
+		<Unit filename="/home/pool/stratum/algos/skunk.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sm3.h">
+		<Unit filename="/home/pool/stratum/algos/skunk.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sonoa.c">
+		<Unit filename="/home/pool/stratum/algos/sm3.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sonoa.h">
+		<Unit filename="/home/pool/stratum/algos/sm3.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/sysendian.h">
+		<Unit filename="/home/pool/stratum/algos/sonoa.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/timetravel.c">
+		<Unit filename="/home/pool/stratum/algos/sonoa.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/timetravel.h">
+		<Unit filename="/home/pool/stratum/algos/sysendian.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/tribus.c">
+		<Unit filename="/home/pool/stratum/algos/timetravel.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/tribus.h">
+		<Unit filename="/home/pool/stratum/algos/timetravel.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/veltor.c">
+		<Unit filename="/home/pool/stratum/algos/tribus.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/veltor.h">
+		<Unit filename="/home/pool/stratum/algos/tribus.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/velvet.c">
+		<Unit filename="/home/pool/stratum/algos/veltor.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/velvet.h">
+		<Unit filename="/home/pool/stratum/algos/veltor.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/vitalium.c">
+		<Unit filename="/home/pool/stratum/algos/velvet.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/vitalium.h">
+		<Unit filename="/home/pool/stratum/algos/velvet.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/whirlpool.c">
+		<Unit filename="/home/pool/stratum/algos/vitalium.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/whirlpool.h">
+		<Unit filename="/home/pool/stratum/algos/vitalium.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/whirlpoolx.c">
+		<Unit filename="/home/pool/stratum/algos/whirlpool.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/whirlpoolx.h">
+		<Unit filename="/home/pool/stratum/algos/whirlpool.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x11.c">
+		<Unit filename="/home/pool/stratum/algos/whirlpoolx.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x11.h">
+		<Unit filename="/home/pool/stratum/algos/whirlpoolx.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x11evo.c">
+		<Unit filename="/home/pool/stratum/algos/x11.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x11evo.h">
+		<Unit filename="/home/pool/stratum/algos/x11.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x12.c">
+		<Unit filename="/home/pool/stratum/algos/x11evo.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x12.h">
+		<Unit filename="/home/pool/stratum/algos/x11evo.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x13.c">
+		<Unit filename="/home/pool/stratum/algos/x12.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x13.h">
+		<Unit filename="/home/pool/stratum/algos/x12.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x14.c">
+		<Unit filename="/home/pool/stratum/algos/x13.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x14.h">
+		<Unit filename="/home/pool/stratum/algos/x13.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x15.c">
+		<Unit filename="/home/pool/stratum/algos/x14.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x15.h">
+		<Unit filename="/home/pool/stratum/algos/x14.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x16r.c">
+		<Unit filename="/home/pool/stratum/algos/x15.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x16r.h">
+		<Unit filename="/home/pool/stratum/algos/x15.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x16s.c">
+		<Unit filename="/home/pool/stratum/algos/x16r.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x16s.h">
+		<Unit filename="/home/pool/stratum/algos/x16r.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x17.c">
+		<Unit filename="/home/pool/stratum/algos/x16s.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x17.h">
+		<Unit filename="/home/pool/stratum/algos/x16s.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x22i.c">
+		<Unit filename="/home/pool/stratum/algos/x17.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/x22i.h">
+		<Unit filename="/home/pool/stratum/algos/x17.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/xevan.c">
+		<Unit filename="/home/pool/stratum/algos/x22i.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/xevan.h">
+		<Unit filename="/home/pool/stratum/algos/x22i.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/yescrypt-opt.c">
+		<Unit filename="/home/pool/stratum/algos/xevan.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/yescrypt-platform.c">
+		<Unit filename="/home/pool/stratum/algos/xevan.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/yescrypt.c">
+		<Unit filename="/home/pool/stratum/algos/yescrypt-opt.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/yescrypt.h">
+		<Unit filename="/home/pool/stratum/algos/yescrypt-platform.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/zr5.c">
+		<Unit filename="/home/pool/stratum/algos/yescrypt.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/zr5.h">
+		<Unit filename="/home/pool/stratum/algos/yescrypt.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/base58.cpp">
+		<Unit filename="/home/pool/stratum/algos/zr5.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/client.cpp">
+		<Unit filename="/home/pool/stratum/algos/zr5.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/client.h">
+		<Unit filename="/home/pool/stratum/base58.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/client_core.cpp">
+		<Unit filename="/home/pool/stratum/client.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/client_difficulty.cpp">
+		<Unit filename="/home/pool/stratum/client.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/client_submit.cpp">
+		<Unit filename="/home/pool/stratum/client_core.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coinbase.cpp">
+		<Unit filename="/home/pool/stratum/client_difficulty.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coind.cpp">
+		<Unit filename="/home/pool/stratum/client_submit.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coind.h">
+		<Unit filename="/home/pool/stratum/coinbase.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coind_aux.cpp">
+		<Unit filename="/home/pool/stratum/coind.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coind_submit.cpp">
+		<Unit filename="/home/pool/stratum/coind.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/coind_template.cpp">
+		<Unit filename="/home/pool/stratum/coind_aux.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/db.cpp">
+		<Unit filename="/home/pool/stratum/coind_submit.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/db.h">
+		<Unit filename="/home/pool/stratum/coind_template.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/src/dictionary.c">
+		<Unit filename="/home/pool/stratum/db.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/src/dictionary.h">
+		<Unit filename="/home/pool/stratum/db.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/src/iniparser.c">
+		<Unit filename="/home/pool/stratum/iniparser/src/dictionary.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/src/iniparser.h">
+		<Unit filename="/home/pool/stratum/iniparser/src/dictionary.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/test/iniexample.c">
+		<Unit filename="/home/pool/stratum/iniparser/src/iniparser.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/test/parse.c">
+		<Unit filename="/home/pool/stratum/iniparser/src/iniparser.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/job.cpp">
+		<Unit filename="/home/pool/stratum/iniparser/test/iniexample.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/job.h">
+		<Unit filename="/home/pool/stratum/iniparser/test/parse.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/job_core.cpp">
+		<Unit filename="/home/pool/stratum/job.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/job_send.cpp">
+		<Unit filename="/home/pool/stratum/job.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/json.cpp">
+		<Unit filename="/home/pool/stratum/job_core.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/json.h">
+		<Unit filename="/home/pool/stratum/job_send.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/list.cpp">
+		<Unit filename="/home/pool/stratum/json.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/merkle.cpp">
+		<Unit filename="/home/pool/stratum/json.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/object.cpp">
+		<Unit filename="/home/pool/stratum/list.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/object.h">
+		<Unit filename="/home/pool/stratum/merkle.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/remote.cpp">
+		<Unit filename="/home/pool/stratum/object.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/remote.h">
+		<Unit filename="/home/pool/stratum/object.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/remote_template.cpp">
+		<Unit filename="/home/pool/stratum/remote.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/rpc.cpp">
+		<Unit filename="/home/pool/stratum/remote.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/rpc.h">
+		<Unit filename="/home/pool/stratum/remote_template.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/rpc_curl.cpp">
+		<Unit filename="/home/pool/stratum/rpc.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/aes_helper.c">
+		<Unit filename="/home/pool/stratum/rpc.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/blake2b.c">
+		<Unit filename="/home/pool/stratum/rpc_curl.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/blake2b.h">
+		<Unit filename="/home/pool/stratum/sha3/aes_helper.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/blake2s.c">
+		<Unit filename="/home/pool/stratum/sha3/blake2b.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/blake2s.h">
+		<Unit filename="/home/pool/stratum/sha3/blake2b.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/hamsi_helper.c">
+		<Unit filename="/home/pool/stratum/sha3/blake2s.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/haval_helper.c">
+		<Unit filename="/home/pool/stratum/sha3/blake2s.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/md_helper.c">
+		<Unit filename="/home/pool/stratum/sha3/hamsi_helper.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_blake.c">
+		<Unit filename="/home/pool/stratum/sha3/haval_helper.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_blake.h">
+		<Unit filename="/home/pool/stratum/sha3/md_helper.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_bmw.c">
+		<Unit filename="/home/pool/stratum/sha3/sph_blake.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_bmw.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_blake.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_cubehash.c">
+		<Unit filename="/home/pool/stratum/sha3/sph_bmw.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_cubehash.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_bmw.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_echo.c">
+		<Unit filename="/home/pool/stratum/sha3/sph_cubehash.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_echo.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_cubehash.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_fugue.c">
+		<Unit filename="/home/pool/stratum/sha3/sph_echo.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_fugue.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_echo.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_groestl.c">
+		<Unit filename="/home/pool/stratum/sha3/sph_fugue.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_groestl.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_fugue.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_hamsi.c">
+		<Unit filename="/home/pool/stratum/sha3/sph_groestl.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_hamsi.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_groestl.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_haval.c">
+		<Unit filename="/home/pool/stratum/sha3/sph_hamsi.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_haval.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_hamsi.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_hefty1.c">
+		<Unit filename="/home/pool/stratum/sha3/sph_haval.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_hefty1.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_haval.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_jh.c">
+		<Unit filename="/home/pool/stratum/sha3/sph_hefty1.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_jh.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_hefty1.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_keccak.c">
+		<Unit filename="/home/pool/stratum/sha3/sph_jh.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_keccak.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_jh.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_luffa.c">
+		<Unit filename="/home/pool/stratum/sha3/sph_keccak.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_luffa.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_keccak.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_ripemd.c">
+		<Unit filename="/home/pool/stratum/sha3/sph_luffa.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_ripemd.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_luffa.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_sha2.c">
+		<Unit filename="/home/pool/stratum/sha3/sph_ripemd.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_sha2.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_ripemd.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_sha2big.c">
+		<Unit filename="/home/pool/stratum/sha3/sph_sha2.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_shabal.c">
+		<Unit filename="/home/pool/stratum/sha3/sph_sha2.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_shabal.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_sha2big.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_shavite.c">
+		<Unit filename="/home/pool/stratum/sha3/sph_shabal.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_shavite.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_shabal.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_simd.c">
+		<Unit filename="/home/pool/stratum/sha3/sph_shavite.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_simd.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_shavite.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_skein.c">
+		<Unit filename="/home/pool/stratum/sha3/sph_simd.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_skein.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_simd.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_tiger.c">
+		<Unit filename="/home/pool/stratum/sha3/sph_skein.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_tiger.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_skein.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_types.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_tiger.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_whirlpool.c">
+		<Unit filename="/home/pool/stratum/sha3/sph_tiger.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3/sph_whirlpool.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_types.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/share.cpp">
+		<Unit filename="/home/pool/stratum/sha3/sph_whirlpool.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/share.h">
+		<Unit filename="/home/pool/stratum/sha3/sph_whirlpool.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/socket.cpp">
+		<Unit filename="/home/pool/stratum/share.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/socket.h">
+		<Unit filename="/home/pool/stratum/share.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/stratum.cpp">
+		<Unit filename="/home/pool/stratum/socket.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/stratum.h">
+		<Unit filename="/home/pool/stratum/socket.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/user.cpp">
+		<Unit filename="/home/pool/stratum/stratum.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/util.cpp">
+		<Unit filename="/home/pool/stratum/stratum.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/util.h">
+		<Unit filename="/home/pool/stratum/user.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/CMakeLists.txt">
+		<Unit filename="/home/pool/stratum/util.cpp">
+			<Option target="stratum"/>
+		</Unit>
+		<Unit filename="/home/pool/stratum/util.h">
+			<Option target="stratum"/>
+		</Unit>
+		<Unit filename="/home/pool/stratum/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

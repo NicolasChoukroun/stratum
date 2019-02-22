@@ -117,6 +117,8 @@ add_executable(stratum
         algos/lyra2re.h
         algos/lyra2v2.c
         algos/lyra2v2.h
+        algos/lyra2v3.c
+        algos/lyra2v3.h
         algos/lyra2z.c
         algos/lyra2z.h
         algos/m7m.c

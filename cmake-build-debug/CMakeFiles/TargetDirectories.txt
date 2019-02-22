@@ -1,3 +1,3 @@
-/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles/stratum.dir
-/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pool/stratum/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pool/stratum/cmake-build-debug/CMakeFiles/stratum.dir
+/home/pool/stratum/cmake-build-debug/CMakeFiles/edit_cache.dir

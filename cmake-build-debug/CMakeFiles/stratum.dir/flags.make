@@ -7,11 +7,11 @@ C_FLAGS = -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/. -I/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos -I/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2 -I/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/sj -I/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2 -I/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/SWIFFTX -I/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/src -I/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3 
+C_INCLUDES = -I/home/pool/stratum/. -I/home/pool/stratum/algos -I/home/pool/stratum/algos/ar2 -I/home/pool/stratum/algos/ar2/sj -I/home/pool/stratum/algos/blake2 -I/home/pool/stratum/algos/SWIFFTX -I/home/pool/stratum/iniparser/src -I/home/pool/stratum/sha3 
 
 CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/. -I/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos -I/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2 -I/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/ar2/sj -I/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/blake2 -I/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/algos/SWIFFTX -I/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/iniparser/src -I/root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/sha3 
+CXX_INCLUDES = -I/home/pool/stratum/. -I/home/pool/stratum/algos -I/home/pool/stratum/algos/ar2 -I/home/pool/stratum/algos/ar2/sj -I/home/pool/stratum/algos/blake2 -I/home/pool/stratum/algos/SWIFFTX -I/home/pool/stratum/iniparser/src -I/home/pool/stratum/sha3 
 

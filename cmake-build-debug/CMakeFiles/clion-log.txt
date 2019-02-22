@@ -1,4 +1,4 @@
-/home/pool/clion-2018.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum
+/root/Desktop/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/pool/stratum
 -- The C compiler identification is GNU 5.5.0
 -- The CXX compiler identification is GNU 5.5.0
 -- Check for working C compiler: /usr/bin/cc
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug
+-- Build files have been written to: /home/pool/stratum/cmake-build-debug

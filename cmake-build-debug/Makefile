@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/pool/clion-2018.3.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /root/Desktop/clion-2018.3.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/pool/clion-2018.3.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /root/Desktop/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum
+CMAKE_SOURCE_DIR = /home/pool/stratum
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug
+CMAKE_BINARY_DIR = /home/pool/stratum/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /root/yiimp-install-only-do-not-run-commands-from-this-folder
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/pool/clion-2018.3.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/root/Desktop/clion-2018.3.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/pool/clion-2018.3.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/root/Desktop/clion-2018.3.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pool/stratum/cmake-build-debug/CMakeFiles /home/pool/stratum/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/yiimp-install-only-do-not-run-commands-from-this-folder/stratum/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pool/stratum/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -1256,6 +1256,33 @@ algos/lyra2v2.s: algos/lyra2v2.c.s
 algos/lyra2v2.c.s:
 	$(MAKE) -f CMakeFiles/stratum.dir/build.make CMakeFiles/stratum.dir/algos/lyra2v2.c.s
 .PHONY : algos/lyra2v2.c.s
+
+algos/lyra2v3.o: algos/lyra2v3.c.o
+
+.PHONY : algos/lyra2v3.o
+
+# target to build an object file
+algos/lyra2v3.c.o:
+	$(MAKE) -f CMakeFiles/stratum.dir/build.make CMakeFiles/stratum.dir/algos/lyra2v3.c.o
+.PHONY : algos/lyra2v3.c.o
+
+algos/lyra2v3.i: algos/lyra2v3.c.i
+
+.PHONY : algos/lyra2v3.i
+
+# target to preprocess a source file
+algos/lyra2v3.c.i:
+	$(MAKE) -f CMakeFiles/stratum.dir/build.make CMakeFiles/stratum.dir/algos/lyra2v3.c.i
+.PHONY : algos/lyra2v3.c.i
+
+algos/lyra2v3.s: algos/lyra2v3.c.s
+
+.PHONY : algos/lyra2v3.s
+
+# target to generate assembly for a file
+algos/lyra2v3.c.s:
+	$(MAKE) -f CMakeFiles/stratum.dir/build.make CMakeFiles/stratum.dir/algos/lyra2v3.c.s
+.PHONY : algos/lyra2v3.c.s
 
 algos/lyra2z.o: algos/lyra2z.c.o
 
@@ -4227,6 +4254,9 @@ help:
 	@echo "... algos/lyra2v2.o"
 	@echo "... algos/lyra2v2.i"
 	@echo "... algos/lyra2v2.s"
+	@echo "... algos/lyra2v3.o"
+	@echo "... algos/lyra2v3.i"
+	@echo "... algos/lyra2v3.s"
 	@echo "... algos/lyra2z.o"
 	@echo "... algos/lyra2z.i"
 	@echo "... algos/lyra2z.s"
