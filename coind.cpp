@@ -69,37 +69,39 @@ void coind_sort()
 bool coind_can_mine(YAAMP_COIND *coind, bool isaux)
 {
     if (coind->deleted) {
-        printf("%s: coind_can_mine: coin is deleted =>false\n"), coind->name;
+        printf("%s: coind_can_mine: coin is deleted =>false\n", (char *)coind->name);
         return false;
     }
     if (!coind->enable) {
-        printf("%s: coind_can_mine: coin is disabled =>false\n"), coind->name;
+        printf("%s: coind_can_mine: coin is disabled =>false\n", (char *)coind->name);
         return false;
     }
     if (!coind->auto_ready) {
-        printf("%s: coind_can_mine: coin is not read =>false\n"), coind->name;
+        printf("%s: coind_can_mine: coin is not read =>false\n", (char *)coind->name);
         return false;
     }
     if (!rpc_connected(&coind->rpc)) {
-        printf("%s: coind_can_mine: RPC is not connected =>false\n", coind->name);
+        printf("%s: coind_can_mine: RPC is not connected =>false\n", (char *)coind->name);
         return false;
     }
-    /*if(!coind->height) {
+    if(!coind->height) {
         printf("coind_can_mine: coin height is 0 (1 is minimum) =>false\n");
         return false;
-    }*/
+    }
     if (!coind->difficulty) {
-        printf("%s: coind_can_mine: coin difficulty is not set =>false\n", coind->name);
+        printf("%s: coind_can_mine: coin difficulty is not set =>false\n", (char *)coind->name);
         return false;
     }
     if (coind->isaux != isaux) {
-        printf("%s: coind_can_mine: coin isaux<> isaux =>false\n", coind->name);
+        printf("%s: coind_can_mine: coin isaux<> isaux =>false\n", (char *)coind->name);
         return false;
     }
-//	if(isaux && !coind->aux.chainid) return false;
-    printf("%s: coind_can_mine: all test passed: true\n", coind->name);
+    if(isaux && !coind->aux.chainid) return false;
+
+    printf("%s: coind_can_mine: all test passed: true\n", (char *)coind->name);
 	return true;
 }
+
 
 ///////////////////////////////////////////////////////////////////////////////
 
