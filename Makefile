@@ -61,9 +61,9 @@ clean:
 
 install: clean all
 	strip -s stratum
-	rm /usr/local/bin/stratum
-	rm /var/stratum/stratum
-	cp stratum /usr/local/bin/
-	cp stratum /var/stratum/stratum
-	cp stratum ../bin/
+	rm -f /usr/local/bin/stratum
+	rm -f /var/stratum/stratum
+	cp -f stratum /usr/local/bin/
+	cp -f stratum /var/stratum/stratum
+	cp -f stratum ../bin/
 
