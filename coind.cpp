@@ -11,7 +11,6 @@ void coind_error(YAAMP_COIND *coind, const char *s)
 
 double coind_profitability(YAAMP_COIND *coind)
 {
-    //prinf("%s: Current Algo= %s \n",coind->name,g_current_algo->name);
 	if(!coind->difficulty) return 0;
 	if(coind->pool_ttf > g_stratum_max_ttf) return 0;
 
@@ -68,46 +67,46 @@ void coind_sort()
 
 bool coind_can_mine(YAAMP_COIND *coind, bool isaux)
 {
-    if (coind->deleted) {
-        printf("%s: coind_can_mine: coin is deleted =>false\n", (char *)coind->name);
-        return false;
-    }
-    if (!coind->enable) {
-        printf("%s: coind_can_mine: coin is disabled =>false\n", (char *)coind->name);
-        return false;
-    }
-    if (!coind->auto_ready) {
-        printf("%s: coind_can_mine: coin is not read =>false\n", (char *)coind->name);
-        return false;
-    }
-    if (!rpc_connected(&coind->rpc)) {
-        printf("%s: coind_can_mine: RPC is not connected =>false\n", (char *)coind->name);
-        return false;
-    }
-    if(!coind->height) {
-        printf("coind_can_mine: coin height is 0 (1 is minimum) =>false\n");
-        return false;
-    }
-    if (!coind->difficulty) {
-        printf("%s: coind_can_mine: coin difficulty is not set =>false\n", (char *)coind->name);
-        return false;
-    }
-    if (coind->isaux != isaux) {
-        printf("%s: coind_can_mine: coin isaux<> isaux =>false\n", (char *)coind->name);
-        return false;
-    }
-    if(isaux && !coind->aux.chainid) return false;
 
-    printf("%s: coind_can_mine: all test passed: true\n", (char *)coind->name);
+    if(coind->deleted) {
+        printf("coind_can_mine: %s bad deleted\n",coind->name);
+        return false;
+    }
+	if(!coind->enable) {
+        printf("coind_can_mine: %s bad no enabled\n",coind->name);
+	    return false;
+	}
+	if(!coind->auto_ready) {
+        printf("coind_can_mine: %s bad not auto_ready\n",coind->name);
+	    return false;
+	}
+	if(!rpc_connected(&coind->rpc)) {
+        printf("coind_can_mine: %s No RPC\n",coind->name);
+        return false;
+    }
+	if(coind->height<0) {
+        printf("coind_can_mine: %s wrong height=%d \n",coind->name,coind->height);
+	    return false;
+	}
+	if(!coind->difficulty) {
+        printf("coind_can_mine: %s bad wrong difficulty: %lf \n",coind->name,coind->difficulty);
+	    return false;
+	}
+	if(coind->isaux != isaux) {
+        //printf("coind_can_mine: %s bad wrong isaux\n",coind->name);
+	    return false;
+	}
+	if(isaux && !coind->aux.chainid) return false;
+    printf("coind_can_mine: %s can mine ok\n",coind->name);
 	return true;
 }
-
 
 ///////////////////////////////////////////////////////////////////////////////
 
 bool coind_validate_user_address(YAAMP_COIND *coind, char* const address)
 {
 	if(!address[0]) return false;
+
 
 	char params[YAAMP_SMALLBUFSIZE];
 	sprintf(params, "[\"%s\"]", address);
@@ -117,7 +116,6 @@ bool coind_validate_user_address(YAAMP_COIND *coind, char* const address)
 
 	json_value *json_result = json_get_object(json, "result");
 	if(!json_result) {
-        printf("coind_validate_user_address: no json result => address invalid\n");
 		json_value_free(json);
 		return false;
 	}
@@ -134,20 +132,23 @@ bool coind_validate_user_address(YAAMP_COIND *coind, char* const address)
 
 bool coind_validate_address(YAAMP_COIND *coind)
 {
-    if (!coind->wallet[0]) {
-        printf("coind_validate_address: no wallet is set=>false\n");
-        return false;
-    }
+	if(!coind->wallet[0]) return false;
+
+	//return true;
+
 	char params[YAAMP_SMALLBUFSIZE];
 	sprintf(params, "[\"%s\"]", coind->wallet);
 
 	json_value *json;
-    bool getaddressinfo = ((strcmp(coind->symbol, "DGB") == 0) || (strcmp(coind->symbol2, "DGB") == 0));
+	bool getaddressinfo = ((strcmp(coind->symbol,"DGB") == 0) || (strcmp(coind->symbol2, "DGB") == 0));
 	if(getaddressinfo)
 		json = rpc_call(&coind->rpc, "getaddressinfo", params);
 	else
 		json = rpc_call(&coind->rpc, "validateaddress", params);
+
 	if(!json) return false;
+
+	printf("getaddressinfo=%s \n",(char *)json);
 
 	json_value *json_result = json_get_object(json, "result");
 	if(!json_result)
@@ -163,7 +164,7 @@ bool coind_validate_address(YAAMP_COIND *coind)
 	if(!ismine) stratumlog("%s wallet %s is not mine.\n", coind->name, coind->wallet);
 	else isvalid = ismine;
 
-    isvalid = ismine = true;
+    isvalid = ismine=true;
 
 	const char *p = json_get_string(json_result, "pubkey");
 	strcpy(coind->pubkey, p ? p : "");
@@ -189,12 +190,7 @@ bool coind_validate_address(YAAMP_COIND *coind)
 	}
 	json_value_free(json);
 
-    if (isvalid) printf("coind_validate_address: address is valid\n");
-    else printf("coind_validate_address: address is NOT valid\n");
-
-    if (ismine) printf("coind_validate_address: address is mine\n");
-    else printf("coind_validate_address: address is NOT mine\n");
-
+	return true;
 	return isvalid && ismine;
 }
 
@@ -227,7 +223,7 @@ void coind_init(YAAMP_COIND *coind)
 		}
 		if (!json) {
 			stratumlog("ERROR getaccountaddress %s\n", coind->name);
-			return;
+			//return;
 		}
 	}
 
