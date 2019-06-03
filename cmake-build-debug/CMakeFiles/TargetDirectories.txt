@@ -1,3 +1,3 @@
-/home/pool/stratum/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/pool/stratum/cmake-build-debug/CMakeFiles/stratum.dir
-/home/pool/stratum/cmake-build-debug/CMakeFiles/edit_cache.dir
+/var/stratum/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/var/stratum/cmake-build-debug/CMakeFiles/stratum.dir
+/var/stratum/cmake-build-debug/CMakeFiles/edit_cache.dir

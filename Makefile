@@ -65,4 +65,5 @@ install: clean all
 	rm -f /var/stratum/stratum
 	cp -f stratum /usr/local/bin/
 	cp -f stratum /var/stratum/stratum
+	cp -f stratum ../bin/
 

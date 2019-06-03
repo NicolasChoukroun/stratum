@@ -535,7 +535,7 @@ bool coind_create_job(YAAMP_COIND *coind, bool force)
 		templ->txcount == job_last->templ->txcount &&
 		strcmp(templ->coinb2, job_last->templ->coinb2) == 0)
 	{
-//		debuglog("coind_create_job %s %d same template %x \n", coind->name, coind->height, coind->job->id);
+		debuglog("coind_create_job %s %d same template %x \n", coind->name, coind->height, coind->job->id);
 		if (templ->txcount) {
 			templ->txsteps.clear();
 			templ->txdata.clear();
@@ -567,7 +567,7 @@ bool coind_create_job(YAAMP_COIND *coind, bool force)
 	if (templ->nbits && !coin_target) coin_target = 0xFFFF000000000000ULL; // under decode_compact min diff
 	coind->difficulty = target_to_diff(coin_target);
 
-//	stratumlog("%s %d diff %g %llx %s\n", coind->name, height, coind->difficulty, coin_target, templ->nbits);
+	stratumlog("%s %d diff %g %llx %s\n", coind->name, height, coind->difficulty, coin_target, templ->nbits);
 
 	coind->newblock = false;
 
@@ -593,7 +593,7 @@ bool coind_create_job(YAAMP_COIND *coind, bool force)
 	g_list_job.AddTail(coind->job);
 	CommonUnlock(&coind->mutex);
 
-//	debuglog("coind_create_job %s %d new job %x\n", coind->name, coind->height, coind->job->id);
+	debuglog("coind_create_job %s %d new job %x\n", coind->name, coind->height, coind->job->id);
 
 	return true;
 }

@@ -33,6 +33,7 @@ struct YAAMP_CLIENT_ALGO
 
 #define MIN_ADDRESS_LEN 30 /* BTC len can be as few as 26 chars, but gen. 33 or 34 */
 #define MAX_ADDRESS_LEN 35 /* DCR */
+#define MIN_PASSWORD 6
 
 class YAAMP_CLIENT: public YAAMP_OBJECT
 {

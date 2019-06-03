@@ -147,6 +147,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/stratum.dir/stratum.cpp.o"
   "CMakeFiles/stratum.dir/user.cpp.o"
   "CMakeFiles/stratum.dir/util.cpp.o"
+  "CMakeFiles/stratum.dir/md5.cpp.o"
   "stratum.pdb"
   "stratum"
 )

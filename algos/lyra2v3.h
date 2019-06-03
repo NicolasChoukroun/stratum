@@ -1,4 +1,3 @@
-    
 #ifndef LYRA2V3_H
 #define LYRA2V3_H
 

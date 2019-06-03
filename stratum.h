@@ -124,7 +124,6 @@ extern volatile bool g_exiting;
 #include "coind.h"
 #include "remote.h"
 #include "share.h"
-#include <arpa/inet.h>
 
 extern YAAMP_DB *g_db;
 extern YAAMP_ALGO g_algos[];
@@ -143,12 +142,7 @@ void sha256_double_hash(const char *input, char *output, unsigned int len);
 
 void scrypt_1024_1_1_256(const unsigned char *input, unsigned char *output);
 void scrypt_N_R_1_256(const char* input, char* output, uint32_t N, uint32_t R, uint32_t len);
-
-//const char *inet_ntop(int af, const void *src,char *dst, socklen_t size);
-//int inet_pton(int af, const char *src, void *dst);
-
 }
-
 
 void sha256_hash_hex(const char *input, char *output, unsigned int len);
 void sha256_double_hash_hex(const char *input, char *output, unsigned int len);

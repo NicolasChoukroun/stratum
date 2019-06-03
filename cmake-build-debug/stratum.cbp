@@ -8,40 +8,40 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/pool/stratum/cmake-build-debug"/>
+				<Option working_dir="/var/stratum/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/var/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/var/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/var/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/var/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/pool/stratum/cmake-build-debug"/>
+				<Option working_dir="/var/stratum/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/var/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/var/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/var/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/var/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="stratum">
-				<Option output="/home/pool/stratum/cmake-build-debug/stratum" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pool/stratum/cmake-build-debug"/>
+				<Option output="/var/stratum/cmake-build-debug/stratum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/var/stratum/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/pool/stratum/."/>
-					<Add directory="/home/pool/stratum/algos"/>
-					<Add directory="/home/pool/stratum/algos/ar2"/>
-					<Add directory="/home/pool/stratum/algos/ar2/sj"/>
-					<Add directory="/home/pool/stratum/algos/blake2"/>
-					<Add directory="/home/pool/stratum/algos/SWIFFTX"/>
-					<Add directory="/home/pool/stratum/iniparser/src"/>
-					<Add directory="/home/pool/stratum/sha3"/>
+					<Add directory="/var/stratum/."/>
+					<Add directory="/var/stratum/algos"/>
+					<Add directory="/var/stratum/algos/ar2"/>
+					<Add directory="/var/stratum/algos/ar2/sj"/>
+					<Add directory="/var/stratum/algos/blake2"/>
+					<Add directory="/var/stratum/algos/SWIFFTX"/>
+					<Add directory="/var/stratum/iniparser/src"/>
+					<Add directory="/var/stratum/sha3"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -52,27 +52,27 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 stratum"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/var/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 stratum"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/var/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/var/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/var/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="stratum/fast">
-				<Option output="/home/pool/stratum/cmake-build-debug/stratum" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pool/stratum/cmake-build-debug"/>
+				<Option output="/var/stratum/cmake-build-debug/stratum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/var/stratum/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/pool/stratum/."/>
-					<Add directory="/home/pool/stratum/algos"/>
-					<Add directory="/home/pool/stratum/algos/ar2"/>
-					<Add directory="/home/pool/stratum/algos/ar2/sj"/>
-					<Add directory="/home/pool/stratum/algos/blake2"/>
-					<Add directory="/home/pool/stratum/algos/SWIFFTX"/>
-					<Add directory="/home/pool/stratum/iniparser/src"/>
-					<Add directory="/home/pool/stratum/sha3"/>
+					<Add directory="/var/stratum/."/>
+					<Add directory="/var/stratum/algos"/>
+					<Add directory="/var/stratum/algos/ar2"/>
+					<Add directory="/var/stratum/algos/ar2/sj"/>
+					<Add directory="/var/stratum/algos/blake2"/>
+					<Add directory="/var/stratum/algos/SWIFFTX"/>
+					<Add directory="/var/stratum/iniparser/src"/>
+					<Add directory="/var/stratum/sha3"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -83,909 +83,915 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 stratum/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/var/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 stratum/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/var/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/var/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/var/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/pool/stratum/cmake-build-debug"/>
+				<Option working_dir="/var/stratum/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pool/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/var/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/var/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/var/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/var/stratum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/pool/stratum/algos/Lyra2-z.c">
+		<Unit filename="/var/stratum/algos/Lyra2-z.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/Lyra2-z.h">
+		<Unit filename="/var/stratum/algos/Lyra2-z.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/Lyra2.c">
+		<Unit filename="/var/stratum/algos/Lyra2.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/Lyra2.h">
+		<Unit filename="/var/stratum/algos/Lyra2.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/SWIFFTX/SWIFFTX.c">
+		<Unit filename="/var/stratum/algos/SWIFFTX/SWIFFTX.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/SWIFFTX/SWIFFTX.h">
+		<Unit filename="/var/stratum/algos/SWIFFTX/SWIFFTX.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/SWIFFTX/inttypes.h">
+		<Unit filename="/var/stratum/algos/SWIFFTX/inttypes.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/SWIFFTX/stdbool.h">
+		<Unit filename="/var/stratum/algos/SWIFFTX/stdbool.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/SWIFFTX/stdint.h">
+		<Unit filename="/var/stratum/algos/SWIFFTX/stdint.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/Sponge.c">
+		<Unit filename="/var/stratum/algos/Sponge.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/Sponge.h">
+		<Unit filename="/var/stratum/algos/Sponge.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/a5a.c">
+		<Unit filename="/var/stratum/algos/a5a.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/a5a.h">
+		<Unit filename="/var/stratum/algos/a5a.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/a5amath.c">
+		<Unit filename="/var/stratum/algos/a5amath.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/a5amath.h">
+		<Unit filename="/var/stratum/algos/a5amath.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/aergo.c">
+		<Unit filename="/var/stratum/algos/aergo.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/aergo.h">
+		<Unit filename="/var/stratum/algos/aergo.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/allium.c">
+		<Unit filename="/var/stratum/algos/allium.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/allium.h">
+		<Unit filename="/var/stratum/algos/allium.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/ar2-scrypt-jane.c">
+		<Unit filename="/var/stratum/algos/ar2/ar2-scrypt-jane.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/ar2-scrypt-jane.h">
+		<Unit filename="/var/stratum/algos/ar2/ar2-scrypt-jane.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/argon2.c">
+		<Unit filename="/var/stratum/algos/ar2/argon2.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/argon2.h">
+		<Unit filename="/var/stratum/algos/ar2/argon2.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/core.c">
+		<Unit filename="/var/stratum/algos/ar2/core.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/core.h">
+		<Unit filename="/var/stratum/algos/ar2/core.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/encoding.c">
+		<Unit filename="/var/stratum/algos/ar2/encoding.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/encoding.h">
+		<Unit filename="/var/stratum/algos/ar2/encoding.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/opt.c">
+		<Unit filename="/var/stratum/algos/ar2/opt.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-hash.h">
+		<Unit filename="/var/stratum/algos/ar2/sj/scrypt-jane-hash.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-hash_skein512.h">
+		<Unit filename="/var/stratum/algos/ar2/sj/scrypt-jane-hash_skein512.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64-avx.h">
+		<Unit filename="/var/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64-avx.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64-avx2.h">
+		<Unit filename="/var/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64-avx2.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64-sse2.h">
+		<Unit filename="/var/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64-sse2.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64-ssse3.h">
+		<Unit filename="/var/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64-ssse3.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64-xop.h">
+		<Unit filename="/var/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64-xop.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64.h">
+		<Unit filename="/var/stratum/algos/ar2/sj/scrypt-jane-mix_salsa64.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-pbkdf2.h">
+		<Unit filename="/var/stratum/algos/ar2/sj/scrypt-jane-pbkdf2.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-portable-x86.h">
+		<Unit filename="/var/stratum/algos/ar2/sj/scrypt-jane-portable-x86.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-portable.h">
+		<Unit filename="/var/stratum/algos/ar2/sj/scrypt-jane-portable.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-romix-basic.h">
+		<Unit filename="/var/stratum/algos/ar2/sj/scrypt-jane-romix-basic.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-romix-template.h">
+		<Unit filename="/var/stratum/algos/ar2/sj/scrypt-jane-romix-template.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-romix.h">
+		<Unit filename="/var/stratum/algos/ar2/sj/scrypt-jane-romix.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-salsa64.h">
+		<Unit filename="/var/stratum/algos/ar2/sj/scrypt-jane-salsa64.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/sj/scrypt-jane-test-vectors.h">
+		<Unit filename="/var/stratum/algos/ar2/sj/scrypt-jane-test-vectors.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/thread.c">
+		<Unit filename="/var/stratum/algos/ar2/thread.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/ar2/thread.h">
+		<Unit filename="/var/stratum/algos/ar2/thread.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/argon2a.c">
+		<Unit filename="/var/stratum/algos/argon2a.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/argon2a.h">
+		<Unit filename="/var/stratum/algos/argon2a.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/argon2d-dyn.c">
+		<Unit filename="/var/stratum/algos/argon2d-dyn.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/argon2d-dyn.h">
+		<Unit filename="/var/stratum/algos/argon2d-dyn.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/bastion.c">
+		<Unit filename="/var/stratum/algos/bastion.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/bastion.h">
+		<Unit filename="/var/stratum/algos/bastion.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/bitcore.c">
+		<Unit filename="/var/stratum/algos/bitcore.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/bitcore.h">
+		<Unit filename="/var/stratum/algos/bitcore.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/blake.c">
+		<Unit filename="/var/stratum/algos/blake.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/blake.h">
+		<Unit filename="/var/stratum/algos/blake.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/blake2/blake2-impl.h">
+		<Unit filename="/var/stratum/algos/blake2/blake2-impl.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/blake2/blake2.h">
+		<Unit filename="/var/stratum/algos/blake2/blake2.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/blake2/blake2b.c">
+		<Unit filename="/var/stratum/algos/blake2/blake2b.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/blake2/blamka-round-opt.h">
+		<Unit filename="/var/stratum/algos/blake2/blamka-round-opt.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/blake2/blamka-round-ref.h">
+		<Unit filename="/var/stratum/algos/blake2/blamka-round-ref.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/blake2b.c">
+		<Unit filename="/var/stratum/algos/blake2b.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/blake2b.h">
+		<Unit filename="/var/stratum/algos/blake2b.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/blake2s.c">
+		<Unit filename="/var/stratum/algos/blake2s.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/blake2s.h">
+		<Unit filename="/var/stratum/algos/blake2s.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/blakecoin.c">
+		<Unit filename="/var/stratum/algos/blakecoin.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/blakecoin.h">
+		<Unit filename="/var/stratum/algos/blakecoin.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/bmw.c">
+		<Unit filename="/var/stratum/algos/bmw.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/bmw.h">
+		<Unit filename="/var/stratum/algos/bmw.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/c11.c">
+		<Unit filename="/var/stratum/algos/c11.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/c11.h">
+		<Unit filename="/var/stratum/algos/c11.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/common.h">
+		<Unit filename="/var/stratum/algos/common.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/deep.c">
+		<Unit filename="/var/stratum/algos/deep.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/deep.h">
+		<Unit filename="/var/stratum/algos/deep.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/drop.c">
+		<Unit filename="/var/stratum/algos/drop.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/drop.h">
+		<Unit filename="/var/stratum/algos/drop.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/exosis.c">
+		<Unit filename="/var/stratum/algos/exosis.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/exosis.h">
+		<Unit filename="/var/stratum/algos/exosis.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/fresh.c">
+		<Unit filename="/var/stratum/algos/fresh.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/fresh.h">
+		<Unit filename="/var/stratum/algos/fresh.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/gost.c">
+		<Unit filename="/var/stratum/algos/gost.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/gost.h">
+		<Unit filename="/var/stratum/algos/gost.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/groestl.c">
+		<Unit filename="/var/stratum/algos/groestl.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/groestl.h">
+		<Unit filename="/var/stratum/algos/groestl.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/hex.c">
+		<Unit filename="/var/stratum/algos/hex.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/hex.h">
+		<Unit filename="/var/stratum/algos/hex.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/hive.c">
+		<Unit filename="/var/stratum/algos/hive.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/hive.h">
+		<Unit filename="/var/stratum/algos/hive.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/hmq17.c">
+		<Unit filename="/var/stratum/algos/hmq17.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/hmq17.h">
+		<Unit filename="/var/stratum/algos/hmq17.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/hsr14.c">
+		<Unit filename="/var/stratum/algos/hsr14.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/hsr14.h">
+		<Unit filename="/var/stratum/algos/hsr14.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/jha.c">
+		<Unit filename="/var/stratum/algos/jha.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/jha.h">
+		<Unit filename="/var/stratum/algos/jha.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/keccak.c">
+		<Unit filename="/var/stratum/algos/keccak.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/keccak.h">
+		<Unit filename="/var/stratum/algos/keccak.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/lbk3.c">
+		<Unit filename="/var/stratum/algos/lbk3.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/lbk3.h">
+		<Unit filename="/var/stratum/algos/lbk3.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/lbry.c">
+		<Unit filename="/var/stratum/algos/lbry.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/lbry.h">
+		<Unit filename="/var/stratum/algos/lbry.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/luffa.c">
+		<Unit filename="/var/stratum/algos/luffa.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/luffa.h">
+		<Unit filename="/var/stratum/algos/luffa.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/lyra2re.c">
+		<Unit filename="/var/stratum/algos/lyra2re.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/lyra2re.h">
+		<Unit filename="/var/stratum/algos/lyra2re.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/lyra2v2.c">
+		<Unit filename="/var/stratum/algos/lyra2v2.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/lyra2v2.h">
+		<Unit filename="/var/stratum/algos/lyra2v2.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/lyra2v3.c">
+		<Unit filename="/var/stratum/algos/lyra2v3.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/lyra2v3.h">
+		<Unit filename="/var/stratum/algos/lyra2v3.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/lyra2z.c">
+		<Unit filename="/var/stratum/algos/lyra2z.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/lyra2z.h">
+		<Unit filename="/var/stratum/algos/lyra2z.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/m7m.c">
+		<Unit filename="/var/stratum/algos/m7m.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/m7m.h">
+		<Unit filename="/var/stratum/algos/m7m.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/magimath.cpp">
+		<Unit filename="/var/stratum/algos/magimath.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/magimath.h">
+		<Unit filename="/var/stratum/algos/magimath.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/neoscrypt.c">
+		<Unit filename="/var/stratum/algos/neoscrypt.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/neoscrypt.h">
+		<Unit filename="/var/stratum/algos/neoscrypt.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/nist5.c">
+		<Unit filename="/var/stratum/algos/nist5.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/nist5.h">
+		<Unit filename="/var/stratum/algos/nist5.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/pentablake.c">
+		<Unit filename="/var/stratum/algos/pentablake.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/pentablake.h">
+		<Unit filename="/var/stratum/algos/pentablake.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/phi.c">
+		<Unit filename="/var/stratum/algos/phi.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/phi.h">
+		<Unit filename="/var/stratum/algos/phi.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/phi2.c">
+		<Unit filename="/var/stratum/algos/phi2.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/phi2.h">
+		<Unit filename="/var/stratum/algos/phi2.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/polytimos.c">
+		<Unit filename="/var/stratum/algos/polytimos.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/polytimos.h">
+		<Unit filename="/var/stratum/algos/polytimos.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/pomelo.c">
+		<Unit filename="/var/stratum/algos/pomelo.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/pomelo.h">
+		<Unit filename="/var/stratum/algos/pomelo.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/quark.c">
+		<Unit filename="/var/stratum/algos/quark.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/quark.h">
+		<Unit filename="/var/stratum/algos/quark.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/qubit.c">
+		<Unit filename="/var/stratum/algos/qubit.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/qubit.h">
+		<Unit filename="/var/stratum/algos/qubit.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/rainforest.c">
+		<Unit filename="/var/stratum/algos/rainforest.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/rainforest.h">
+		<Unit filename="/var/stratum/algos/rainforest.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/scrypt.c">
+		<Unit filename="/var/stratum/algos/scrypt.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/scryptn.c">
+		<Unit filename="/var/stratum/algos/scryptn.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/scryptn.h">
+		<Unit filename="/var/stratum/algos/scryptn.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/sha256.c">
+		<Unit filename="/var/stratum/algos/sha256.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/sha256.h">
+		<Unit filename="/var/stratum/algos/sha256.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/sha256_Y.c">
+		<Unit filename="/var/stratum/algos/sha256_Y.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/sha256_Y.h">
+		<Unit filename="/var/stratum/algos/sha256_Y.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/sha256q.c">
+		<Unit filename="/var/stratum/algos/sha256q.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/sha256q.h">
+		<Unit filename="/var/stratum/algos/sha256q.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/sha256t.c">
+		<Unit filename="/var/stratum/algos/sha256t.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/sha256t.h">
+		<Unit filename="/var/stratum/algos/sha256t.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/sib.c">
+		<Unit filename="/var/stratum/algos/sib.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/sib.h">
+		<Unit filename="/var/stratum/algos/sib.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/skein.c">
+		<Unit filename="/var/stratum/algos/skein.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/skein.h">
+		<Unit filename="/var/stratum/algos/skein.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/skein2.c">
+		<Unit filename="/var/stratum/algos/skein2.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/skein2.h">
+		<Unit filename="/var/stratum/algos/skein2.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/skunk.c">
+		<Unit filename="/var/stratum/algos/skunk.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/skunk.h">
+		<Unit filename="/var/stratum/algos/skunk.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/sm3.c">
+		<Unit filename="/var/stratum/algos/sm3.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/sm3.h">
+		<Unit filename="/var/stratum/algos/sm3.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/sonoa.c">
+		<Unit filename="/var/stratum/algos/sonoa.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/sonoa.h">
+		<Unit filename="/var/stratum/algos/sonoa.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/sysendian.h">
+		<Unit filename="/var/stratum/algos/sysendian.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/timetravel.c">
+		<Unit filename="/var/stratum/algos/timetravel.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/timetravel.h">
+		<Unit filename="/var/stratum/algos/timetravel.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/tribus.c">
+		<Unit filename="/var/stratum/algos/tribus.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/tribus.h">
+		<Unit filename="/var/stratum/algos/tribus.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/veltor.c">
+		<Unit filename="/var/stratum/algos/veltor.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/veltor.h">
+		<Unit filename="/var/stratum/algos/veltor.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/velvet.c">
+		<Unit filename="/var/stratum/algos/velvet.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/velvet.h">
+		<Unit filename="/var/stratum/algos/velvet.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/vitalium.c">
+		<Unit filename="/var/stratum/algos/vitalium.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/vitalium.h">
+		<Unit filename="/var/stratum/algos/vitalium.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/whirlpool.c">
+		<Unit filename="/var/stratum/algos/whirlpool.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/whirlpool.h">
+		<Unit filename="/var/stratum/algos/whirlpool.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/whirlpoolx.c">
+		<Unit filename="/var/stratum/algos/whirlpoolx.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/whirlpoolx.h">
+		<Unit filename="/var/stratum/algos/whirlpoolx.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/x11.c">
+		<Unit filename="/var/stratum/algos/x11.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/x11.h">
+		<Unit filename="/var/stratum/algos/x11.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/x11evo.c">
+		<Unit filename="/var/stratum/algos/x11evo.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/x11evo.h">
+		<Unit filename="/var/stratum/algos/x11evo.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/x12.c">
+		<Unit filename="/var/stratum/algos/x12.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/x12.h">
+		<Unit filename="/var/stratum/algos/x12.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/x13.c">
+		<Unit filename="/var/stratum/algos/x13.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/x13.h">
+		<Unit filename="/var/stratum/algos/x13.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/x14.c">
+		<Unit filename="/var/stratum/algos/x14.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/x14.h">
+		<Unit filename="/var/stratum/algos/x14.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/x15.c">
+		<Unit filename="/var/stratum/algos/x15.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/x15.h">
+		<Unit filename="/var/stratum/algos/x15.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/x16r.c">
+		<Unit filename="/var/stratum/algos/x16r.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/x16r.h">
+		<Unit filename="/var/stratum/algos/x16r.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/x16s.c">
+		<Unit filename="/var/stratum/algos/x16s.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/x16s.h">
+		<Unit filename="/var/stratum/algos/x16s.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/x17.c">
+		<Unit filename="/var/stratum/algos/x17.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/x17.h">
+		<Unit filename="/var/stratum/algos/x17.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/x22i.c">
+		<Unit filename="/var/stratum/algos/x22i.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/x22i.h">
+		<Unit filename="/var/stratum/algos/x22i.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/xevan.c">
+		<Unit filename="/var/stratum/algos/xevan.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/xevan.h">
+		<Unit filename="/var/stratum/algos/xevan.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/yescrypt-opt.c">
+		<Unit filename="/var/stratum/algos/yescrypt-opt.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/yescrypt-platform.c">
+		<Unit filename="/var/stratum/algos/yescrypt-platform.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/yescrypt.c">
+		<Unit filename="/var/stratum/algos/yescrypt.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/yescrypt.h">
+		<Unit filename="/var/stratum/algos/yescrypt.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/zr5.c">
+		<Unit filename="/var/stratum/algos/zr5.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/algos/zr5.h">
+		<Unit filename="/var/stratum/algos/zr5.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/base58.cpp">
+		<Unit filename="/var/stratum/base58.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/client.cpp">
+		<Unit filename="/var/stratum/client.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/client.h">
+		<Unit filename="/var/stratum/client.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/client_core.cpp">
+		<Unit filename="/var/stratum/client_core.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/client_difficulty.cpp">
+		<Unit filename="/var/stratum/client_difficulty.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/client_submit.cpp">
+		<Unit filename="/var/stratum/client_submit.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/coinbase.cpp">
+		<Unit filename="/var/stratum/coinbase.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/coind.cpp">
+		<Unit filename="/var/stratum/coind.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/coind.h">
+		<Unit filename="/var/stratum/coind.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/coind_aux.cpp">
+		<Unit filename="/var/stratum/coind_aux.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/coind_submit.cpp">
+		<Unit filename="/var/stratum/coind_submit.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/coind_template.cpp">
+		<Unit filename="/var/stratum/coind_template.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/db.cpp">
+		<Unit filename="/var/stratum/db.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/db.h">
+		<Unit filename="/var/stratum/db.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/iniparser/src/dictionary.c">
+		<Unit filename="/var/stratum/iniparser/src/dictionary.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/iniparser/src/dictionary.h">
+		<Unit filename="/var/stratum/iniparser/src/dictionary.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/iniparser/src/iniparser.c">
+		<Unit filename="/var/stratum/iniparser/src/iniparser.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/iniparser/src/iniparser.h">
+		<Unit filename="/var/stratum/iniparser/src/iniparser.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/iniparser/test/iniexample.c">
+		<Unit filename="/var/stratum/iniparser/test/iniexample.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/iniparser/test/parse.c">
+		<Unit filename="/var/stratum/iniparser/test/parse.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/job.cpp">
+		<Unit filename="/var/stratum/job.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/job.h">
+		<Unit filename="/var/stratum/job.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/job_core.cpp">
+		<Unit filename="/var/stratum/job_core.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/job_send.cpp">
+		<Unit filename="/var/stratum/job_send.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/json.cpp">
+		<Unit filename="/var/stratum/json.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/json.h">
+		<Unit filename="/var/stratum/json.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/list.cpp">
+		<Unit filename="/var/stratum/list.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/merkle.cpp">
+		<Unit filename="/var/stratum/md5.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/object.cpp">
+		<Unit filename="/var/stratum/md5.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/object.h">
+		<Unit filename="/var/stratum/merkle.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/remote.cpp">
+		<Unit filename="/var/stratum/object.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/remote.h">
+		<Unit filename="/var/stratum/object.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/remote_template.cpp">
+		<Unit filename="/var/stratum/remote.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/rpc.cpp">
+		<Unit filename="/var/stratum/remote.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/rpc.h">
+		<Unit filename="/var/stratum/remote_template.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/rpc_curl.cpp">
+		<Unit filename="/var/stratum/rpc.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/aes_helper.c">
+		<Unit filename="/var/stratum/rpc.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/blake2b.c">
+		<Unit filename="/var/stratum/rpc_curl.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/blake2b.h">
+		<Unit filename="/var/stratum/sha3/aes_helper.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/blake2s.c">
+		<Unit filename="/var/stratum/sha3/blake2b.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/blake2s.h">
+		<Unit filename="/var/stratum/sha3/blake2b.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/hamsi_helper.c">
+		<Unit filename="/var/stratum/sha3/blake2s.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/haval_helper.c">
+		<Unit filename="/var/stratum/sha3/blake2s.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/md_helper.c">
+		<Unit filename="/var/stratum/sha3/hamsi_helper.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_blake.c">
+		<Unit filename="/var/stratum/sha3/haval_helper.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_blake.h">
+		<Unit filename="/var/stratum/sha3/md_helper.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_bmw.c">
+		<Unit filename="/var/stratum/sha3/sph_blake.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_bmw.h">
+		<Unit filename="/var/stratum/sha3/sph_blake.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_cubehash.c">
+		<Unit filename="/var/stratum/sha3/sph_bmw.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_cubehash.h">
+		<Unit filename="/var/stratum/sha3/sph_bmw.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_echo.c">
+		<Unit filename="/var/stratum/sha3/sph_cubehash.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_echo.h">
+		<Unit filename="/var/stratum/sha3/sph_cubehash.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_fugue.c">
+		<Unit filename="/var/stratum/sha3/sph_echo.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_fugue.h">
+		<Unit filename="/var/stratum/sha3/sph_echo.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_groestl.c">
+		<Unit filename="/var/stratum/sha3/sph_fugue.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_groestl.h">
+		<Unit filename="/var/stratum/sha3/sph_fugue.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_hamsi.c">
+		<Unit filename="/var/stratum/sha3/sph_groestl.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_hamsi.h">
+		<Unit filename="/var/stratum/sha3/sph_groestl.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_haval.c">
+		<Unit filename="/var/stratum/sha3/sph_hamsi.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_haval.h">
+		<Unit filename="/var/stratum/sha3/sph_hamsi.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_hefty1.c">
+		<Unit filename="/var/stratum/sha3/sph_haval.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_hefty1.h">
+		<Unit filename="/var/stratum/sha3/sph_haval.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_jh.c">
+		<Unit filename="/var/stratum/sha3/sph_hefty1.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_jh.h">
+		<Unit filename="/var/stratum/sha3/sph_hefty1.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_keccak.c">
+		<Unit filename="/var/stratum/sha3/sph_jh.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_keccak.h">
+		<Unit filename="/var/stratum/sha3/sph_jh.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_luffa.c">
+		<Unit filename="/var/stratum/sha3/sph_keccak.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_luffa.h">
+		<Unit filename="/var/stratum/sha3/sph_keccak.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_ripemd.c">
+		<Unit filename="/var/stratum/sha3/sph_luffa.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_ripemd.h">
+		<Unit filename="/var/stratum/sha3/sph_luffa.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_sha2.c">
+		<Unit filename="/var/stratum/sha3/sph_ripemd.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_sha2.h">
+		<Unit filename="/var/stratum/sha3/sph_ripemd.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_sha2big.c">
+		<Unit filename="/var/stratum/sha3/sph_sha2.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_shabal.c">
+		<Unit filename="/var/stratum/sha3/sph_sha2.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_shabal.h">
+		<Unit filename="/var/stratum/sha3/sph_sha2big.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_shavite.c">
+		<Unit filename="/var/stratum/sha3/sph_shabal.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_shavite.h">
+		<Unit filename="/var/stratum/sha3/sph_shabal.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_simd.c">
+		<Unit filename="/var/stratum/sha3/sph_shavite.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_simd.h">
+		<Unit filename="/var/stratum/sha3/sph_shavite.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_skein.c">
+		<Unit filename="/var/stratum/sha3/sph_simd.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_skein.h">
+		<Unit filename="/var/stratum/sha3/sph_simd.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_tiger.c">
+		<Unit filename="/var/stratum/sha3/sph_skein.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_tiger.h">
+		<Unit filename="/var/stratum/sha3/sph_skein.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_types.h">
+		<Unit filename="/var/stratum/sha3/sph_tiger.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_whirlpool.c">
+		<Unit filename="/var/stratum/sha3/sph_tiger.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/sha3/sph_whirlpool.h">
+		<Unit filename="/var/stratum/sha3/sph_types.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/share.cpp">
+		<Unit filename="/var/stratum/sha3/sph_whirlpool.c">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/share.h">
+		<Unit filename="/var/stratum/sha3/sph_whirlpool.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/socket.cpp">
+		<Unit filename="/var/stratum/share.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/socket.h">
+		<Unit filename="/var/stratum/share.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/stratum.cpp">
+		<Unit filename="/var/stratum/socket.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/stratum.h">
+		<Unit filename="/var/stratum/socket.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/user.cpp">
+		<Unit filename="/var/stratum/stratum.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/util.cpp">
+		<Unit filename="/var/stratum/stratum.h">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/util.h">
+		<Unit filename="/var/stratum/user.cpp">
 			<Option target="stratum"/>
 		</Unit>
-		<Unit filename="/home/pool/stratum/CMakeLists.txt">
+		<Unit filename="/var/stratum/util.cpp">
+			<Option target="stratum"/>
+		</Unit>
+		<Unit filename="/var/stratum/util.h">
+			<Option target="stratum"/>
+		</Unit>
+		<Unit filename="/var/stratum/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

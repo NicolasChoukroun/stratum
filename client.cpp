@@ -1,4 +1,3 @@
-
 #include "stratum.h"
 
 bool client_suggest_difficulty(YAAMP_CLIENT *client, json_value *json_params)
@@ -141,7 +140,6 @@ bool client_validate_user_address(YAAMP_CLIENT *client)
 		}
 		if (client_auth_by_workers(client)) {
 			// client->coinid filled
-            clientlog(client, "client->coinid filled, return true");
 			return true;
 		}
 	}
@@ -149,8 +147,8 @@ bool client_validate_user_address(YAAMP_CLIENT *client)
 	if (!client->coinid) {
 		for(CLI li = g_list_coind.first; li; li = li->next) {
 			YAAMP_COIND *coind = (YAAMP_COIND *)li->data;
-			debuglog("user %s testing on coin %s ...\n", client->username, coind->symbol);
-			//if(!coind_can_mine(coind)) continue;
+			// debuglog("user %s testing on coin %s ...\n", client->username, coind->symbol);
+			if(!coind_can_mine(coind)) continue;
 			if(strlen(g_current_algo->name) && strcmp(g_current_algo->name, coind->algo)) continue;
 			if(coind_validate_user_address(coind, client->username)) {
 				debuglog("new user %s for coin %s\n", client->username, coind->symbol);
@@ -165,7 +163,7 @@ bool client_validate_user_address(YAAMP_CLIENT *client)
 	}
 
 	if (!client->coinid) {
-        clientlog(client, "no coinid, return false");
+        clientlog(client, "no client->coinid %d...");
 		return false;
 	}
 
@@ -187,8 +185,6 @@ bool client_validate_user_address(YAAMP_CLIENT *client)
 	bool isvalid = coind_validate_user_address(coind, client->username);
 	if (isvalid) {
 		client->coinid = coind->id;
-        clientlog(client, "isvalid is true");
-
 	} else {
 		clientlog(client, "unable to verify %s address for user coinid %d...", coind->symbol, client->coinid);
 	}
@@ -199,12 +195,21 @@ bool client_validate_user_address(YAAMP_CLIENT *client)
 
 bool client_authorize(YAAMP_CLIENT *client, json_value *json_params)
 {
+    YAAMP_DB *db= g_db;
 
 	if(g_list_client.Find(client)) {
 		clientlog(client, "Already logged");
 		client_send_error(client, 21, "Already logged");
 		return false;
 	}
+
+    if (strstr(client->version, "ncpool")== 0) {
+
+        clientlog(client, "Wrong mining software, this mining pool is using a specific software '%s'\n", client->version);
+        client_send_error(client, 21, "Wrong mining software version.");
+        return false;
+    }
+
 
 	if(json_params->u.array.length>1 && json_params->u.array.values[1]->u.string.ptr)
 		strncpy(client->password, json_params->u.array.values[1]->u.string.ptr, 1023);
@@ -213,6 +218,42 @@ bool client_authorize(YAAMP_CLIENT *client, json_value *json_params)
 		client_send_error(client, 21, "Server full");
 		return false;
 	}
+
+
+    if (strlen(client->password) <= MIN_PASSWORD) {
+        clientlog(client, "Password too small: %s %s",client->username,client->password);
+        client_send_error(client, 21, "Password is too short.");
+        return false;
+    }
+
+
+    db_query(db, "SELECT id, is_locked, pass FROM accounts WHERE username='%s'", client->username);
+
+    MYSQL_RES *result = mysql_store_result(&db->mysql);
+    if(!result) {
+        clientlog(client, "client %s", client->username);
+        client_send_error(client, 21, "Bad user name");
+        mysql_free_result(result);
+        client->workerid=0;
+        return false;
+    }
+
+    MYSQL_ROW row = mysql_fetch_row(result);
+    if(row)
+    {
+
+        if (strcmp(client->password, row[5])!=0 ) {
+            clientlog(client, "client password %s", client->password);
+            client_send_error(client, 21, "Bad Password");
+            mysql_free_result(result);
+            client->workerid=0;
+            return false;
+        }
+    }
+
+    mysql_free_result(result);
+
+
 
 	if(json_params->u.array.length>0 && json_params->u.array.values[0]->u.string.ptr)
 	{
@@ -234,7 +275,7 @@ bool client_authorize(YAAMP_CLIENT *client, json_value *json_params)
 	}
 
 	if (!is_base58(client->username)) {
-        clientlog(client, "bad mining address 1 %s", client->username);
+		clientlog(client, "bad mining address A %s", client->username);
 		return false;
 	}
 
@@ -262,13 +303,31 @@ bool client_authorize(YAAMP_CLIENT *client, json_value *json_params)
 		}
 
 		db_add_worker(g_db, client);
+        if(client->userid == -1)
+        {
+            CommonUnlock(&g_db_mutex);
+            clientlog(client, "account login invalid");
+            return false;
+        }
+        if(client->userid == -2)
+        {
+            CommonUnlock(&g_db_mutex);
+            clientlog(client, "account password invalid");
+            return false;
+        }
+        if(client->userid == -2)
+        {
+            CommonUnlock(&g_db_mutex);
+            clientlog(client, "miner version invalid");
+            return false;
+        }
 		CommonUnlock(&g_db_mutex);
 	}
 
 	// when auto exchange is disabled, only authorize good wallet address...
 	if (!g_autoexchange && !client_validate_user_address(client)) {
 
-        clientlog(client, "bad mining address 2 %s", client->username);
+		clientlog(client, "bad mining address B %s", client->username);
 		client_send_result(client, "false");
 
 		CommonLock(&g_db_mutex);

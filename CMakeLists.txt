@@ -307,4 +307,4 @@ add_executable(stratum
         stratum.h
         user.cpp
         util.cpp
-        util.h)
+        util.h md5.cpp md5.h)

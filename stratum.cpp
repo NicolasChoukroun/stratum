@@ -235,7 +235,7 @@ int main(int argc, char **argv)
 
 #ifdef NO_EXCHANGE
 	// todo: init with a db setting or a yiimp shell command
-	g_autoexchange = false;
+	g_autoexchange = true;
 #endif
 
 	char configfile[1024];

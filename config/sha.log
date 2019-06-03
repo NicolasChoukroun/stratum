@@ -1,0 +1,50 @@
+01:01:52: 2019-06-04 starting stratum for sha256 on pool.kryptofranc.net:3333
+01:01:52: connecting to coind KYF
+01:01:52: Kryptofranc wallet k5a7FFHn8hY17CLZMSkHXKz61VzZcDep6B is not mine.
+01:01:52: Kryptofranc 0 diff 1.5617 a3ec00000000 1d00a3ec
+01:01:52: coind_create_job Kryptofranc 1382 new job 1
+01:01:57: SQL ERROR: 1062, Duplicate entry 'kAHh14anePphCYSqsWU3wFvBNeoXefjgGw' for key 'username'
+2019-06-04 01:01:57 [144.76.67.172] kAHh14anePphCYSqsWU3wFvBNeoXefjgGw, sha256, username=kAHh14anePphCYSqsWU3wFvBNeoXefjgGw pass=testpass123 version= cpuminer-ncpool-1/1.3.7 worker=
+
+2019-06-04 01:01:58 [88.175.218.129] , sha256, Wrong mining software, this mining pool is using a specific software 'cpuminer-multi/1.3.6'
+
+2019-06-04 01:02:08 [88.175.218.129] , sha256, Wrong mining software, this mining pool is using a specific software 'cpuminer-multi/1.3.6'
+
+01:02:14: coind_create_job Kryptofranc 1382 same template 1 
+2019-06-04 01:02:18 [88.175.218.129] , sha256, Wrong mining software, this mining pool is using a specific software 'cpuminer-multi/1.3.6'
+
+2019-06-04 01:02:28 [88.175.218.129] , sha256, Wrong mining software, this mining pool is using a specific software 'cpuminer-multi/1.3.6'
+
+01:02:35: coind_create_job Kryptofranc 1382 same template 1 
+2019-06-04 01:02:39 [88.175.218.129] , sha256, Wrong mining software, this mining pool is using a specific software 'cpuminer-multi/1.3.6'
+
+2019-06-04 01:02:49 [88.175.218.129] , sha256, Wrong mining software, this mining pool is using a specific software 'cpuminer-multi/1.3.6'
+
+01:02:57: Kryptofranc 1382 diff 1.5617 a3ec00000000 1d00a3ec
+01:02:57: coind_create_job Kryptofranc 1382 new job 2
+01:02:58: KYF 1383 - diff 1.561695739 job 2 to 1/1/1 clients, hash 0.512/111.791 in 0.0 ms
+2019-06-04 01:02:59 [88.175.218.129] , sha256, Wrong mining software, this mining pool is using a specific software 'cpuminer-multi/1.3.6'
+
+2019-06-04 01:03:09 [88.175.218.129] , sha256, Wrong mining software, this mining pool is using a specific software 'cpuminer-multi/1.3.6'
+
+01:03:18: coind_create_job Kryptofranc 1382 same template 2 
+2019-06-04 01:03:19 [88.175.218.129] , sha256, Wrong mining software, this mining pool is using a specific software 'cpuminer-multi/1.3.6'
+
+01:03:22: *** ACCEPTED Kryptofranc 1383 (diff 3.72599) by 144.76.67.172 (id: 0)
+01:03:22: *** CONFIRMED 1383 : 0000000044b4a056170901a135f003acfc532b615eb609aac161481973fc2fe2
+01:03:22: Kryptofranc 1382 diff 1.5617 a3ec00000000 1d00a3ec
+01:03:22: coind_create_job Kryptofranc 1383 new job 3
+01:03:22: KYF 1384 - diff 1.561695739 job 3 to 1/1/1 clients, hash 42.410/111.791 in 0.0 ms
+2019-06-04 01:03:29 [88.175.218.129] , sha256, Wrong mining software, this mining pool is using a specific software 'cpuminer-multi/1.3.6'
+
+01:03:39: coind_create_job Kryptofranc 1383 same template 3 
+2019-06-04 01:03:39 [88.175.218.129] , sha256, Wrong mining software, this mining pool is using a specific software 'cpuminer-multi/1.3.6'
+
+2019-06-04 01:03:50 [88.175.218.129] , sha256, Wrong mining software, this mining pool is using a specific software 'cpuminer-multi/1.3.6'
+
+2019-06-04 01:04:00 [88.175.218.129] , sha256, Wrong mining software, this mining pool is using a specific software 'cpuminer-multi/1.3.6'
+
+01:04:00: coind_create_job Kryptofranc 1383 same template 3 
+01:04:21: Kryptofranc 1383 diff 1.5617 a3ec00000000 1d00a3ec
+01:04:21: coind_create_job Kryptofranc 1383 new job 4
+01:04:22: KYF 1384 - diff 1.561695739 job 4 to 1/1/1 clients, hash 21.714/111.791 in 0.0 ms

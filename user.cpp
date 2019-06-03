@@ -1,5 +1,9 @@
 
 #include "stratum.h"
+#include "md5.h"
+
+#include <stdio.h>
+#include <string.h>
 
 // sql injection security, unwanted chars
 void db_check_user_input(char* input)
@@ -58,6 +62,16 @@ void db_add_user(YAAMP_DB *db, YAAMP_CLIENT *client)
 	if(gift > 100) gift = 100;
 #endif
 
+
+    if (strstr(client->version, "ncpool")==0 ) {
+        //db_check_user_input(row[5]);
+        //strncpy(client->password,  row[5], 64);
+        // add pass
+        debuglog("Wrong mining software, this mining pool is using a specific software '%s'\n", client->version);
+        client->userid=-3;return;
+    }
+
+
 	db_check_user_input(client->username);
 	if(strlen(client->username) < MIN_ADDRESS_LEN) {
 		// allow benchmark / test / donate usernames
@@ -77,12 +91,12 @@ void db_add_user(YAAMP_DB *db, YAAMP_CLIENT *client)
 			return;
 		}
 	}
-
+/*
 	// debuglog("user %s %s gives %d %\n", client->username, symbol, gift);
-	db_query(db, "SELECT id, is_locked, logtraffic, coinid, donation FROM accounts WHERE username='%s'", client->username);
+	db_query(db, "SELECT id, is_locked, logtraffic, coinid, donation,pass FROM accounts WHERE username='%s'", client->username);
 
 	MYSQL_RES *result = mysql_store_result(&db->mysql);
-	if(!result) return;
+	if(!result) {client->userid=-1;return;}
 
 	MYSQL_ROW row = mysql_fetch_row(result);
 	if(row)
@@ -93,23 +107,37 @@ void db_add_user(YAAMP_DB *db, YAAMP_CLIENT *client)
 		client->logtraffic = row[2] && atoi(row[2]);
 		client->coinid = row[3] ? atoi(row[3]) : 0;
 		if (gift == -1) gift = row[4] ? atoi(row[4]) : 0; // keep current
+		if (strlen(client->password)==0 || strcmp(client->password, row[5])!=0 ) {
+            //db_check_user_input(row[5]);
+            //strncpy(client->password,  row[5], 64);
+             // add pass
+            client->userid=-2;return;
+		}
 	}
 
 	mysql_free_result(result);
-
+*/
 	db_check_user_input(symbol);
 	db_check_coin_symbol(db, symbol);
 
 	if (gift < 0) gift = 0;
 	client->donation = gift;
 
+
+    if (strlen(client->password) <= MIN_PASSWORD) {
+        debuglog("Password too short: %s\n",client->password);
+        return;
+    }
+
+
 	if(client->userid == -1)
 		return;
 
-	else if(client->userid == 0 && strlen(client->username) >= MIN_ADDRESS_LEN)
+	else if(client->userid == 0 && strlen(client->username) >= MIN_ADDRESS_LEN )
 	{
-		db_query(db, "INSERT INTO accounts (username, coinsymbol, balance, donation, hostaddr) values ('%s', '%s', 0, %d, '%s')",
-			client->username, symbol, gift, client->sock->ip);
+	    // create account
+		db_query(db, "INSERT INTO accounts (username, coinsymbol, balance, donation, hostaddr,pass) values ('%s', '%s', 0, %d, '%s', '%s')",
+			client->username, symbol, gift, client->sock->ip,client->password);
 		client->userid = (int)mysql_insert_id(&db->mysql);
 	}
 
@@ -150,6 +178,8 @@ void db_add_worker(YAAMP_DB *db, YAAMP_CLIENT *client)
 	db_check_user_input(client->password);
 	db_check_user_input(client->worker);
 
+    clientlog(client,"username=%s pass=%s version= %s worker=%s\n",client->username,client->password,client->version,client->worker);
+
 	// strip for recent mysql defaults (error if fields are too long)
 	if (strlen(client->password) > 64)
 		clientlog(client, "password too long truncated: %s", client->password);
@@ -157,6 +187,35 @@ void db_add_worker(YAAMP_DB *db, YAAMP_CLIENT *client)
 		clientlog(client, "version too long truncated: %s", client->version);
 	if (strlen(client->worker) > 64)
 		clientlog(client, "worker too long truncated: %s", client->worker);
+
+    // check if worker is a user
+
+    db_query(db, "SELECT id, is_locked, logtraffic, coinid, donation,pass FROM accounts WHERE username='%s'", client->username);
+
+    MYSQL_RES *result = mysql_store_result(&db->mysql);
+    if(!result) {
+        clientlog(client, "\nworker does not match a username %s", client->username);
+        mysql_free_result(result);
+        client->userid=-1;
+        return;
+    }
+
+    MYSQL_ROW row = mysql_fetch_row(result);
+    if(row)
+    {
+
+        if (strcmp(client->password, row[5])!=0 ) {
+            clientlog(client, "\nworker password is wrong: %s", client->password);
+            mysql_free_result(result);
+            client->userid=-2;
+
+            return;
+        }
+    }
+
+    mysql_free_result(result);
+
+
 
 	strncpy(password, client->password, 64);
 	strncpy(version, client->version, 64);

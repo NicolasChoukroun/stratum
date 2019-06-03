@@ -213,7 +213,7 @@ void job_assign_clients_left(double factor)
 					factor = 0.;
 			}
 
-			//debuglog("%s %s factor %f nethash %.3f\n", coind->symbol, client->username, factor, nethash);
+			debuglog("%s %s factor %f nethash %.3f\n", coind->symbol, client->username, factor, nethash);
 
 			if (factor > 0.) {
 				b = job_assign_client(coind->job, client, nethash*factor);

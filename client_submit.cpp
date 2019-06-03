@@ -142,6 +142,10 @@ static void client_do_submit(YAAMP_CLIENT *client, YAAMP_JOB *job, YAAMP_JOB_VAL
 	YAAMP_COIND *coind = job->coind;
 	YAAMP_JOB_TEMPLATE *templ = job->templ;
 
+
+
+
+
 	if(job->block_found) return;
 	if(job->deleted) return;
 
@@ -404,6 +408,8 @@ bool client_submit(YAAMP_CLIENT *client, json_value *json_params)
 		debuglog("submit %s (uid %d) %d, %s, t=%s, n=%s, extra=%s\n", client->sock->ip, client->userid,
 			jobid, extranonce2, ntime, nonce, extra);
 	}
+
+
 
 	YAAMP_JOB *job = (YAAMP_JOB *)object_find(&g_list_job, jobid, true);
 	if(!job)
