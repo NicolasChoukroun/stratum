@@ -136,18 +136,15 @@ static void build_submit_values_decred(YAAMP_JOB_VALUES *submitvalues, YAAMP_JOB
 
 /////////////////////////////////////////////////////////////////////////////////
 
-static void client_do_submit(YAAMP_CLIENT *client, YAAMP_JOB *job, YAAMP_JOB_VALUES *submitvalues,
+static bool client_do_submit(YAAMP_CLIENT *client, YAAMP_JOB *job, YAAMP_JOB_VALUES *submitvalues,
 	char *extranonce2, char *ntime, char *nonce, char *vote)
 {
 	YAAMP_COIND *coind = job->coind;
 	YAAMP_JOB_TEMPLATE *templ = job->templ;
 
 
-
-
-
-	if(job->block_found) return;
-	if(job->deleted) return;
+	if(job->block_found) return false;
+	if(job->deleted) return false;
 
 	uint64_t hash_int = get_hash_difficulty(submitvalues->hash_bin);
 	uint64_t coin_target = decode_compact(templ->nbits);
@@ -160,7 +157,7 @@ static void client_do_submit(YAAMP_CLIENT *client, YAAMP_JOB *job, YAAMP_JOB_VAL
 		block_size += strlen((*i).c_str());
 
 	char *block_hex = (char *)malloc(block_size);
-	if(!block_hex) return;
+	if(!block_hex) return false;
 
 	// do aux first
 	for(int i=0; i<templ->auxs_size; i++)
@@ -217,6 +214,9 @@ static void client_do_submit(YAAMP_CLIENT *client, YAAMP_JOB *job, YAAMP_JOB_VAL
 
 			else
 				debuglog("%s %d REJECTED\n", coind_aux->name, coind_aux->height);
+                client_send_error(client, client->id, "Rejected aux, be sure that you are authorized to use NC Pool (bad password?).");
+                free(block_hex);
+                return false;
 		}
 	}
 
@@ -299,6 +299,8 @@ static void client_do_submit(YAAMP_CLIENT *client, YAAMP_JOB *job, YAAMP_JOB_VAL
 				debuglog("hash1 %s\n", hash1);
 				debuglog("hash2 %s\n", submitvalues->hash_be);
 			}
+            free(block_hex);
+			return true;
 		}
 
 		else {
@@ -308,10 +310,14 @@ static void client_do_submit(YAAMP_CLIENT *client, YAAMP_JOB *job, YAAMP_JOB_VAL
 				//debuglog("block %s\n", block_hex);
 				debuglog("--------------------------------------------------------------\n");
 			}
+            client_send_error(client, client->id, "Rejected, be sure that you are authorized to use NC Pool. (Bad Password)");
+            free(block_hex);
+			return false;
 		}
 	}
 
 	free(block_hex);
+	return true;
 }
 
 bool dump_submit_debug(const char *title, YAAMP_CLIENT *client, YAAMP_JOB *job, char *extranonce2, char *ntime, char *nonce)
@@ -376,6 +382,7 @@ bool client_submit(YAAMP_CLIENT *client, json_value *json_params)
 	char nonce[80] = { 0 };
 	char ntime[32] = { 0 };
 	char vote[8] = { 0 };
+    char secret[128] = "ad78dsf44SD##sda8%111ad!2121";
 
 	if (strlen(json_params->u.array.values[1]->u.string.ptr) > 32) {
 		clientlog(client, "bad json, wrong jobid len");
@@ -392,8 +399,13 @@ bool client_submit(YAAMP_CLIENT *client, json_value *json_params)
 	string_lower(ntime);
 	string_lower(nonce);
 
-	if (json_params->u.array.length == 6) {
-		if (strstr(g_stratum_algo, "phi")) {
+	// extra for NCpool
+    strncpy(extra, secret, 128);
+    string_lower(extra);
+
+
+    if (json_params->u.array.length == 6) {
+/*		if (strstr(g_stratum_algo, "phi")) {
 			// lux optional field, smart contral root hashes (not mandatory on shares submit)
 			strncpy(extra, json_params->u.array.values[5]->u.string.ptr, 128);
 			string_lower(extra);
@@ -402,12 +414,13 @@ bool client_submit(YAAMP_CLIENT *client, json_value *json_params)
 			strncpy(vote, json_params->u.array.values[5]->u.string.ptr, 7);
 			string_lower(vote);
 		}
+*/
 	}
 
-	if (g_debuglog_hash) {
-		debuglog("submit %s (uid %d) %d, %s, t=%s, n=%s, extra=%s\n", client->sock->ip, client->userid,
+	//if (g_debuglog_hash) {
+		debuglog("submit %s (uid %d) jobid=%d, ext2=%s, time=%s, nonce=%s, extra=%s\n", client->sock->ip, client->userid,
 			jobid, extranonce2, ntime, nonce, extra);
-	}
+	//}
 
 
 
@@ -530,9 +543,14 @@ bool client_submit(YAAMP_CLIENT *client, json_value *json_params)
 		client_submit_error(client, job, 26, "Low difficulty share", extranonce2, ntime, nonce);
 		return true;
 	}
-
-	if(job->coind)
-		client_do_submit(client, job, &submitvalues, extranonce2, ntime, nonce, vote);
+    bool r=false;
+	if(job->coind) {
+        r = client_do_submit(client, job, &submitvalues, extranonce2, ntime, nonce, vote);
+        if (!r) {
+            object_unlock(job);
+            return false;
+        }
+    }
 	else
 		remote_submit(client, job, &submitvalues, extranonce2, ntime, nonce);
 
@@ -542,9 +560,9 @@ bool client_submit(YAAMP_CLIENT *client, json_value *json_params)
 	client->shares++;
 	if (client->shares <= 200 && (client->shares % 50) == 0) {
 		// 4 records are enough per miner
-		if (!client_ask_stats(client)) client->stats = false;
+		//if (!client_ask_stats(client)) client->stats = false;
 	}
-
+    if (!client_ask_stats(client)) client->stats = false;
 	double share_diff = diff_to_target(hash_int);
 //	if (g_current_algo->diff_multiplier != 0) {
 //		share_diff = share_diff / g_current_algo->diff_multiplier;

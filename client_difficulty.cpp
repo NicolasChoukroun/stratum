@@ -3,6 +3,7 @@
 
 double client_normalize_difficulty(double difficulty)
 {
+    if (difficulty<1.0) difficulty=1.0;
 	if(difficulty < g_stratum_min_diff) difficulty = g_stratum_min_diff;
 	else if(difficulty < 1) difficulty = floor(difficulty*1000/2)/1000*2;
 	else if(difficulty > 1) difficulty = floor(difficulty/2)*2;
@@ -30,13 +31,13 @@ void client_record_difficulty(YAAMP_CLIENT *client)
 
 void client_change_difficulty(YAAMP_CLIENT *client, double difficulty)
 {
-	if(difficulty <= 0) return;
+	//if(difficulty <= 0) return;
 
 	difficulty = client_normalize_difficulty(difficulty);
-	if(difficulty <= 0) return;
+	//if(difficulty <= 0) return;
 
-//	debuglog("change diff to %f %f\n", difficulty, client->difficulty_actual);
-	if(difficulty == client->difficulty_actual) return;
+	debuglog("change diff to %f %f\n", difficulty, client->difficulty_actual);
+	if(difficulty == client->difficulty_actual&& difficulty>=1) return;
 
 	uint64_t user_target = diff_to_target(difficulty);
 	if(user_target >= YAAMP_MINDIFF && user_target <= YAAMP_MAXDIFF)
@@ -44,10 +45,31 @@ void client_change_difficulty(YAAMP_CLIENT *client, double difficulty)
 		client->difficulty_actual = difficulty;
 		client_send_difficulty(client, difficulty);
 	}
+	if (difficulty<1.0) {
+	    difficulty=1.0;
+        client->difficulty_actual = difficulty;
+        client_send_difficulty(client, difficulty);
+
+	}
 }
 
 void client_adjust_difficulty(YAAMP_CLIENT *client)
 {
+    /*if (client->difficulty_actual<1.0) {
+        client->difficulty_actual=1.0;
+        client->difficulty_actual = client->difficulty_actual;
+        client_send_difficulty(client, client->difficulty_actual);
+        return;
+
+    }
+    if (client->difficulty_remote<1.0) {
+        client->difficulty_remote=1.0;
+        client->difficulty_remote = client->difficulty_remote;
+        client_send_difficulty(client, client->difficulty_remote);
+        return;
+
+    }
+*/
 	if(client->difficulty_remote) {
 		client_change_difficulty(client, client->difficulty_remote);
 		return;
@@ -67,11 +89,15 @@ void client_adjust_difficulty(YAAMP_CLIENT *client)
 
 	else if(client->shares_per_minute <  5)
 		client_change_difficulty(client, client->difficulty_actual/2);
+
+
 }
 
 int client_send_difficulty(YAAMP_CLIENT *client, double difficulty)
 {
-//	debuglog("%s diff %f\n", client->sock->ip, difficulty);
+    if (difficulty<1.0) difficulty=1.0;
+
+	//debuglog("%s diff %f\n", client->sock->ip, difficulty);
 	client->shares_per_minute = YAAMP_SHAREPERSEC;
 
 	if(difficulty >= 1)
@@ -90,7 +116,8 @@ void client_initialize_difficulty(YAAMP_CLIENT *client)
 	double diff = client_normalize_difficulty(atof(p+2));
 	uint64_t user_target = diff_to_target(diff);
 
-//	debuglog("%016llx target\n", user_target);
+	if (diff<1.0) diff=1.0;
+	debuglog("%016llx target\n", user_target);
 	if(user_target >= YAAMP_MINDIFF && user_target <= YAAMP_MAXDIFF)
 	{
 		client->difficulty_actual = diff;

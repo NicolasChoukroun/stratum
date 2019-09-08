@@ -91,6 +91,19 @@ int client_send_result(YAAMP_CLIENT *client, const char *format, ...)
 	return socket_send(client->sock, "{\"id\":%s,\"result\":%s,\"error\":null}\n", buffer3, buffer);
 }
 
+
+int client_send_message(YAAMP_CLIENT *client, const char *msg)
+{
+    //return 0;
+
+    char buf[YAAMP_SMALLBUFSIZE + strlen(msg)];
+
+    int bufsize = sprintf(buf, "{\"params\":[\"%s\"],\"method\":\"client.show_message\",\"id\":null}\n", msg);
+    //printf("json: %s /n",buf);
+    return socket_send(client->sock, buf);
+}
+
+
 int client_call(YAAMP_CLIENT *client, const char *method, const char *format, ...)
 {
 	char buffer[YAAMP_SMALLBUFSIZE];
@@ -196,6 +209,7 @@ bool client_reset_multialgo(YAAMP_CLIENT *client, bool first)
 	return true;
 }
 
+// initialize password (nikko)
 bool client_initialize_multialgo(YAAMP_CLIENT *client)
 {
 	char *p = strstr(client->password, "p=");

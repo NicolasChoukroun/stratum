@@ -11,7 +11,7 @@ void coind_aux_build_auxs(YAAMP_JOB_TEMPLATE *templ)
 		YAAMP_COIND *coind = (YAAMP_COIND *)li->data;
 		if(!coind_can_mine(coind, true)) continue;
 
-//		coind_getauxblock(coind);
+		//coind_getauxblock(coind);
 		len++;
 	}
 

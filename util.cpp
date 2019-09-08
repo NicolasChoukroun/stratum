@@ -137,9 +137,9 @@ void clientlog(YAAMP_CLIENT *client, const char *format, ...)
 	strftime(buffer2, 80, "%Y-%m-%d %H:%M:%S", timeinfo);
 
 	char buffer3[YAAMP_SMALLBUFSIZE];
-	sprintf(buffer3, "%s [%s] %s, %s, %s\n", buffer2, client->sock->ip, client->username, g_current_algo->name, buffer);
+	sprintf(buffer3, "%s [%s] user=%s, pass=%s, algo=%s, coin=%i, %s\n", buffer2, client->sock->ip, client->username,client->password, g_current_algo->name, client->coinid, buffer);
 
-	printf("%s", buffer3);
+	//printf("%s", buffer3);
 	if(g_debuglog)
 	{
 		fprintf(g_debuglog, "%s", buffer3);

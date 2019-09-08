@@ -19,8 +19,7 @@ static bool job_assign_client(YAAMP_JOB *job, YAAMP_CLIENT *client, double maxha
 	RETURN_ON_CONDITION(maxhash > 0 && job->speed + client->speed > maxhash, true);
 
 	if(!g_autoexchange && maxhash >= 0. && client->coinid != job->coind->id) {
-		//debuglog("prevent client %c on %s, not the right coin\n",
-		//	client->username[0], job->coind->symbol);
+		debuglog("prevent client %c on %s, not the right coin\n",client->username[0], job->coind->symbol);
 		return true;
 	}
 
@@ -105,10 +104,10 @@ static bool job_assign_client(YAAMP_JOB *job, YAAMP_CLIENT *client, double maxha
 	job->speed += client->speed;
 	job->count++;
 
-//	debuglog(" assign %x, %f, %d, %s\n", job->id, client->speed, client->reconnecting, client->sock->ip);
+	//debuglog(" assign coinid:%i jobcoinid=%s - %x, %f, %d, %s\n", client->coinid, job->coind->symbol,  job->id, client->speed, client->reconnecting, client->sock->ip);
 	if(strcmp(client->extranonce1, client->extranonce1_last) || client->extranonce2size != client->extranonce2size_last)
 	{
-//		debuglog("new nonce %x %s %s\n", job->id, client->extranonce1_last, client->extranonce1);
+		debuglog("new nonce %x %s %s\n", job->id, client->extranonce1_last, client->extranonce1);
 		if(!client->extranonce_subscribe)
 		{
 			strcpy(client->extranonce1_reconnect, client->extranonce1);

@@ -182,7 +182,7 @@ void coinbase_create(YAAMP_COIND *coind, YAAMP_JOB_TEMPLATE *templ, json_value *
 		job_pack_tx(coind, templ->coinb2, available, NULL);
 		strcat(templ->coinb2, "00000000"); // locktime
 		coind->reward = (double)available/100000000*coind->reward_mul;
-		//debuglog("%s %d dests %s\n", coind->symbol, npayees, script_dests);
+		debuglog("%s %d dests %s\n", coind->symbol, npayees, script_dests);
 		return;
 	}
 	else if(strcmp(coind->symbol, "LTCR") == 0) {

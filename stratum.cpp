@@ -34,7 +34,7 @@ double g_stratum_min_diff;
 double g_stratum_max_diff;
 
 int g_stratum_max_ttf;
-int g_stratum_max_cons = 5000;
+int g_stratum_max_cons = 100;
 bool g_stratum_reconnect;
 bool g_stratum_renting;
 bool g_stratum_segwit = false;
@@ -42,7 +42,7 @@ bool g_stratum_segwit = false;
 int g_limit_txs_per_block = 0;
 
 bool g_handle_haproxy_ips = false;
-int g_socket_recv_timeout = 600;
+int g_socket_recv_timeout = 60;
 
 bool g_debuglog_client;
 bool g_debuglog_hash;
@@ -51,7 +51,7 @@ bool g_debuglog_rpc;
 bool g_debuglog_list;
 bool g_debuglog_remote;
 
-bool g_autoexchange = true;
+bool g_autoexchange = false;
 
 uint64_t g_max_shares = 0;
 uint64_t g_shares_counter = 0;
@@ -111,6 +111,7 @@ static void neoscrypt_hash(const char* input, char* output, uint32_t len)
 YAAMP_ALGO g_algos[] =
 {
 	{"sha256", sha256_double_hash, 1, 0, 0},
+    {"sha256franc", sha256_double_hash, 1, 0, 0},
 	{"scrypt", scrypt_hash, 0x10000, 0, 0},
 	{"scryptn", scryptn_hash, 0x10000, 0, 0},
 	{"neoscrypt", neoscrypt_hash, 0x10000, 0, 0},
@@ -266,8 +267,9 @@ int main(int argc, char **argv)
 
 	strcpy(g_stratum_algo, iniparser_getstring(ini, "STRATUM:algo", NULL));
 	g_stratum_difficulty = iniparser_getdouble(ini, "STRATUM:difficulty", 16);
-	g_stratum_min_diff = iniparser_getdouble(ini, "STRATUM:diff_min", g_stratum_difficulty/2);
-	g_stratum_max_diff = iniparser_getdouble(ini, "STRATUM:diff_max", g_stratum_difficulty*8192);
+	g_stratum_min_diff = iniparser_getdouble(ini, "STRATUM:diff_min", g_stratum_difficulty);
+    if (g_stratum_min_diff<=0.) g_stratum_min_diff=1.0;
+        g_stratum_max_diff = iniparser_getdouble(ini, "STRATUM:diff_max", g_stratum_difficulty*8192);
 
 	g_stratum_max_cons = iniparser_getint(ini, "STRATUM:max_cons", 5000);
 	g_stratum_max_ttf = iniparser_getint(ini, "STRATUM:max_ttf", 0x70000000);
@@ -326,7 +328,7 @@ int main(int argc, char **argv)
 	db_update_algos(db);
 	db_update_coinds(db);
 
-	sleep(2);
+	sleep(10);
 	job_init();
 
 //	job_signal();
@@ -339,12 +341,13 @@ int main(int argc, char **argv)
 	pthread_t thread2;
 	pthread_create(&thread2, NULL, stratum_thread, NULL);
 
-	sleep(20);
+	sleep(5);
 
 	while(!g_exiting)
 	{
 		db_register_stratum(db);
 		db_update_workers(db);
+
 		db_update_algos(db);
 		db_update_coinds(db);
 

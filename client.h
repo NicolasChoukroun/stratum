@@ -62,6 +62,7 @@ public:
 	char username[1024];
 	char password[1024];
 	char worker[1024];
+    char symbol[16];
 
 	double difficulty_actual;
 	double difficulty_remote;
@@ -127,6 +128,8 @@ void client_block_ipset(YAAMP_CLIENT *client, const char *ipset_name);
 
 bool client_reset_multialgo(YAAMP_CLIENT *client, bool first);
 bool client_initialize_multialgo(YAAMP_CLIENT *client);
+
+int client_send_message(YAAMP_CLIENT *client, const char *msg);
 
 void client_add_job_history(YAAMP_CLIENT *client, int jobid);
 bool client_find_job_history(YAAMP_CLIENT *client, int jobid, int startat=1);

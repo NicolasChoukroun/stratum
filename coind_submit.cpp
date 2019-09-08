@@ -40,7 +40,7 @@ bool coind_submitblock(YAAMP_COIND *coind, const char *block)
 	char *params = (char *)malloc(paramlen+1024);
 	if(!params) return false;
 
-	sprintf(params, "[\"%s\"]", block);
+	sprintf(params, "[\"%s\",\"%s\"]", block,"***Eva Choukroun!26-4-2015***");
 	json_value *json = rpc_call(&coind->rpc, "submitblock", params);
 
 	free(params);

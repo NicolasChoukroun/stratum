@@ -120,6 +120,7 @@ void share_write(YAAMP_DB *db)
 	int count = 0;
 	int now = time(NULL);
 
+
 	char buffer[1024*1024] = "insert into shares (userid, workerid, coinid, jobid, pid, valid, extranonce1, difficulty, share_diff, time, algo, error) values ";
 	g_list_worker.Enter();
 
@@ -186,7 +187,7 @@ void block_prune(YAAMP_DB *db)
 	for(CLI li = g_list_block.first; li; li = li->next)
 	{
 		YAAMP_BLOCK *block = (YAAMP_BLOCK *)li->data;
-		if(!block->confirmed)
+		if(!block->confirmed || block->userid==0)
 		{
 			int elapsed = 30;
 			// slow block time...

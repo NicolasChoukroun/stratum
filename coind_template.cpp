@@ -535,7 +535,7 @@ bool coind_create_job(YAAMP_COIND *coind, bool force)
 		templ->txcount == job_last->templ->txcount &&
 		strcmp(templ->coinb2, job_last->templ->coinb2) == 0)
 	{
-		debuglog("coind_create_job %s %d same template %x \n", coind->name, coind->height, coind->job->id);
+		//debuglog("coind_create_job %s %d same template %x \n", coind->name, coind->height, coind->job->id);
 		if (templ->txcount) {
 			templ->txsteps.clear();
 			templ->txdata.clear();
@@ -554,7 +554,7 @@ bool coind_create_job(YAAMP_COIND *coind, bool force)
 	if(height > coind->height)
 	{
 		stratumlog("%s went from %d to %d\n", coind->name, height, coind->height);
-	//	coind->auto_ready = false;
+		//coind->auto_ready = false;
 	}
 
 	if(height < coind->height && !coind->newblock)
@@ -593,7 +593,7 @@ bool coind_create_job(YAAMP_COIND *coind, bool force)
 	g_list_job.AddTail(coind->job);
 	CommonUnlock(&coind->mutex);
 
-	debuglog("coind_create_job %s %d new job %x\n", coind->name, coind->height, coind->job->id);
+	//debuglog("coind_create_job %s %d new job %x\n", coind->name, coind->height, coind->job->id);
 
 	return true;
 }

@@ -11,13 +11,13 @@ void db_reconnect(YAAMP_DB *db)
 	}
 
 	mysql_init(&db->mysql);
-	for(int i=0; i<6; i++)
+	for(int i=0; i<20; i++)
 	{
 		MYSQL *p = mysql_real_connect(&db->mysql, g_sql_host, g_sql_username, g_sql_password, g_sql_database, g_sql_port, 0, 0);
 		if(p) break;
 
 		stratumlog("%d, %s\n", i, mysql_error(&db->mysql));
-		sleep(10);
+		sleep(100);
 
 		mysql_close(&db->mysql);
 		mysql_init(&db->mysql);
@@ -86,9 +86,10 @@ void db_query(YAAMP_DB *db, const char *format, ...)
 		if(!res) break;
 		res = mysql_errno(&db->mysql);
 
-		stratumlog("SQL ERROR: %d, %s\n", res, mysql_error(&db->mysql));
+		stratumlog("SQL ERROR: %d, %s SQL=%s\n", res, mysql_error(&db->mysql),buffer);
+        printf("SQL ERROR: %d, %s SQL=%s\n", res, mysql_error(&db->mysql),buffer);
 		if(res == ER_DUP_ENTRY) break; // rarely seen on new user creation
-		if(res != CR_SERVER_GONE_ERROR && res != CR_SERVER_LOST) exit(1);
+		//if(res != CR_SERVER_GONE_ERROR && res != CR_SERVER_LOST) exit(1);
 
 		usleep(100*YAAMP_MS);
 		db_reconnect(db);
@@ -585,6 +586,7 @@ void db_store_stats(YAAMP_DB *db, YAAMP_CLIENT *client, json_value *stats)
 	//	debuglog("stats: wrong algo used %s != %s", salgo, g_current_algo->name);
 		return;
 	}
+	//debuglog("stats: db_store_stats\n");
 
 	json_str_safe(stats, "device", sdev);
 	json_str_safe(stats, "type", stype);
@@ -604,7 +606,7 @@ void db_store_stats(YAAMP_DB *db, YAAMP_CLIENT *client, json_value *stats)
 	khashes    = json_double_safe(stats, "khashes");
 	throughput = json_double_safe(stats, "throughput");
 	if (throughput < 0.) throughput = 0.;
-	if (khashes < 0. || intensity < 0.) return;
+	//if (khashes < 0. || intensity < 0.) return;
 
 	db_query(db, "INSERT INTO benchmarks("
 		"time, algo, type, device, arch, vendorid, os, driver,"
